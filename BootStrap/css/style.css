@@ -117,7 +117,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/01.jpg);
+	background: url(.././img/01.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
