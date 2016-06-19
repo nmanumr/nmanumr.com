@@ -65,7 +65,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#tf-home" class="page-scroll">Home</a></li>
             <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#tf-team" class="page-scroll">Team</a></li>
+            <li><a href="#tf-team" class="page-scroll">My Motivators</a></li>
             <li><a href="#tf-works" class="page-scroll">Portfolio</a></li>
             <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
@@ -429,32 +429,39 @@
                 <div class="col-md-8 col-md-offset-2">
 
                     <div class="section-title center">
-                        <h2>Feel free to <strong>contact us</strong></h2>
+                        <h2>Feel free to <strong>contact me</strong></h2>
                         <div class="line">
                             <hr>
                         </div>
-                        <div class="clearfix"></div>
-                        <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>            
+                        <div class="clearfix"></div>            
                     </div>
 
-                    <form>
+                    <form action="https://formspree.io/u.nauman@outlook.com" method="POST">
+                    <p><strong>Note: </strong>All the required fields are marked as <i class="fa fa-check"></i>.</p>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                    <div class="input-group">
+                                        <input type="tel" class="form-control" name="Name" placeholder="Your Name">
+                                        <span class="input-group-addon lead" id="basic-addon1"><i class="fa fa-check"></i></span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" name="Email" placeholder="Email">
+                                        <span class="input-group-addon lead" id="basic-addon1"><i class="fa fa-check"></i></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
+                            <div class="input-group">
+                                <textarea class="form-control" rows="3" name="Message" placeholder="Your message here"></textarea>
+                                <span class="input-group-addon lead" id="basic-addon1"><i class="fa fa-check"></i></span>
+                            </div>
+                            
                         </div>
                         
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
