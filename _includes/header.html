@@ -1,19 +1,31 @@
-   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
-                mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
+<header class="mdl-layout__header mdl-layout__header--waterfall">
+        <!-- Top row, always visible -->
         <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Title</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                       mdl-textfield--floating-label mdl-textfield--align-right">
             <label class="mdl-button mdl-js-button mdl-button--icon"
-                   for="fixed-header-drawer-exp">
+                   for="waterfall-exp">
               <i class="material-icons">search</i>
             </label>
             <div class="mdl-textfield__expandable-holder">
               <input class="mdl-textfield__input" type="text" name="sample"
-                     id="fixed-header-drawer-exp">
+                     id="waterfall-exp">
             </div>
-          </div>
+</div>
+        </div>
+        <!-- Bottom row, not visible on scroll -->
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+          </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
@@ -25,34 +37,4 @@
           <a class="mdl-navigation__link" href="">Link</a>
         </nav>
       </div>
-      <main class="mdl-layout__content">
-        <div class="page-content"><!-- Your content goes here --></div>
-      </main>
-    </div>
-<!-- Navigation
-    ==========================================
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-       
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Nauman Umer</a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#tf-team" class="page-scroll">My Motivators</a></li>
-            <li><a href="#tf-works" class="page-scroll">Portfolio</a></li>
-            <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
-            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
-          </ul>
-        </div>
-    </nav>
--->
+      
