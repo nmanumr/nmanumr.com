@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://naumanumer.github.io" # the base hostname & protocol for your site
 github_username:  naumanumer
 movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
+future: true
+timezone: Asia/Karachi
 
 # Build settings
 markdown: kramdown
