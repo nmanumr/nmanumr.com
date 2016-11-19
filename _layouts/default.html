@@ -6,12 +6,18 @@ layout: null
   {% include head.html %}
 
   <body>
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
     {% include header.html %}
-
-      {{ content }}
+<main class="mdl-layout__content">
+        <div class="page-content">
+    {{ content }}
 
     {% include footer.html %}
 
+</div>
+      </main>
+    </div>
+  
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
