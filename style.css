@@ -33,14 +33,16 @@ a img{
    height:350px;
    max-width:650px;
    background:blue;
+text-align: center;
 }
 .player-thumb{
-   height: 100%;
-   border-radius: 100%;
-   overflow:hidden;
+   width: 350px;
+   height: 350px;
+   display: inline-block;
+   border-radius: 50%;
    background: url(img/portfolio/08.jpg);
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-size: cover;
+   background-position: center;
 }
 
 .android-fab {
