@@ -29,13 +29,20 @@ a img{
   margin: 0 !important;
 }
 
-img-circle-responsive{
-position: relative;
-border-radius: 50%;
-width: 100%;
-height: auto;
-padding-top: 100%;
+.player-holder{
+   height:350px;
+   max-width:650px;
+   background:blue;
 }
+.player-thumb{
+   height: 100%;
+   border-radius: 100%;
+   overflow:hidden;
+   background: url(http://www.whatcar.com/car-leasing/images/vehicles/medium/100895.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
 .android-fab {
   position: absolute;
   right: 20%;
