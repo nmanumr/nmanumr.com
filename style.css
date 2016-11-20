@@ -29,11 +29,13 @@ a img{
   margin: 0 !important;
 }
 
-
-.mdl-textfield--expandable {
-  width: auto;
+img-circle-responsive{
+position: relative;
+border-radius: 50%;
+width: 100%;
+height: auto;
+padding-top: 100%;
 }
-
 .android-fab {
   position: absolute;
   right: 20%;
