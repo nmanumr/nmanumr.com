@@ -40,11 +40,11 @@ p.intro{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-a{ color: #FCAC45;}
+a{ color: rgb(63,81,181);}
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #FCAC45;
+	color: rgb(63,81,181);
 }
 
 .section-title hr{
