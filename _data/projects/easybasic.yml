@@ -1,4 +1,6 @@
 title: "Easy Basic"
 desc: "An modren IDE for GwBasic and continuity of GwBasic.Net."
-site: naumanumer.github.io/easybasic
+site: http://naumanumer.github.io/easybasic
 name: easybasic
+color: #1e1e1e
+img: nul.png
