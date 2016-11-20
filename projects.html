@@ -2,7 +2,7 @@
 layout: default
 ---
 ss="js-comments">
-	{% assign projects = site.data.reviews | sort %}
+	{% assign projects = site.data.projects | sort %}
 	
 	{% for project in projects reversed %}
 		{% assign projectData = project[1] %}
