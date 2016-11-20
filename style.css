@@ -31,13 +31,12 @@ a img{
 
 .player-holder{
    height:350px;
-   max-width:650px;
-   background:blue;
+   max-width:100%;
 text-align: center;
 }
 .player-thumb{
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
    display: inline-block;
    border-radius: 50%;
    background: url(img/portfolio/08.jpg);
