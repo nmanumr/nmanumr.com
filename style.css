@@ -36,8 +36,8 @@ a img{
 text-align: center;
 }
 .player-thumb{
-   width: 350px;
-   height: 350px;
+   width: 250px;
+   height: 250px;
    display: inline-block;
    border-radius: 50%;
    background: url(img/portfolio/08.jpg);
