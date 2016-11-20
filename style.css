@@ -16,6 +16,9 @@ a img{
   background-color: #6ab344;
   color: #fff;
 }
+.mdl-list__item-avatar-large{
+   border-radius:50%;
+}
 
 .android-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
