@@ -5,9 +5,18 @@ layout: default
   <li><a href="http://naumanumer.github.io/">Home</a></li>
   <li class="active">Projects</li>
 </ol>
+
+<div class="container">
+<div class="section-title text-center">
+                            <h4>Projects</h4>
+                            <div class="line">
+</div>
+                            <div class="clearfix"></div>
+                        </div>
 	{% assign projects = site.data.projects | sort %}
 	
 	{% for project in projects reversed %}
 		{% assign projectData = project[1] %}
 <i>{{ projectData.title }}
         {% endfor %}
+</div>
