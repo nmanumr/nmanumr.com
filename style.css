@@ -53,20 +53,20 @@ a img{
 
 .android-header {
   overflow: visible;
-  background-color: rgb(63,81,181);
+  background-color: #00796B;
 }
 
   .android-header .material-icons {
-    color: #767777 !important;
+    color: #Fff !important;
   }
 
   .android-header .mdl-layout__drawer-button {
     background: transparent;
-    color: #767777;
+    color: #009688;
   }
 
   .android-header .mdl-navigation__link {
-    color: #757575;
+    color: #009688;
     font-weight: 700;
     font-size: 14px;
   }
@@ -130,22 +130,22 @@ a img{
 
   .android-drawer-separator {
     height: 1px;
-    background-color: #dcdcdc;
+    background-color: #Bdbdbd;
     margin: 8px 0;
   }
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
-    color: #757575;
+    color: #212121;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: rgb(63,81,181);
+    color: #757575;
   }
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    background: rgb(63,81,181);
+    background: #009688;
     height: 160px;
   }
 
