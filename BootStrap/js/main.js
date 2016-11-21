@@ -3,17 +3,19 @@
 // This is The Scripts used for ___________ Theme
 //
 //
-(function () {
-    var old = console.error;
-    var logger = document.getElementById('log');
-    console.error = function (message) {
-        if (typeof message == 'object') {
-            logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
-        } else {
-            logger.innerHTML += message + '<br />';
-        }
-    }
-})();
+if (typeof console  != "undefined") 
+    if (typeof console.log != 'undefined')
+        console.olog = console.log;
+    else
+        console.olog = function() {};
+
+console.log = function(message) {
+    console.olog(message);
+    $('#log').append('<p>' + message + '</p>');
+};
+console.error = console.debug = console.info =  console.log
+
+
 function OpenInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
