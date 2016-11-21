@@ -3,6 +3,19 @@ layout: default
 title: My Blog
 ---
 
+<ol class="breadcrumb">
+  <li><a href="http://naumanumer.github.io/">Home</a></li>
+  <li class="active">Blog</li>
+</ol>
+
+<div class="container">
+<div class="section-title text-center">
+                            <h4>Projects</h4>
+                            <div class="line">
+</div>
+                            <div class="clearfix"></div>
+                        </div>
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
@@ -49,3 +62,5 @@ title: My Blog
   {% endif %}
 </div>
 {% endif %}
+
+</div>
