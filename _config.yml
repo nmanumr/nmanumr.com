@@ -6,6 +6,7 @@ github_username:  naumanumer
 movieFormUrl: https://staticman.net/api/v1/entries/5622d244c4bf944a1a3e3001
 future: true
 timezone: Asia/Karachi
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
