@@ -15,7 +15,7 @@ console.log = function(message) {
 };
 console.error = console.debug = console.info =  console.log
 
-
+$('#log').append('<p>fghvvf</p>');
 function OpenInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
