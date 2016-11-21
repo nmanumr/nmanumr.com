@@ -24,7 +24,8 @@ title: My Blog
     <h2 class="mdl-card__title-text">{{ post.title }}</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    {{ post.content }}
+    <div>{{ post.excerpt }}</div>
+    <span class="pull-right">{{ post.date }}</span>
   </div>
   <div class="mdl-card__actions mdl-card--border pull-right">
     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
@@ -32,10 +33,6 @@ title: My Blog
     </a>
   </div>
 </div>
- 
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
