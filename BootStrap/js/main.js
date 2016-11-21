@@ -1,21 +1,4 @@
-// Hello.
-//
-// This is The Scripts used for ___________ Theme
-//
-//
-if (typeof console  != "undefined") 
-    if (typeof console.log != 'undefined')
-        console.olog = console.log;
-    else
-        console.olog = function() {};
 
-console.log = function(message) {
-    console.olog(message);
-    $('#log').append('<p>' + message + '</p>');
-};
-console.error = console.debug = console.info =  console.log
-
-$('#log').append('<p>fghvvf</p>');
 function OpenInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
