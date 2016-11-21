@@ -3,7 +3,17 @@
 // This is The Scripts used for ___________ Theme
 //
 //
-
+(function () {
+    var old = console.error;
+    var logger = document.getElementById('log');
+    console.error = function (message) {
+        if (typeof message == 'object') {
+            logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+        } else {
+            logger.innerHTML += message + '<br />';
+        }
+    }
+})();
 function OpenInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
