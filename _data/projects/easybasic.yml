@@ -4,3 +4,4 @@ site: http://naumanumer.github.io/easybasic
 name: easybasic
 color: #1e1e1e
 img: nul.png
+tags: ["javascript", "Electron.js", "Node.js", "HTML/CSS"]
