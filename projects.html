@@ -35,7 +35,8 @@ There are following some of my projects:
     <div>
         <span><b>Tags</b></span>
 <br />
-        {% assign taglenght= ((projectData.tags | size) | minus:1) %}
+        {% assign taglenght= (projectData.tags | size) %}
+        {% decrement tablength %}
         {% for tag in (0..taglenght) %}
         <span class="mdl-chip">
     <small class="mdl-chip__text">{{projectData.tags[tag]}}</small>
