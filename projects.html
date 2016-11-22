@@ -35,7 +35,7 @@ There are following some of my projects:
     <div>
         <span><b>Tags</b></span>
 <span class="mdl-chip">
-    <span class="mdl-chip__text">5{{ projectData.tags.lenght }}</span>
+    <span class="mdl-chip__text">r{{ projectData.tags | size}}</span>
 </span>
         {% for tag in (1..2) %}
         <span class="mdl-chip">
