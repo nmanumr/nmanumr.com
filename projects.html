@@ -34,6 +34,9 @@ There are following some of my projects:
     <div>{{ projectData.desc }}</div>
     <div>
         <span><b>Tags</b></span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">{{ projectData.tags }}</span>
+</span>
         {% for tag in projecctData.tags %}
         <span class="mdl-chip">
     <span class="mdl-chip__text">ff{{ tag }}</span>
