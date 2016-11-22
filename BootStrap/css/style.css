@@ -43,6 +43,9 @@ a:focus{
 	text-decoration: none;
 	color:  #00796B;
 }
+section{
+ padding: 80px 0;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
