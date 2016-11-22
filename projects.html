@@ -35,10 +35,10 @@ There are following some of my projects:
     <div>
         <span><b>Tags</b></span>
 
-        {% assign taglenght=(projectData.tags | size) %}
+        {% assign taglenght=(projectData.tags | size)-1 %}
         {% for tag in (0..taglenght) %}
         <span class="mdl-chip">
-    <span class="mdl-chip__text">projectData.tags[tag]</span>
+    <span class="mdl-chip__text">{{projectData.tags[tag]}()</span>
 </span>
         {% endfor %}
     </div>
