@@ -36,11 +36,12 @@ There are following some of my projects:
         <span><b>Tags</b></span>
 <br />
         {% assign taglenght= (projectData.tags | size) %}
-        {% decrement tablength %}
         {% for tag in (0..taglenght) %}
+        {% if projectData.tags[tag] %}
         <span class="mdl-chip">
     <small class="mdl-chip__text">{{projectData.tags[tag]}}</small>
 </span>
+        {% endif %}
         {% endfor %}
     </div>
   </div>
