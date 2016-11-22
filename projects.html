@@ -33,13 +33,14 @@ There are following some of my projects:
   <div class="mdl-card__supporting-text">
     <div>{{ projectData.desc }}</div>
     <div>
+<br />
         <span><b>Tags</b></span>
 <br />
         {% assign taglenght= (projectData.tags | size) %}
         {% for tag in (0..taglenght) %}
         {% if projectData.tags[tag] %}
         <span class="mdl-chip">
-    <small class="mdl-chip__text">{{projectData.tags[tag]}}</small>
+    <span class="mdl-chip__text"><small>{{projectData.tags[tag]}}</small></span>
 </span>
         {% endif %}
         {% endfor %}
