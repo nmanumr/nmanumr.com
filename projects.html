@@ -31,7 +31,14 @@ There are following some of my projects:
     <h2 class="mdl-card__title-text">{{ projectData.title }}</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    {{ projectData.desc }}
+    <div>{{ projectData.desc }}</div>
+    <div>
+        <h5>Tags</h5>
+        {% for tag in projecctData.tags %}
+        <span class="mdl-chip">
+    <span class="mdl-chip__text">{{ tag }}</span>
+</span>
+        {% endfor %}
   </div>
   <div class="mdl-card__actions mdl-card--border pull-right">
     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="/{{projectData.name}}">
