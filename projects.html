@@ -38,7 +38,7 @@ There are following some of my projects:
         {% assign taglenght=(projectData.tags | size)%}
         {% for tag in (0..taglenght) %}
         <span class="mdl-chip">
-    <span class="mdl-chip__text">{{projectData.tags[tag]}()</span>
+    <span class="mdl-chip__text">{{projectData.tags[tag]}}</span>
 </span>
         {% endfor %}
     </div>
