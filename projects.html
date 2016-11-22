@@ -35,11 +35,11 @@ There are following some of my projects:
     <div>
         <span><b>Tags</b></span>
 <span class="mdl-chip">
-    <span class="mdl-chip__text">5{{ projectData.tags[1] }}</span>
+    <span class="mdl-chip__text">5{{ projectData.tags.lenght }}</span>
 </span>
-        {% for tag in projecctData.tags %}
+        {% for tag in (1..2) %}
         <span class="mdl-chip">
-    <span class="mdl-chip__text">ff{{ tag }}</span>
+    <span class="mdl-chip__text">f</span>
 </span>
         {% endfor %}
     </div>
