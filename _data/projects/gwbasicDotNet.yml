@@ -4,4 +4,5 @@ site: http://naumanumer.github.io/gwbasic.net/
 name: gwbasic.net
 color: #fff
 img: "naumanum.png"
-tags: [C#, WinForm]
+---
+tags: ['Apple', 'Orange', 'Strawberry']
