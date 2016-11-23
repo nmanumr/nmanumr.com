@@ -1,6 +1,7 @@
 ---
 layout: post
 title: fhbv
+comments: true
 ---
 
 #### hosot
