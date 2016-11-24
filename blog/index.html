@@ -20,7 +20,11 @@ title: Blog
 {% for post in paginator.posts %}
 <div class="mdl-shadow--1dp" style="width:100%; margin:30px 0 30px 0;">
     <h2 class="mdl-card__title-text">{{ post.title }}</h2>
-    <p>{{post.arthur}}</p>
+    <p>
+<span>{{post.arthur}}</span>
+<span>{{post.catagory}}</span>
+<span>{{post.data}}</span>
+</p>
     <div>{{ post.excerpt }}...</div>
     <a class="pull-right mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
       Read More
