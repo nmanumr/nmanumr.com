@@ -2,8 +2,8 @@
 layout: post
 title: AngularJS 2 in ASP.NET Core with TypeScript using Visual Studio 2015
 comments: true
-category: xyz
-tags: [q, r, u, u]
+category: dev
+tags: [know how, dev]
 arthur: Nauman Umer 
 ---
 
