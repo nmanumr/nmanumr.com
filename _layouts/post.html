@@ -6,9 +6,27 @@ layout: default
   <li><a href="http://naumanumer.github.io/blog">Blog</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
 <div class="container">
    <div class="col-sm-8" style="padding:10px">
       <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+<p id="post-meta">{{ tags_content }}</p>
   
   <div>
     {{ content }}
