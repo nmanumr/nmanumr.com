@@ -22,11 +22,16 @@ layout: default
    </div>
 
    <div class="col-sm-4" style="padding:10px">
-      <div class="mdl-card" style="width:100%">
-         <div class="mdl-card__supporting-text">
-{{ page.title }}
-         </div>
-      </div>
+      {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
    </div>
 
 {% if page.comments %}
