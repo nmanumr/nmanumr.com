@@ -31,9 +31,7 @@ title: Blog
       {{ post.excerpt | markdownify }}
     <article>
     <div class="post-more">
-      {% if site.disqus_short_name %}
-      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
-      {% endif %}
+      <span class="disqus-comment-count" data-disqus-url="{{ post.url }}">First article</span>
      
     </div>
     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
