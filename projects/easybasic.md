@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Easy Basic
 ---
 Xhekgf hrrg
