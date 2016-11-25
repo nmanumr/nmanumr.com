@@ -2,7 +2,6 @@
 layout: project
 title: Easy Basic
 ---
-# EasyBasic
 **A complete learning tool for GwBasic programming language**
 
 ![Editor][logo]
@@ -11,25 +10,25 @@ title: Easy Basic
 
 This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).  The main focus of this project is to introduce the students, that are still taught gwbasic as their first programming language, with modern Styled Syntax Editor. and made the programming GwBasic at more ease.
 
-## For Developers
+#### For Developers
 
 * Install development node modules with `npm install`(from project root)
 * Install other mode modules with `npm install`(Inside app folder)
 * run with `npm start`
 
-## Documentation
+#### Documentation
 
 Documentation of this project is not available yet.
 you can see the documentation about GwBasic here:
 * GwBasic (http://www.antonis.de/qbebooks/gwbasman/)
 * PcBasic (http://robhagemans.github.io/pcbasic/doc/)
 
-## License
+#### License
 
 This Project is Licensed under **GNU GENERAL PUBLIC LICENSE**. See the licence at:
 [Licence](../blob/master/LICENSE)
 
-## Credits
+#### Credits
 
 This project is made possible because of following opensource projects:
 
