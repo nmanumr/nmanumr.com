@@ -21,14 +21,15 @@ title: Blog
 <div class="mdl-shadow--1dp" style="width:100%; margin:30px 0 30px 0;">
     <h2 class="mdl-card__title-text">{{ post.title }}</h2>
 
-<span class="post-date"><i class="material-icons">date range</i>{{ post.date | date_to_string }}</span>
+<span class="post-date"><i class="material-icons">today</i>{{ post.date | date_to_string }}</span>
     {% if post.tags %} | 
     {% for tag in post.tags %}
     <!-- Basic Chip -->
 <span class="mdl-chip">
     <span class="mdl-chip__text">
+<i class="material-icons">label</i>
  <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-    <i class="material-icons">label</i></span>
+    </span>
 </span>
    {% endfor %}
     {% endif %}
@@ -36,13 +37,12 @@ title: Blog
     <article>
       {{ post.excerpt | markdownify }}
     <article>
-    <div class="post-more">
-      
-    </div>
+    
     <a class="pull-right mdl-button mdl-js-button mdl-button--primary mdl-button--raised mdl-js-ripple-effect" href="{{post.url}}">
   <i class="material-icons">visibility</i> Read More
 </a>
 <div class="android-drawer-separator"></div>
+</div>
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
