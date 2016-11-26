@@ -26,6 +26,14 @@ a img{
    text-align: justify;
 }
 
+.features .row-fluid{
+   padding: 20px
+}
+
+.features{
+padding: 50px 0;
+}
+
 .mdl-list__item-avatar-large{
    border-radius:50%;
 }
