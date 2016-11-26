@@ -20,10 +20,27 @@ Teachers can also use EasyBasic to teach programming comprehension in class room
 
 This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).
 
-<div class="row-fluid">
+
+<div class="container">
+<div class="col-sm-4 row-fluid">
    <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code Editor</b><br>
       Write Python Scripts in smart syntax editor.
     </div>
+</div>
+<div class="col-sm-4 row-fluid">
+   <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
+   <div class="span10 col-xs-10">
+      <b>Code Editor</b><br>
+      Write Python Scripts in smart syntax editor.
+    </div>
+</div>
+<div class="col-sm-4 row-fluid">
+   <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
+   <div class="span10 col-xs-10">
+      <b>Code Editor</b><br>
+      Write Python Scripts in smart syntax editor.
+    </div>
+</div>
 </div>
