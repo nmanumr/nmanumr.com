@@ -19,3 +19,8 @@ Easy Basic can provide a complete modren envirnoment to write and execute GwBasi
 Teachers can also use EasyBasic to teach programming comprehension in class rooms. Easy Basic will be a best alternative for traditional teaching techniques, soon.
 
 This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).
+
+<p>
+*
+6
+</p>
