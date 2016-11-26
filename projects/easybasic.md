@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Easy Basic
+img: http://naumanumer.github.io/img/01.jpg
 ---
 **A complete learning tool for GwBasic programming language**
 
