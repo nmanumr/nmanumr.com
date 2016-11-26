@@ -19,3 +19,9 @@ Easy Basic can provide a complete modren envirnoment to write and execute GwBasi
 Teachers can also use EasyBasic to teach programming comprehension in class rooms. Easy Basic will be a best alternative for traditional teaching techniques, soon.
 
 This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).
+
+<div class="row-fluid">
+			<div class="span2 col-xs-2"><p class="icon"><i class="glyphicon glyphicon-hand-right"></i></p></div>
+			<div class="span10 col-xs-10"><p class="text"><strong>Teacher Management:</strong> Here you can manage the details belongs to the teacher, by clicking the link "Teacher Management" you can view the table displaying all the teachers minimum information. The "Create New" link just above the table allow you to fill up new teacher information and the links available in the table like view, edit and delete allow you to view detailed information, to update/edit the information, to delete the information respectively.</p></div>
+
+		</div>
