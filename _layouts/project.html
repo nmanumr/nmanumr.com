@@ -23,6 +23,9 @@ layout: default
    target="_blank" title="{{ page.title }} Site" rel="nofollow">
   <i class="material-icons">language</i> View Site
 </a>
+{% for lang in page.langs %}
+{{lang.name}}
+{% endfor %}
 </div>
 </div>
 </div>
