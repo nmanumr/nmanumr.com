@@ -2,6 +2,14 @@
 layout: project
 title: Easy Basic
 img: https://raw.githubusercontent.com/naumanumer/easybasic/master/snaps/Editor.png
+url:  http://naumanumer.github.io/easybasic
+langs:
+  - name: "html"
+    weight: "0.6"
+  - name: "css"
+    weight: "8.5"
+  - name: "javascript"
+    weight: "90.6"
 ---
 **A complete learning tool for GwBasic programming language**
 
