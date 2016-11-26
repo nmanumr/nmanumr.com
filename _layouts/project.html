@@ -24,10 +24,14 @@ layout: default
   <i class="material-icons">language</i> View Site
 </a>
 {% for lang in page.langs %}
-{{lang.name}}
-F
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{lang.weight}}%;">
+    {{lang.name}} {{lang.weight}}%
+  </div>
+</div>
 {% endfor %}
-F
+
 </div>
 </div>
 </div>
