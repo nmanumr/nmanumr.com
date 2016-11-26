@@ -21,6 +21,11 @@ a img{
   background-color: #00796B;
   color: #fff;
 }
+
+.project-desc p{
+   text-align: justify;
+}
+
 .mdl-list__item-avatar-large{
    border-radius:50%;
 }
