@@ -20,7 +20,7 @@ Teachers can also use EasyBasic to teach programming comprehension in class room
 
 This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).
 
-<div style="margin:
+<div style="margin:50px 0">
 <div class="container" style="margin:0;">
 <div class="col-xm-12 row-fluid" style="margin:20px">
    <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
