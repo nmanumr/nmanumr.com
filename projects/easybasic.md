@@ -26,7 +26,7 @@ This project is built using Electron.js and is the continuity of [GwBasic.Net](h
    <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code Editor</b><br>
-      Write Python Scripts in smart syntax ditor.
+      Write Python Scripts in smart syntax editor.
     </div>
 </div>
 <div class="col-xm-12 row-fluid" style="padding-bottom:50px">
