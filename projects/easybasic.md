@@ -57,5 +57,12 @@ This project is built using Electron.js and is the continuity of [GwBasic.Net](h
       Comparer two files and see the differance.
     </div>
 </div>
+<div class="col-sm-4 row-fluid" style="padding-bottom:100px">
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.7)"><i class="material-icons">more_horiz</i></div>
+   <div class="span10 col-xs-10">
+      <b>Much More</b><br>
+      And much more. To see download it.
+    </div>
+</div>
 </div>
 </div>
