@@ -23,24 +23,24 @@ This project is built using Electron.js and is the continuity of [GwBasic.Net](h
 <div style="margin:50px 0">
 <div class="container" style="margin:0;">
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.7)"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code Editor</b><br>
       Write Python Scripts in smart syntax editor.
     </div>
 </div>
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.7)"><i class="material-icons">layers</i></div>
    <div class="span10 col-xs-10">
-      <b>Code Editor</b><br>
-      Write Python Scripts in smart syntax ditor.
+      <b>Multiple Tabs</b><br>
+      Open multipe files in one window and navigate between them easily.
     </div>
 </div>
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.7)"><i class="material-icons">list</i></div>
    <div class="span10 col-xs-10">
-      <b>Code ditor</b><br>
-      Write Python Scripts in smart syntax editor.
+      <b>Example Codes</b><br>
+      About more then 50 built-in Examples codes.
     </div>
 </div>
 </div>
