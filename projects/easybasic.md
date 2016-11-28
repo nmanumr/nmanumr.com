@@ -3,6 +3,7 @@ layout: project
 title: Easy Basic
 img: https://raw.githubusercontent.com/naumanumer/easybasic/master/snaps/Editor.png
 url:  http://naumanumer.github.io/easybasic
+comments: true
 langs:
   - name: "HTML"
     weight: "1.8"
