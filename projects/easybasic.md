@@ -23,21 +23,21 @@ This project is built using Electron.js and is the continuity of [GwBasic.Net](h
 <div style="margin:50px 0">
 <div class="container" style="margin:0;">
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code Editor</b><br>
       Write Python Scripts in smart syntax editor.
     </div>
 </div>
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code Editor</b><br>
       Write Python Scripts in smart syntax ditor.
     </div>
 </div>
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
-   <div class="span2 col-xs-2"><i class="material-icons">create</i></div>
+   <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.8)"><i class="material-icons">create</i></div>
    <div class="span10 col-xs-10">
       <b>Code ditor</b><br>
       Write Python Scripts in smart syntax editor.
