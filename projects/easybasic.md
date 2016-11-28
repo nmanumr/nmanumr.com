@@ -43,6 +43,9 @@ This project is built using Electron.js and is the continuity of [GwBasic.Net](h
       About more then 50 built-in Examples codes.
     </div>
 </div>
+</div>
+
+<div class="container" style="margin:0;">
 <div class="col-sm-4 row-fluid" style="padding-bottom:100px">
    <div class="span2 col-xs-2" style="color:rgb(255,255,255,0.7)"><i class="material-icons">import_contacts</i></div>
    <div class="span10 col-xs-10">
