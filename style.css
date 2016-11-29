@@ -31,14 +31,13 @@ a img{
   align-items: center;
 }
 .demo-drawer-header {
-  background-color:rgba(25,255,255,0.8);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 16px;
   height: 151px;
-  background-image: url("https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-10.jpg")
+  background: #00796B url("https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-10.jpg")
 }
 
 .demo-avatar-dropdown {
