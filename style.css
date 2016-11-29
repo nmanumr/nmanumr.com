@@ -1,3 +1,7 @@
+.mdl-navigation__link>i {
+  color: rgba(255,255,255,0.5)
+  }
+
 .about-text{
 Padding-left:12px;
 }
