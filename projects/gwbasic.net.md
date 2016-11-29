@@ -7,12 +7,10 @@ langs:
   - name: "C#"
     weight: "98.6"
 ---
-Easy Basic is a free educational app developed with the aim to help computer science students to overcome fundamental problems in learning program comprehension.
-Easy Basic can provide a complete modren envirnoment to write and execute GwBasic program.  Easy Basic will able to visualize execution of GwBasic programming language as GwBasic programming language is adopted by all major computer science institutes as introductory programming language.
+GwBasic.Net is an free .net based IDE for gwbasic developed with an aim to provided a graphics based interface to help the gwbasic users to overcome the difficulty in writing and executing gwbasic code.
 
-Teachers can also use EasyBasic to teach programming comprehension in class rooms. Easy Basic will be a best alternative for traditional teaching techniques, soon.
 
-This project is built using Electron.js and is the continuity of [GwBasic.Net](http://www.github.com/naumanumer/gwbasic.net).
+This project is built using C# winform and is the base project of [Easy Basic](http://www.github.com/naumanumer/easybasic).
 
 <div style="margin:50px 0">
 <div class="container" style="margin:0;">
