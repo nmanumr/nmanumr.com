@@ -31,7 +31,7 @@ a img{
   align-items: center;
 }
 .demo-drawer-header {
-  background-color: #fffc;
+  background-color:rgba(25,255,255,0.8);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
