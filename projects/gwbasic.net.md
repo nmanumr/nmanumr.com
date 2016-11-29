@@ -3,6 +3,7 @@ layout: project
 title: GwBasic.Net
 img: https://raw.githubusercontent.com/naumanumer/gwbasic.net/gh-pages/img/v1.png
 url:  http://naumanumer.github.io/gwbasic.net
+comments: true
 langs:
   - name: "C#"
     weight: "98.6"
