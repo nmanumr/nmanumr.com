@@ -5,3 +5,4 @@ name: tinybasic
 color: #1e1e1e
 img: nul.png
 tags: ["TypeScript", "Node.js"]
+lang: Typescript
