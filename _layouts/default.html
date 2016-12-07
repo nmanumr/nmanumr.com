@@ -65,9 +65,14 @@ published: true
           
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="pull-right">
-            
-          </div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+              <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+                <i class="material-icons">search</i>
+              </label>
+              <div class="mdl-textfield__expandable-holder">
+                <input class="mdl-textfield__input" type="text" id="search-field">
+              </div>
+            </div>
         </div>
       </div>
 
@@ -97,6 +102,8 @@ color: #fff;">
 
 <div class="android-content mdl-layout__content">
         <div class="page-content">
+          <ul id="search-result">
+          </ul>
     {{ content }}
     {% include footer.html %}
 
