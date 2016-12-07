@@ -127,16 +127,18 @@ color: #fff;">
     ================================================== -->
     <script type="text/javascript" src="BootStrap/js/main.js"></script>
     <script id="dsq-count-scr" src="//naumanumer-github-io.disqus.com/count.js" async></script>
-    <script src="https://raw.githubusercontent.com/christian-fei/Simple-Jekyll-Search/master/dest/jekyll-search.min.js"></script>
+    <script src="js/jekyll-search.js"></script>
     
     <script>
-      $(document).ready(function(){
       SimpleJekyllSearch({
-  searchInput: document.getElementById('search-field'),
-  resultsContainer: document.getElementById('search-results'),
-  json: 'http://naumanumer.github.io/search.json',
-        noResultsText: "ghsvxg"
-});});
+        searchInput: document.getElementById('search-field'),
+        resultsContainer: document.getElementById('search-reasults'),
+        json: 'http://naumanumer.github.io/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: true
+      })
     </script>
   </body>
 </html>
