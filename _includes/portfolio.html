@@ -9,9 +9,26 @@
                 <div class="clearfix"></div>
             </div>
             <div class="row text-center">
-<p>You can see my recent work on the projects page.</p>
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+   {% assign projects = site.data.projects | sort %}
+   {% for project in projects reversed %}
+		 {% assign projectData = project[1] %}
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">{{ projectData.title }}</td>
+      <td>25</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
                <a class="mdl-button--primary mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="/projects">
-  Go to Projects
+  All Projects
 </a>
             </div>
         </div>
