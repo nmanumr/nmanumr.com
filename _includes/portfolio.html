@@ -20,7 +20,7 @@
    {% assign projects = site.data.projects | sort %}
    {% for project in projects reversed %}
 		 {% assign projectData = project[1] %}
-    <tr>
+    <tr onclick="window.location.href = {{ projectData.site }}">
       <td class="mdl-data-table__cell--non-numeric">{{ projectData.title }}</td>
       <td>{{ projectData.lang }}</td>
     </tr>
