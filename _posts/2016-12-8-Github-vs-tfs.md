@@ -19,4 +19,4 @@ Github also provides hosting for projects. But it  was lunched about 8 years ag
 
 Now let's compare these two services:
 
-1. #####Editor
+##### 1. Editor
