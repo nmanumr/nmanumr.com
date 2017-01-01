@@ -50,10 +50,11 @@ title: Tags
       <ul class="demo-list-item mdl-list">
       {% for post in tag[1] %}
          <li class="mdl-list__item">
+            <i class="material-icons">speaker_notes</i>
             <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
                {{ post.title }}
-               <small class="post-date">{{ post.date | date_to_string }}</small>
             </a>
+            <small class="post-date">{{ post.date | date_to_string }}</small>
          </li>
       {% endfor %}
       </ul>
