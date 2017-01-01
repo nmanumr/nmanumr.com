@@ -32,16 +32,8 @@ Now I am going to make easybasic a complete package that contains following:
 4. Easybasic Server
 5. Easybasic Shell
 6. Easybasic Utilities:
-
-..* File Converter
-..* Graphics Editor
-..* File Merger
-..* Renum
-
+  - Like this
+  - Graphics Editor
+  - File Merger
+  - Renum
 7. And much more 😀
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
