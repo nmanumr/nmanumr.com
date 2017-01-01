@@ -16,6 +16,8 @@ Padding-left:12px;
 .tags-table td,
 .tags-table th{
   text-align:left;
+  Height: 100%;
+  Width: 100%;
 }  
 
 body {
