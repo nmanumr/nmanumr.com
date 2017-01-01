@@ -31,16 +31,11 @@ Now I am going to make easybasic a complete package that contains following:
 3. Easybasic Tutor
 4. Easybasic Server
 5. Easybasic Shell
-3. Item 3
-   * Item 3a
-   * Item 3b
-   * Renum
 6. Easybasic Utilities
-   * Graphics Editor
-   * File Merger
-   * Renum
-  
-- And much more
+   * Graphics Editor
+   * File Merger
+   * Renum
+7. And much more
   
   
 1. Item 1
