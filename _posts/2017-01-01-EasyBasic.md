@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AngularJS 2 in ASP.NET Core with TypeScript using Visual Studio 2015
+title: EasyBasic - A complete collection of GwBasic resources.
 comments: true
 category: dev
 tags: [project, news, dev]
