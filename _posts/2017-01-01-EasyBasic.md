@@ -34,7 +34,6 @@ Now I am going to make easybasic a complete package that contains following:
 6. Easybasic Utilities
    * Graphics Editor
    * File Merger
-   * Renum
 7. And much more
   
   
