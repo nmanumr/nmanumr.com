@@ -36,7 +36,7 @@ Now I am going to make easybasic a complete package that contains following:
   * File Merger
   * Renum
   
-- And much more 😀
+- And much more
   
   
 1. Item 1
