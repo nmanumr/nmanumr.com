@@ -25,6 +25,11 @@ h4{
 }
 h5{
 	text-transform: uppercase;
+	font-weight: normal !important;
+        line-height: 20px;
+}
+h5{
+	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
 }
