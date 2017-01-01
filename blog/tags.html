@@ -44,17 +44,19 @@ title: Tags
 {% for tag in site.tags %}
 <div class="mdl-card mdl-shadow--2dp" id="{{ tag[0] | slugify }}" style="width: 100%; margin: 10px 0;">
    <div class="mdl-card__title">
-     <h2 class="mdl-card__title-text">{{ tag[0] }}</h2>
+     <h2 class="mdl-card__title-text"><i class="material-icons">loyalty</i>{{ tag[0] }}</h2>
    </div>
    <div class="mdl-card__supporting-text">
       <ul class="demo-list-item mdl-list">
       {% for post in tag[1] %}
          <li class="mdl-list__item">
+            <span>
             <i class="material-icons">speaker_notes</i>
             <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
                {{ post.title }}
             </a>
             <small class="post-date">{{ post.date | date_to_string }}</small>
+            </span>
          </li>
       {% endfor %}
       </ul>
