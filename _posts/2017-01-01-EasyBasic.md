@@ -32,8 +32,7 @@ Now I am going to make easybasic a complete package that contains following:
 - Easybasic Server
 - Easybasic Shell
 - Easybasic Utilities
-
-  - Graphics Editor
-  - File Merger
-  - Renum
+   Graphics Editor
+   File Merger
+   Renum
 - And much more 😀
