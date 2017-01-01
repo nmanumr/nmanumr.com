@@ -19,16 +19,27 @@ layout: default
    </div>
 
    <div class="col-sm-4" style="padding:10px">
+     <div class="mdl-card mdl-shadow--2dp" style="width: 100%; margin: 10px 0;">
+   <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text">Related Posts</h2>
+   </div>
+   <div class="mdl-card__supporting-text">
+      <ul class="demo-list-item mdl-list">
       {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
+        <li class="mdl-list__item">
+            
+            <i class="material-icons">speaker_notes</i>
+            <span style="margin-left: 3px;">
+            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+               {{ post.title }}
+            </a>
+            <small class="post-date">{{ post.date | date_to_string }}</small>
+            </span>
+         </li>
     {% endfor %}
+        </ul>
+   </div>
+</div>
    </div>
 
 {% if page.comments %}
