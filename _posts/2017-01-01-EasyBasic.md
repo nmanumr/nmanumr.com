@@ -14,6 +14,10 @@ Hi everybody, after working on a GUI based IDE ([GwBasic.Net](https://naumanumer
 #### History
 But before this let's take a short look at easybasic histroy.
 
+##### GwBasic Syntax Editor
 An year ago I worte a sytax editor for gwbasic and called it as **GwBasic Syntax Editor**. I wrote it usimg c# winform.
 
-After that I enhanced and added some example codes and support to execute GwBasic code using PcBasic and called it as **GwBasic.Net**
+##### GwBasic.Net
+After that I enhanced and added some example codes and support to execute GwBasic code using PcBasic and called it as **GwBasic.Net**. It is also written using c# winfom. As it it written using .net framework that is why it is called as GwBasic.Net.
+
+##### EasyBasic
