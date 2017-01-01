@@ -26,14 +26,13 @@ After that I wrote GwBasic.Net using electron.js as I need it to be stylish and 
 
 Now I am going to make easybasic a complete package that contains following:
 
-1. Easybasic IDE
-2. Easybasic Help
-3. Easybasic Tutor
-4. Easybasic Server
-5. Easybasic Shell
-6. Easybasic Utilities:
-
+- Easybasic IDE
+- Easybasic Help
+- Easybasic Tutor
+- Easybasic Server
+- Easybasic Shell
+- Easybasic Utilities:
   - Graphics Editor
   - File Merger
-  - Renum
-7. And much more 😀
+  - Renum
+- And much more 😀
