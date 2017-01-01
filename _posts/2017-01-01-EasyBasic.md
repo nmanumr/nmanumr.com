@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EasyBasic - A complete collection of GwBasic resources.
+title: EasyBasic - A collection for GwBasic.
 comments: true
 category: project-news
 tags: [project, news, dev]
