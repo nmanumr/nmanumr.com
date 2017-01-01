@@ -7,7 +7,7 @@ tags: [know how, dev]
 arthur: Nauman Umer
 ---
 
-In this article I am going to compare **Github** with **Microsoft Team Foundation Server**.
+Recently, Microsoft introduced Team Foundation Server(TFS). In this article I am going to compare **Github** with **Microsoft Team Foundation Server**.
 <!--more-->
 #### What is Microsoft Team Foundation Server?
 Team Foundation Server (also abbreviated as TFS) provides hosting of projects for individuals and companies. TFS also provides great tools and features that support both agile and waterfall. It also provides automatic test and release functionality.
