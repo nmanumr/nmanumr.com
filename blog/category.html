@@ -2,6 +2,72 @@
 layout: default
 title: Categories
 ---
+<ol class="breadcrumb">
+   <li><a href="http://naumanumer.github.io/">Home</a></li>
+   <li><a href="http://naumanumer.github.io/blog">Blog</a></li>
+   <li class="active">Categories</li>
+</ol>
+<div class="container">
+<div class="section-title text-center">
+   <h4>Categories</h4>
+   <div class="line"></div>
+   <div class="clearfix"></div>
+</div>
+<div class="tags-expo">
+<div>
+   <h4>Categories List</h4>
+   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp tags-table" style="width: 100% margin-top: -100px;">
+      <thead>
+         <tr>
+            <th style="width:20px;"></th>
+            <th>Categories</th>
+         </tr>
+      </thead>
+      {% for tag in site.categories %}
+      <tbody>
+         <tr>
+            <td style="width:20px;"><i class="material-icons">loyalty</i></td>
+            <td><a href="#{{ tag[0] | slugify }}" class="post-tag">
+               {{ tag[0] }}
+               </a>
+            </td>
+         </tr>
+         <li class="mdl-list__item">
+         </li>
+      </tbody>
+      {% endfor %}
+   </table>
+</div>
+   
+<div style="margin: 40px 0;">
+   <h4>Categories Posts</h4>
+{% for tag in site.categories %}
+<div class="mdl-card mdl-shadow--2dp" id="{{ tag[0] | slugify }}" style="width: 100%; margin: 10px 0;">
+   <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text">{{ tag[0] }}</h2>
+   </div>
+   <div class="mdl-card__supporting-text">
+      <ul class="demo-list-item mdl-list">
+      {% for post in tag[1] %}
+         <li class="mdl-list__item">
+            
+            <i class="material-icons">speaker_notes</i>
+            <span style="margin-left: 3px;">
+            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+               {{ post.title }}
+            </a>
+            <small class="post-date">{{ post.date | date_to_string }}</small>
+            </span>
+         </li>
+      {% endfor %}
+      </ul>
+   </div>
+</div>
+{% endfor %}
+</div>
+   
+   
+</div></div>
 
 <div class="tags-expo">
   <div class="tags-expo-list">
