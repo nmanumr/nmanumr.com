@@ -26,7 +26,7 @@ After that I wrote GwBasic.Net using electron.js as I need it to be stylish and 
 
 Now I am going to make easybasic a complete package that contains following:
 
-1. Easybasic IDE
+1. Easybasic IDLE
 2. Easybasic Help
 3. Easybasic Tutor
 4. Easybasic Server
@@ -35,3 +35,18 @@ Now I am going to make easybasic a complete package that contains following:
    * Graphics Editor
    * File Merger
 7. And much more 😀
+
+#### Easybasic IDLE
+It provides a modern development environment with as much features as I can. I supports automatic file conversion, Graphics editor and all other components are integrated in it.
+
+#### Easybasic Help
+It provides advance search in documentation that includes Language guide and know issues offline. 
+
+#### Easybasic Tutor 
+It provides a learning environment for students that connects with easybasic server to provide advance features and customisations.
+
+#### Easybasic Server 
+It contain a local database that contains all the records of student. And also provides administration features for schools. That part of project is not free and also closed sources. 
+
+#### Easybasic Shell 
+It is the main part of application that replicates the behaviour of GwBasic. It is also use to execute GwBasic code.
