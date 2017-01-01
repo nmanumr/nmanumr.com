@@ -15,17 +15,17 @@ title: Tags
 </div>
 <div class="tags-expo">
 <div>
-   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" style="width: 100%">
+   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp tags-table" style="width: 100%">
       <thead>
          <tr>
-            <th></th>
+            <th style="width:20px;"></th>
             <th>Tags</th>
          </tr>
       </thead>
       {% for tag in site.tags %}
       <tbody>
          <tr>
-            <td><i class="material-icons">loyalty</i></td>
+            <td style="width:20px;"><i class="material-icons">loyalty</i></td>
             <td><a href="#{{ tag[0] | slugify }}" class="post-tag">
                {{ tag[0] }}
                </a>
