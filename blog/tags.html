@@ -18,18 +18,30 @@ title: Tags
                         </div>
 <div class="tags-expo">
   <div>
-    <ul class="demo-list-item mdl-list">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+      <thead>
+    <tr>
+      <th></th>
+      <th>Tags</th>
+    </tr>
+  </thead>
     {% for tag in site.tags %}
-      <li class="mdl-list__item">
-        <a href="#{{ tag[0] | slugify }}" class="post-tag">
-          <i class="material-icons">loyalty</i> 
+      <tbody>
+    <tr>
+      <td><i class="material-icons">loyalty</i></td>
+      <td><a href="#{{ tag[0] | slugify }}" class="post-tag">
+           
           {{ tag[0] }}
-        </a>
-      </li> 
+        </a></td>
+    </tr>
+      <li class="mdl-list__item">
+        
+      </li>
+        </tbody>
     {% endfor %}
-    </ul>
+    </table>
   </div>
-  <hr/>
+  
   <div class="tags-expo-section">
     {% for tag in site.tags %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
