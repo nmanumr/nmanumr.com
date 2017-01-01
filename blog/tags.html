@@ -15,7 +15,8 @@ title: Tags
 </div>
 <div class="tags-expo">
 <div>
-   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp tags-table" style="width: 100%">
+   <h3>Tag List</h3>
+   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp tags-table" style="width: 100% margin-top: -100px;">
       <thead>
          <tr>
             <th style="width:20px;"></th>
@@ -37,6 +38,9 @@ title: Tags
       {% endfor %}
    </table>
 </div>
+   
+<div style="margin: 20px;">
+   <h3>Tag Posts</h3>
 {% for tag in site.tags %}
 <div class="mdl-card mdl-shadow--2dp" id="{{ tag[0] | slugify }}" style="width: 100%; margin: 10px 0;">
    <div class="mdl-card__title">
@@ -56,5 +60,7 @@ title: Tags
    </div>
 </div>
 {% endfor %}
+</div>
+   
    
 </div></div>
