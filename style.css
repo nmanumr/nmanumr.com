@@ -10,9 +10,9 @@ Padding-left:12px;
   text-transform: capitalize;
   Height: 100%;
   Width: 100%;
-  Color: black!important;
+  Color: #212121!important;
+  border-bottom: 1px solid #BDBDBD;
 }
-
 body {
   margin: 0;
 }
