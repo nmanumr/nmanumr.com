@@ -24,4 +24,15 @@ After that I enhanced and added some example codes and support to execute GwBasi
 After that I wrote GwBasic.Net using electron.js as I need it to be stylish and cross plateform. As I changed the plateform, style and even idea, I also renamed it and alos changed icon. And, at that time i was thinking to make it as a learning tool. But I was very confused if I have to create a learning tool or an IDE.
 
 
-Now i
+Now I am going to make easybasic a complete package that contains following:
+1. Easybasic IDE
+2. Easybasic Help
+3. Easybasic Tutor
+4. Easybasic Server
+5. Easybasic Shell
+6. Easybasic Utilities:
+   * File Converter
+   * Graphics Editor
+   * File Merger
+   * Renum
+7. And much more 😀
