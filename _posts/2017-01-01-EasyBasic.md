@@ -14,7 +14,7 @@ Hi everybody, after working on a GUI based IDE ([GwBasic.Net](https://naumanumer
 #### History
 But before this let's take a short look at easybasic histroy.
 
-##### GwBasic Syntax Editor
+##### <small>GwBasic Syntax Editor</small>
 An year ago I worte a sytax editor for gwbasic and called it as **GwBasic Syntax Editor**. I wrote it usimg c# winform.
 
 ##### GwBasic.Net
