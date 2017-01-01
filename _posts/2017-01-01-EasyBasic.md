@@ -21,3 +21,7 @@ An year ago I worte a sytax editor for gwbasic and called it as **GwBasic Syntax
 After that I enhanced and added some example codes and support to execute GwBasic code using PcBasic and called it as **GwBasic.Net**. It is also written using c# winfom. As it it written using .net framework that is why it is called as GwBasic.Net.
 
 ##### EasyBasic
+After that I wrote GwBasic.Net using electron.js as I need it to be stylish and cross plateform. As I changed the plateform, style and even idea, I also renamed it and alos changed icon. And, at that time i was thinking to make it as a learning tool. But I was very confused if I have to create a learning tool or an IDE.
+
+
+Now i
