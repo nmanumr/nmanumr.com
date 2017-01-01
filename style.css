@@ -13,8 +13,7 @@ Padding-left:12px;
   Color: #212121!important;
 }
 
-.tags-table td,
-.tags-table th{
+.tags-table td{
   text-align:left;
   Height: 100%;
   Width: 100%;
