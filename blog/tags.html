@@ -3,53 +3,42 @@ layout: default
 title: Tags
 ---
 <ol class="breadcrumb">
-	<li><a href="http://naumanumer.github.io/">Home</a></li>
-	<li><a href="http://naumanumer.github.io/blog">Blog</a></li>
-	<li class="active">Tags</li>
+   <li><a href="http://naumanumer.github.io/">Home</a></li>
+   <li><a href="http://naumanumer.github.io/blog">Blog</a></li>
+   <li class="active">Tags</li>
 </ol>
 <div class="container">
 <div class="section-title text-center">
-	<h4>Tags</h4>
-	<div class="line"></div>
-	<div class="clearfix"></div>
+   <h4>Tags</h4>
+   <div class="line"></div>
+   <div class="clearfix"></div>
 </div>
 <div class="tags-expo">
 <div>
-	<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-		<thead>
-			<tr>
-				<th></th>
-				<th>Tags</th>
-			</tr>
-		</thead>
-		{% for tag in site.tags %}
-		<tbody>
-			<tr>
-				<td><i class="material-icons">loyalty</i></td>
-				<td><a href="#{{ tag[0] | slugify }}" class="post-tag">
-					{{ tag[0] }}
-					</a>
-				</td>
-			</tr>
-			<li class="mdl-list__item">
-			</li>
-		</tbody>
-		{% endfor %}
-	</table>
+   <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" style="width: 100%">
+      <thead>
+         <tr>
+            <th></th>
+            <th>Tags</th>
+         </tr>
+      </thead>
+      {% for tag in site.tags %}
+      <tbody>
+         <tr>
+            <td><i class="material-icons">loyalty</i></td>
+            <td><a href="#{{ tag[0] | slugify }}" class="post-tag">
+               {{ tag[0] }}
+               </a>
+            </td>
+         </tr>
+         <li class="mdl-list__item">
+         </li>
+      </tbody>
+      {% endfor %}
+   </table>
 </div>
 <div class="tags-expo-section">
 {% for tag in site.tags %}
 <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
 <ul class="tags-expo-posts">
 {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
-    {% endfor %}
-  </div>
-</div></div>
