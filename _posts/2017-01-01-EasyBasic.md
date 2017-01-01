@@ -33,8 +33,8 @@ Now I am going to make easybasic a complete package that contains following:
 5. Easybasic Shell
 3. Easybasic Utilities
    * Graphics Editor
-   * File Merger
-   * Renum
+   * File Merger
+   * Renum
 6. Easybasic Utilities
    * Graphics Editor
    * File Merger
