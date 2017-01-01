@@ -12,6 +12,12 @@ Padding-left:12px;
   Width: 100%;
   Color: #212121!important;
 }
+
+.tags-table td,
+.tags-table th{
+  text-align:left;
+}  
+
 body {
   margin: 0;
 }
