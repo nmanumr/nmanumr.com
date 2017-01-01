@@ -37,19 +37,24 @@ title: Tags
       {% endfor %}
    </table>
 </div>
-<div class="tags-expo-section">
 {% for tag in site.tags %}
-<h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-<ul class="tags-expo-posts">
-{% for post in tag[1] %}
-   <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-       <li>
-         {{ post.title }}
-       <small class="post-date">{{ post.date | date_to_string }}</small>
-       </li>
-       </a>
-       {% endfor %}
-     </ul>
-     {% endfor %}
+<div class="mdl-card mdl-shadow--2dp" id="{{ tag[0] | slugify }}">
+   <div class="mdl-card__title">
+     <h2 class="mdl-card__title-text">{{ tag[0] }}</h2>
    </div>
+   <div class="mdl-card__supporting-text">
+      <ul class="demo-list-item mdl-list">
+      {% for post in tag[1] %}
+         <li class="mdl-list__item">
+            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+               {{ post.title }}
+               <small class="post-date">{{ post.date | date_to_string }}</small>
+            </a>
+         </li>
+      {% endfor %}
+      </ul>
+   </div>
+</div>
+{% endfor %}
+   
 </div></div>
