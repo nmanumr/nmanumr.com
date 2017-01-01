@@ -31,7 +31,8 @@ Now I am going to make easybasic a complete package that contains following:
 - Easybasic Tutor
 - Easybasic Server
 - Easybasic Shell
-- Easybasic Utilities:
+- Easybasic Utilities
+
   - Graphics Editor
   - File Merger
   - Renum
