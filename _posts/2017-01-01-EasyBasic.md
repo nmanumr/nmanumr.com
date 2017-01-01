@@ -13,3 +13,7 @@ Hi everybody, after working on a GUI based IDE ([GwBasic.Net](https://naumanumer
 
 #### History
 But before this let's take a short look at easybasic histroy.
+
+An year ago I worte a sytax editor for gwbasic and called it as **GwBasic Syntax Editor**. I wrote it usimg c# winform.
+
+After that I enhanced and added some example codes and support to execute GwBasic code using PcBasic and called it as **GwBasic.Net**
