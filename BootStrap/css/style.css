@@ -23,15 +23,10 @@ font-weight: 900;
 h4{
 	text-transform: uppercase;
 }
-h6{
+h5{
 	font-weight: normal !important;
         line-height: 15px;
 	
-}
-h5{
-	text-transform: uppercase;
-	font-weight: 700;
-	line-height: 20px;
 }
 p{
 	font-family: 'Open Sans', sans-serif;
