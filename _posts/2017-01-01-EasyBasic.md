@@ -32,7 +32,19 @@ Now I am going to make easybasic a complete package that contains following:
 - Easybasic Server
 - Easybasic Shell
 - Easybasic Utilities
-   Graphics Editor
+..- Graphics Editor
    File Merger
    Renum
 - And much more 😀
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+  
+  
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
