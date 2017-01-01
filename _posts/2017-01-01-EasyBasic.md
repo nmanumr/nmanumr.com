@@ -34,18 +34,4 @@ Now I am going to make easybasic a complete package that contains following:
 6. Easybasic Utilities
    * Graphics Editor
    * File Merger
-7. And much more
-  
-  
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
-   * Item 3b
-  
-  
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
-   * Item 3b
+7. And much more 😀
