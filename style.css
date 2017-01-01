@@ -6,6 +6,12 @@
 Padding-left:12px;
 }
 
+.post-tag{
+  text-transform: capitalize;
+  Height: 100%;
+  Width: 100%;
+  Color: black!important;
+}
 
 body {
   margin: 0;
