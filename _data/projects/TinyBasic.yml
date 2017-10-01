@@ -1,8 +1,0 @@
-title: "Tiny Basic"
-desc: "TinyBasic - A free, typescript based emulator for the GW-BASIC family of interpreters. Written in Typescript."
-site: http://naumanumer.github.io/tinybasic/
-name: tinybasic
-color: #1e1e1e
-img: nul.png
-tags: ["TypeScript", "Node.js"]
-lang: Typescript

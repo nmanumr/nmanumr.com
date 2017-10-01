@@ -1,8 +1,0 @@
-title: "GwBasic.Net"
-desc: GwBasic.Net is an free .net based IDE for gwbasic developed with an aim to provided a graphics based interface to help the gwbasic users to overcome the difficulty in writing and executing gwbasic code.
-site: http://naumanumer.github.io/gwbasic.net/
-name: gwbasic.net
-color: #fff
-img: "naumanum.png"
-tags: ['C#', 'Winform']
-lang: C#
