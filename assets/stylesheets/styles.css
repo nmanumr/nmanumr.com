@@ -1,0 +1,109 @@
+.md-main__jumbotron{
+    height: 300px;
+    width: 100%;
+    background-color: #303f9f;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+.md-jumbotron__container>*{
+    position: relative;
+    z-index: 3;
+}
+
+.md-jumbotron__container{
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding-top: 35px;
+    text-align: center;
+    color:rgba(255,255,255,.8);
+}
+
+.md-jumbotron__container h2{
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.jumbo-img{
+    width: 125px;
+    height: 125px;
+    /* background-image: url('./../images/Nlogo.png'); */
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    background-color: #1a237e;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.home-article{
+    text-align: center;
+}
+
+.home-article>h2:not(#about-me){
+    margin-top: 100px;
+}
+
+.mdl-card__title-text{
+    margin: 0px!important;
+}
+
+.mdl-card{
+    text-align: left;    
+}
+
+a.mdl-button.mdl-button--raised:hover{
+    color: #fff;
+}
+
+.home .md-sidebar[data-md-state=lock]{
+    top: 85px;
+}
+
+.md-nav--primary .md-nav__title--site {
+    background-color: #303f9f!important;
+}
+
+.home .mdl-list{
+    text-align: left;
+}
+
+.mdl-list h2{
+    margin-top: 0px!important;
+}
+
+.mdl-list li{
+    padding: 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.f6{
+    font-size: 12px!important;
+}
+
+.mt-2{
+    margin-top: 8px!important;
+}
+
+.mr-3 {
+    margin-right: 16px !important;
+}
+
+.pb-4 {
+    padding-bottom: 24px !important;
+}
+
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.text-gray {
+    color: #586069 !important;
+}
