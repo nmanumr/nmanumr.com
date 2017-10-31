@@ -1,0 +1,12 @@
+.katex-display{
+  overflow-y: hidden!important;
+}
+
+.md-typeset .admonition .katex-display :first-child, .md-typeset details .katex-display :first-child {
+    margin-top: 1px;
+}
+
+.katex-display>.katex {
+    margin-top: 4px;
+    padding-bottom: 4px;
+}
