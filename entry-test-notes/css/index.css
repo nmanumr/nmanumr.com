@@ -10,3 +10,8 @@
     margin-top: 4px;
     padding-bottom: 4px;
 }
+
+.katex-display .mord.llap>.inner{
+      top: calc(50% - 13px);
+      right: 2px;
+}
