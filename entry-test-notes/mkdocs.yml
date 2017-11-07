@@ -7,7 +7,7 @@ theme: 'material'
 copyright: 'Written by Nauman Umer'
 repo_name: 'nmanumr/Fung-notes'
 repo_url: 'https://www.github.com/nmanumr/nmanumr.github.io'
-edit_uri: 'blob/master/docs/'
+edit_uri: 'blob/master/entry-test-notes/docs/'
 extra:
   disqus: 'naumanumer'
 
