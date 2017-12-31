@@ -36,8 +36,13 @@
             "title": "Steps to Edit a File"
         }, 
         {
+            "location": "/physics/", 
+            "text": "Measurements\n (Not Started)\n\n\n \nVectors\n (Not Started)\n\n\n \nMotion \n Force\n (Not Started)\n\n\n \nWork \n Energy\n (Not Started)\n\n\n \nCircular Motion\n (Not Started)\n\n\n \nFluid Dynamics\n (Not Started)\n\n\n \nOscillations\n (Not Started)\n\n\n \nWaves\n (Not Started)\n\n\n \nPhysical Optics\n (Not Started)\n\n\n \nOptical Instruments\n (Not Started)\n\n\n \nHeat and Thermodynamics\n (Not Started)\n\n\n \nElectrostatics\n (Done)\n\n\n \nCurrent Electricity\n (Done)\n\n\n \nElectromegnetism\n (Done)\n\n\n \nElectromegnetic Induction\n (Done)\n\n\n \nAlternating Current\n (Done)\n\n\n \nPhysics of Solids\n (Done)\n\n\n \nElectronics\n (Done)\n\n\n \nDawn of Modern Physics\n (Not Started)\n\n\n \nNuclear Physics\n (Not Started)\n\n\n \nAtomic Spectra\n (Not Started)", 
+            "title": "Index"
+        }, 
+        {
             "location": "/physics/ch01/", 
-            "text": "Measurements\n\n\nSteps to Measure Quantities\n\n\n\n\nComparison of quantity to be measured with a standard measuring tool.\n\n\nEncoding the result of comparison in standard format containing a suitable precise number along with appropriate unit.\n\n\nBasic quantities could not be expressed in term of other quantities\n\n\nDerived quantities are based on the other physical quantities\n\n\nMeasurement of basic quantities requires the choice of standard. Ideal standard should be accessible \n invariable.\n Prior 1960, three measuring systems were in practice\n\n\nCGS System (centimeter, gram, second)\n\n\nFPS System (foot, pound, second), or British Engineering system.\n\n\nMKS System (meter, kilogram, second)\n\n\n\n\n\n\nAfter 1960, internationally accepted standard is SI system. In system international (SI), there are three types of units.\n\n\n\n\n\n\nInfo\n\n\nIdeal standard measuring tool should be fool proof via accessiblity \n invariability.\n\n\n\n\nSupplementary Units\n\n\n\n\n\n\n\n\nPhysics Quantity\n\n\nSI Unit\n\n\nSymbol\n\n\n\n\n\n\n\n\n\n\nPlane angle\n\n\nRadian\n\n\n\\(rad\\)\n\n\n\n\n\n\nSolid Angle\n\n\nSteradian\n\n\n\\(sr\\)\n\n\n\n\n\n\n\n\nBasic Mechanical Units\n\n\n\n\n\n\n\n\nName\n\n\nSI Unit (MKS)\n\n\nCGS\n\n\nUS Common\n\n\n\n\n\n\n\n\n\n\nLength (\n\\(L\\)\n)\n\n\nmeter (\n\\(m\\)\n)\n\n\ncentimeter (\n\\(cm\\)\n)\n\n\nfoot (\n\\(ft\\)\n)\n\n\n\n\n\n\nTime (\n\\(T\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\n\n\n\n\nMass (\n\\(M\\)\n)\n\n\nkilogram (\n\\(kg\\)\n)\n\n\ngram (\n\\(gm\\)\n)\n\n\nslug\n\n\n\n\n\n\nVelocity (\n\\(L/T\\)\n)\n\n\n\\(m/s\\)\n\n\n\\(cm/s\\)\n\n\n\\(ft/s\\)\n\n\n\n\n\n\nAcceleration (\n\\(L/T^2\\)\n)\n\n\n\\(m/s^2\\)\n\n\n\\(cm/s^2\\)\n\n\n\\(ft/s^2\\)\n\n\n\n\n\n\nForce (\n\\(ML/T^2\\)\n)\n\n\n\\(kg\\;m/s^2=N\\)\n\n\n\\(gm\\;cm/s^2=dyne\\)\n\n\n\\(slug\\;ft/s^2=pound(lb)\\)\n\n\n\n\n\n\nWork (\n\\(ML^2/T^2\\)\n)\n\n\n\\(N\\;m=J\\)\n\n\n\\(dyne\\;cm=erg\\)\n\n\n\\(lb\\;ft=ft\\;lb\\)\n\n\n\n\n\n\nEnergy (\n\\(ML^2/T^2\\)\n)\n\n\n\\(J\\)\n\n\n\\(erg\\)\n\n\n\\(ft\\;lb\\)\n\n\n\n\n\n\nPower (\n\\(ML^2/T^3\\)\n)\n\n\n\\(J/s=watt(W)\\)\n\n\n\\(erg/s\\)\n\n\n\\(ft\\;lb/s\\)", 
+            "text": "Measurements\n\n\nSteps to Measure Quantities\n\n\n\n\nComparison of quantity to be measured with a standard measuring tool.\n\n\nEncoding the result of comparison in standard format containing a suitable precise number along with appropriate unit.\n\n\nBasic quantities could not be expressed in term of other quantities\n\n\nDerived quantities are based on the other physical quantities\n\n\nMeasurement of basic quantities requires the choice of standard. Ideal standard should be accessible \n invariable.\n Prior 1960, three measuring systems were in practice\n\n\nCGS System (centimeter, gram, second)\n\n\nFPS System (foot, pound, second), or British Engineering system.\n\n\nMKS System (meter, kilogram, second)\n\n\n\n\n\n\nAfter 1960, internationally accepted standard is SI system. In system international (SI), there are three types of units.\n\n\n\n\n\n\nInfo\n\n\nIdeal standard measuring tool should be fool proof via accessiblity \n invariability.\n\n\n\n\nSupplementary Units\n\n\n\n\n\n\n\n\nPhysics Quantity\n\n\nSI Unit\n\n\nSymbol\n\n\n\n\n\n\n\n\n\n\nPlane angle\n\n\nRadian\n\n\n\\(rad\\)\n\n\n\n\n\n\nSolid Angle\n\n\nSteradian\n\n\n\\(sr\\)\n\n\n\n\n\n\n\n\nBasic Mechanical Units\n\n\n\n\n\n\n\n\nName\n\n\nSI Unit (MKS)\n\n\nCGS\n\n\nUS Common\n\n\n\n\n\n\n\n\n\n\nLength (\n\\(L\\)\n)\n\n\nmeter (\n\\(m\\)\n)\n\n\ncentimeter (\n\\(cm\\)\n)\n\n\nfoot (\n\\(ft\\)\n)\n\n\n\n\n\n\nTime (\n\\(T\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\nsecond (\n\\(s\\)\n)\n\n\n\n\n\n\nMass (\n\\(M\\)\n)\n\n\nkilogram (\n\\(kg\\)\n)\n\n\ngram (\n\\(gm\\)\n)\n\n\nslug\n\n\n\n\n\n\nVelocity (\n\\(L/T\\)\n)\n\n\n\\(m/s\\)\n\n\n\\(cm/s\\)\n\n\n\\(ft/s\\)\n\n\n\n\n\n\nAcceleration (\n\\(L/T^2\\)\n)\n\n\n\\(m/s^2\\)\n\n\n\\(cm/s^2\\)\n\n\n\\(ft/s^2\\)\n\n\n\n\n\n\nForce (\n\\(ML/T^2\\)\n)\n\n\n\\(kg\\;m/s^2=N\\)\n\n\n\\(gm\\;cm/s^2=dyne\\)\n\n\n\\(slug\\;ft/s^2=pound(lb)\\)\n\n\n\n\n\n\nWork (\n\\(ML^2/T^2\\)\n)\n\n\n\\(N\\;m=J\\)\n\n\n\\(dyne\\;cm=erg\\)\n\n\n\\(lb\\;ft=ft\\;lb\\)\n\n\n\n\n\n\nEnergy (\n\\(ML^2/T^2\\)\n)\n\n\n\\(J\\)\n\n\n\\(erg\\)\n\n\n\\(ft\\;lb\\)\n\n\n\n\n\n\nPower (\n\\(ML^2/T^3\\)\n)\n\n\n\\(J/s=watt(W)\\)\n\n\n\\(erg/s\\)\n\n\n\\(ft\\;lb/s\\)\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nMany other derived units are also used for other derived quantities.\n\n\n\n\nScientific Notation\n\n\nThe standard to express the number in term of power of ten is called Scientific Notation.\n\n\nSome standard prefixes for power of ten with their symbols are presented below:\n\n\n\n\n\n\n\n\nFactor\n\n\nPrefix\n\n\nSymbol\n\n\nFactor\n\n\nPrefix\n\n\nSymbol\n\n\n\n\n\n\n\n\n\n\n\\(10^{-18}\\)\n\n\natto\n\n\n\\(a\\)\n\n\n\\(10^{1}\\)\n\n\ndeca\n\n\n\\(da\\)\n\n\n\n\n\n\n\\(10^{-15}\\)\n\n\nfemto\n\n\n\\(f\\)\n\n\n\\(10^{3}\\)\n\n\nkilo\n\n\n\\(k\\)\n\n\n\n\n\n\n\\(10^{-12}\\)\n\n\npico\n\n\n\\(p\\)\n\n\n\\(10^{6}\\)\n\n\nmega\n\n\n\\(M\\)\n\n\n\n\n\n\n\\(10^{-9}\\)\n\n\nnano\n\n\n\\(n\\)\n\n\n\\(10^{9}\\)\n\n\ngiga\n\n\n\\(G\\)\n\n\n\n\n\n\n\\(10^{-6}\\)\n\n\nmicro\n\n\n\\(u\\)\n\n\n\\(10^{12}\\)\n\n\ntera\n\n\n\\(T\\)\n\n\n\n\n\n\n\\(10^{-3}\\)\n\n\nmilli\n\n\n\\(m\\)\n\n\n\\(10^{15}\\)\n\n\npeta\n\n\n\\(P\\)\n\n\n\n\n\n\n\\(10^{-2}\\)\n\n\ncenti\n\n\n\\(c\\)\n\n\n\\(10^{18}\\)\n\n\nexa\n\n\n\\(E\\)\n\n\n\n\n\n\n\\(10^{-1}\\)\n\n\ndeci\n\n\n\\(d\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDo you Know?\n\n\nThere should be one non-zero digit to left of decimal in scientific notation.\n\n\n\n\nError\n\n\nThe difference between standard and experimental values is called error.\n\n\nClassification of Errors\n\n\n\n\nAssignable Errors (Systematic Errors)\n\n\nUnassignable Errors (Random Errors)\n\n\n\n\nAssignable Errors\n\n\nThe errors to which we can assign a cause usually they follow same trend of variations so a cause can be assigned to them eg. Errors occurring due to the LC of the measuring instrument.\n\n\nRemedy\n\n\nSuch errors can be controlled experimentally while carefully monitoring the measurement process.\n\n\nUnassignable Error\n\n\nTo which we can't assign a cause because they do not follow a trend. So these errors are due to unknown causes.\n\n\nRemedy\n\n\nThese errors can't be controlled experimentally, but a statistical tool of taking average of several value is employed to minimize them.\n\n\nSignificant figures\n\n\nUncertainty in the measurements leads us to establish some standard to write the numerical value of a measurement, termed as significant figure.\n\n\n\n\n\"In any measurement, all the accurately known digits and the first doubtful digit are named as significant figures.\"\n\n\n\n\nRules of significant figures\n\n\nIn order to determine significant figures in a number we must follow the following rules:\n* All the non-zero digits are significant figures. \n \nFor Example:\n \n 3,456 has four significant figures.\n 12.3456 has six significant figures.\n* Zeros between non-zero digits are significant. \n \nFor Example:\n \n 2306 has four significant figures.\n 20,0894 has six significant figures.\n* Zeros locating the position of decimal in numbers o not significant. \n \nFor Example:\n \n In the 0.2224 and 0.000034, zeros are not significant\n* Final zeros to the right of the decimal point are significant. \n \nFor Example:\n \n 3.0000 has four significant zeros. \n 1002.00 has four significant zeros.\n* Zeros that locate decimal point in numbers greater than one are not significant.\nFor Example:\n3000 has only one significant figure.\n120000 has two significant figures.\n\n\n\n\nDo you know?\n\n\nGreater the significant figures in measurement the more accurate it is.\n\n\n\n\nAlgebra with Significant Figures\n\n\nDivision and Multiplication\n\n\n\n\n\\(\\frac{4.54\\times 2.324}{1.3365} = 7.89447063 =\\)\n an answer having maximum of three digits can he retained here \n\\(= 7.89\\)\n.\n\n\n\\(4.3458\\times 2.7 = 11.73366 =\\)\n an answer having maximum of two digits can he retained here \n\\(= 12\\)\n\n\nThe factor having the smallest number of significant figures is called least accurate factor, and product and quotient cannot have number of significant figures more than that in the least accurate factor\n\n\n\n\nAddition and Subtraction\n\n\nSearch for the least number of decimal places, counting the number of significant figures is not required. For example:\n\n\n\n\n\\(4.345+ 23.51= 27.855 =\\)\n an answer having maximum of two decimal places\n\n\\(= 27.86\\)\n\n\n\\(101.2401-1.0=100.2401=\\)\n an answer having maximum of one decimal place \n\\(=100.2\\)\n\n\n\\(101.2401-1=100.2401=\\)\n an answer having no decimal place \n\\(=100\\)\n\n\n\n\nRounding Off Data\n\n\nRule # 1:\n\n\nIf the digit to be dropped is greater than 5, then add 1 to the last digit to b, retained and drop all digits farther to the right.\n\n\nFor example:\n\n\n\n\n\\(3.677\\)\n is rounded off to \n\\(3.68\\)\n if we need three significant figures in measurement.\n\n\n\\(3.677\\)\n is rounded off to \n\\(3.7\\)\n if we need two significant figures in measurement.\n\n\n\n\nRule # 2:\n\n\nIf the digit to be dropped is less than 5, then simply drop it without adding any digit number to the last digit.\n\n\nFor example:\n\n\n\n\n\\(6.632\\)\n is rounded off to \n\\(6,63\\)\n if we need three significant figures in measurement.\n\n\n\\(6.632\\)\n is rounded off to \n\\(6.6\\)\n if we need two significant figures in measurement.\n\n\n\n\nRule # 3:\n\n\nIf the digit to be dropped is exactly 5 then:\n\n\nCase 1\n\n\nIf the digit to be retained is even, then just drop the \"5\".\n\n\nFor example:\n\n\n\n\n\\(6.65\\)\n is rounded off to \n\\(6.6\\)\n if we need two significant figures in measurement.\n\n\n\\(3.4665\\)\n is rounded off to \n\\(6.466\\)\n if we need four significant figures in measurement.\n\n\n\n\nCase 1\n\n\nIf the digit to be retained is odd, then add 1 to it.\n\n\nFor example:\n\n\n\n\n\\(6.35\\)\n is rounded off to \n\\(6.4\\)\n if we need two significant figures in measurement.\n\n\n\\(3.4675\\)\n is rounded off to \n\\(6.468\\)\n if we need four significant figures in measurement:\n\n\n\n\n\n\nNote\n\n\nZero is an even number So, \n\\(3.05\\)\n is rounded off to \n\\(3.0\\)\n if we need two significant figures in measurement.\n\n\n\n\nPRECISION \n ACCURACY\n\n\nPrecision\n\n\nThe precision of a measurement is determined by the least count of the instrument or device.\n\n\nSmaller the least count of instrument, more precise is the measurement.\n\n\nAccuracy\n\n\nThe accuracy of a measurement depends upon the fractional or percentage uncertainty in the measurement.\n\n\nSmaller the percentage error, more accurate is the measurement. Maximum absolute uncertainty is equal to one least count of the measuring instrument.\n\n\nAssessment of Total Uncertainty in the Final Result\n\n\nTotal uncertainty in the final result can be determined by the following rules:\n\n\n\n\nIn case of addition and subtraction absolute uncertainties are to be added.\n\n\nIn case of multiplication and division fractional or percentage errors are to be added.\n\n\nFor power factor the power is multiplied with the percentage uncertainty.\n For example: In the equation \n\\(u= kx^a\\)\n, \n\\(a \\times \\text{percentage error in} x \\text{, where} k \\text{is constant of proportionality}\\)\n.\nUncertainty in the average value of many measurements of the same quantity is the mean of absolute differences of measurements form the average value.\n\n\nFor time measurement, uncertainty is obtained by dividing the least count of the timing device with the number of vibrations.\n\n\n\n\n\n\nDo you know?\n\n\nCounting more number of vibrations can reduce the uncertainty in the timing experiments.\n\n\n\n\nDimensions\n\n\nEach basic measurable physical quantity is represented in term of base quantities by a specific symbol for them written with in square brackets is called dimension.\n\n\nThe dimensions are helpful in:\n\n\n\n\nDeriving a possible formula\n\n\nChecking the homogeneity of a physical equation or formula.\n\n\n\n\nLimitations of Dimensional Analysis\n\n\n\n\nDimension analysis has no information on dimensionless constants.\n\n\nIf a quantity is dependent on trigonometric or exponential function, this method cannot be used.\n\n\nIn some cases, it is difficult to guess the factors while deriving the relation connecting two or more physical quantities.\n\n\nThis method cannot be used in an equation containing two or more variables with same dimensions.", 
             "title": "01 - Measurements"
         }, 
         {
@@ -57,8 +62,128 @@
         }, 
         {
             "location": "/physics/ch01/#basic-mechanical-units", 
-            "text": "Name  SI Unit (MKS)  CGS  US Common      Length ( \\(L\\) )  meter ( \\(m\\) )  centimeter ( \\(cm\\) )  foot ( \\(ft\\) )    Time ( \\(T\\) )  second ( \\(s\\) )  second ( \\(s\\) )  second ( \\(s\\) )    Mass ( \\(M\\) )  kilogram ( \\(kg\\) )  gram ( \\(gm\\) )  slug    Velocity ( \\(L/T\\) )  \\(m/s\\)  \\(cm/s\\)  \\(ft/s\\)    Acceleration ( \\(L/T^2\\) )  \\(m/s^2\\)  \\(cm/s^2\\)  \\(ft/s^2\\)    Force ( \\(ML/T^2\\) )  \\(kg\\;m/s^2=N\\)  \\(gm\\;cm/s^2=dyne\\)  \\(slug\\;ft/s^2=pound(lb)\\)    Work ( \\(ML^2/T^2\\) )  \\(N\\;m=J\\)  \\(dyne\\;cm=erg\\)  \\(lb\\;ft=ft\\;lb\\)    Energy ( \\(ML^2/T^2\\) )  \\(J\\)  \\(erg\\)  \\(ft\\;lb\\)    Power ( \\(ML^2/T^3\\) )  \\(J/s=watt(W)\\)  \\(erg/s\\)  \\(ft\\;lb/s\\)", 
+            "text": "Name  SI Unit (MKS)  CGS  US Common      Length ( \\(L\\) )  meter ( \\(m\\) )  centimeter ( \\(cm\\) )  foot ( \\(ft\\) )    Time ( \\(T\\) )  second ( \\(s\\) )  second ( \\(s\\) )  second ( \\(s\\) )    Mass ( \\(M\\) )  kilogram ( \\(kg\\) )  gram ( \\(gm\\) )  slug    Velocity ( \\(L/T\\) )  \\(m/s\\)  \\(cm/s\\)  \\(ft/s\\)    Acceleration ( \\(L/T^2\\) )  \\(m/s^2\\)  \\(cm/s^2\\)  \\(ft/s^2\\)    Force ( \\(ML/T^2\\) )  \\(kg\\;m/s^2=N\\)  \\(gm\\;cm/s^2=dyne\\)  \\(slug\\;ft/s^2=pound(lb)\\)    Work ( \\(ML^2/T^2\\) )  \\(N\\;m=J\\)  \\(dyne\\;cm=erg\\)  \\(lb\\;ft=ft\\;lb\\)    Energy ( \\(ML^2/T^2\\) )  \\(J\\)  \\(erg\\)  \\(ft\\;lb\\)    Power ( \\(ML^2/T^3\\) )  \\(J/s=watt(W)\\)  \\(erg/s\\)  \\(ft\\;lb/s\\)      Note  Many other derived units are also used for other derived quantities.", 
             "title": "Basic Mechanical Units"
+        }, 
+        {
+            "location": "/physics/ch01/#scientific-notation", 
+            "text": "The standard to express the number in term of power of ten is called Scientific Notation.  Some standard prefixes for power of ten with their symbols are presented below:     Factor  Prefix  Symbol  Factor  Prefix  Symbol      \\(10^{-18}\\)  atto  \\(a\\)  \\(10^{1}\\)  deca  \\(da\\)    \\(10^{-15}\\)  femto  \\(f\\)  \\(10^{3}\\)  kilo  \\(k\\)    \\(10^{-12}\\)  pico  \\(p\\)  \\(10^{6}\\)  mega  \\(M\\)    \\(10^{-9}\\)  nano  \\(n\\)  \\(10^{9}\\)  giga  \\(G\\)    \\(10^{-6}\\)  micro  \\(u\\)  \\(10^{12}\\)  tera  \\(T\\)    \\(10^{-3}\\)  milli  \\(m\\)  \\(10^{15}\\)  peta  \\(P\\)    \\(10^{-2}\\)  centi  \\(c\\)  \\(10^{18}\\)  exa  \\(E\\)    \\(10^{-1}\\)  deci  \\(d\\)         Do you Know?  There should be one non-zero digit to left of decimal in scientific notation.", 
+            "title": "Scientific Notation"
+        }, 
+        {
+            "location": "/physics/ch01/#error", 
+            "text": "The difference between standard and experimental values is called error.", 
+            "title": "Error"
+        }, 
+        {
+            "location": "/physics/ch01/#classification-of-errors", 
+            "text": "Assignable Errors (Systematic Errors)  Unassignable Errors (Random Errors)", 
+            "title": "Classification of Errors"
+        }, 
+        {
+            "location": "/physics/ch01/#assignable-errors", 
+            "text": "The errors to which we can assign a cause usually they follow same trend of variations so a cause can be assigned to them eg. Errors occurring due to the LC of the measuring instrument.", 
+            "title": "Assignable Errors"
+        }, 
+        {
+            "location": "/physics/ch01/#remedy", 
+            "text": "Such errors can be controlled experimentally while carefully monitoring the measurement process.", 
+            "title": "Remedy"
+        }, 
+        {
+            "location": "/physics/ch01/#unassignable-error", 
+            "text": "To which we can't assign a cause because they do not follow a trend. So these errors are due to unknown causes.", 
+            "title": "Unassignable Error"
+        }, 
+        {
+            "location": "/physics/ch01/#remedy_1", 
+            "text": "These errors can't be controlled experimentally, but a statistical tool of taking average of several value is employed to minimize them.", 
+            "title": "Remedy"
+        }, 
+        {
+            "location": "/physics/ch01/#significant-figures", 
+            "text": "Uncertainty in the measurements leads us to establish some standard to write the numerical value of a measurement, termed as significant figure.   \"In any measurement, all the accurately known digits and the first doubtful digit are named as significant figures.\"", 
+            "title": "Significant figures"
+        }, 
+        {
+            "location": "/physics/ch01/#rules-of-significant-figures", 
+            "text": "In order to determine significant figures in a number we must follow the following rules:\n* All the non-zero digits are significant figures.    For Example:    3,456 has four significant figures.  12.3456 has six significant figures.\n* Zeros between non-zero digits are significant.    For Example:    2306 has four significant figures.  20,0894 has six significant figures.\n* Zeros locating the position of decimal in numbers o not significant.    For Example:    In the 0.2224 and 0.000034, zeros are not significant\n* Final zeros to the right of the decimal point are significant.    For Example:    3.0000 has four significant zeros.   1002.00 has four significant zeros.\n* Zeros that locate decimal point in numbers greater than one are not significant. For Example: 3000 has only one significant figure. 120000 has two significant figures.   Do you know?  Greater the significant figures in measurement the more accurate it is.", 
+            "title": "Rules of significant figures"
+        }, 
+        {
+            "location": "/physics/ch01/#algebra-with-significant-figures", 
+            "text": "", 
+            "title": "Algebra with Significant Figures"
+        }, 
+        {
+            "location": "/physics/ch01/#division-and-multiplication", 
+            "text": "\\(\\frac{4.54\\times 2.324}{1.3365} = 7.89447063 =\\)  an answer having maximum of three digits can he retained here  \\(= 7.89\\) .  \\(4.3458\\times 2.7 = 11.73366 =\\)  an answer having maximum of two digits can he retained here  \\(= 12\\)  The factor having the smallest number of significant figures is called least accurate factor, and product and quotient cannot have number of significant figures more than that in the least accurate factor", 
+            "title": "Division and Multiplication"
+        }, 
+        {
+            "location": "/physics/ch01/#addition-and-subtraction", 
+            "text": "Search for the least number of decimal places, counting the number of significant figures is not required. For example:   \\(4.345+ 23.51= 27.855 =\\)  an answer having maximum of two decimal places \\(= 27.86\\)  \\(101.2401-1.0=100.2401=\\)  an answer having maximum of one decimal place  \\(=100.2\\)  \\(101.2401-1=100.2401=\\)  an answer having no decimal place  \\(=100\\)", 
+            "title": "Addition and Subtraction"
+        }, 
+        {
+            "location": "/physics/ch01/#rounding-off-data", 
+            "text": "", 
+            "title": "Rounding Off Data"
+        }, 
+        {
+            "location": "/physics/ch01/#rule-1", 
+            "text": "If the digit to be dropped is greater than 5, then add 1 to the last digit to b, retained and drop all digits farther to the right.  For example:   \\(3.677\\)  is rounded off to  \\(3.68\\)  if we need three significant figures in measurement.  \\(3.677\\)  is rounded off to  \\(3.7\\)  if we need two significant figures in measurement.", 
+            "title": "Rule # 1:"
+        }, 
+        {
+            "location": "/physics/ch01/#rule-2", 
+            "text": "If the digit to be dropped is less than 5, then simply drop it without adding any digit number to the last digit.  For example:   \\(6.632\\)  is rounded off to  \\(6,63\\)  if we need three significant figures in measurement.  \\(6.632\\)  is rounded off to  \\(6.6\\)  if we need two significant figures in measurement.", 
+            "title": "Rule # 2:"
+        }, 
+        {
+            "location": "/physics/ch01/#rule-3", 
+            "text": "If the digit to be dropped is exactly 5 then:", 
+            "title": "Rule # 3:"
+        }, 
+        {
+            "location": "/physics/ch01/#case-1", 
+            "text": "If the digit to be retained is even, then just drop the \"5\".  For example:   \\(6.65\\)  is rounded off to  \\(6.6\\)  if we need two significant figures in measurement.  \\(3.4665\\)  is rounded off to  \\(6.466\\)  if we need four significant figures in measurement.", 
+            "title": "Case 1"
+        }, 
+        {
+            "location": "/physics/ch01/#case-1_1", 
+            "text": "If the digit to be retained is odd, then add 1 to it.  For example:   \\(6.35\\)  is rounded off to  \\(6.4\\)  if we need two significant figures in measurement.  \\(3.4675\\)  is rounded off to  \\(6.468\\)  if we need four significant figures in measurement:    Note  Zero is an even number So,  \\(3.05\\)  is rounded off to  \\(3.0\\)  if we need two significant figures in measurement.", 
+            "title": "Case 1"
+        }, 
+        {
+            "location": "/physics/ch01/#precision-accuracy", 
+            "text": "", 
+            "title": "PRECISION &amp; ACCURACY"
+        }, 
+        {
+            "location": "/physics/ch01/#precision", 
+            "text": "The precision of a measurement is determined by the least count of the instrument or device.  Smaller the least count of instrument, more precise is the measurement.", 
+            "title": "Precision"
+        }, 
+        {
+            "location": "/physics/ch01/#accuracy", 
+            "text": "The accuracy of a measurement depends upon the fractional or percentage uncertainty in the measurement.  Smaller the percentage error, more accurate is the measurement. Maximum absolute uncertainty is equal to one least count of the measuring instrument.", 
+            "title": "Accuracy"
+        }, 
+        {
+            "location": "/physics/ch01/#assessment-of-total-uncertainty-in-the-final-result", 
+            "text": "Total uncertainty in the final result can be determined by the following rules:   In case of addition and subtraction absolute uncertainties are to be added.  In case of multiplication and division fractional or percentage errors are to be added.  For power factor the power is multiplied with the percentage uncertainty.  For example: In the equation  \\(u= kx^a\\) ,  \\(a \\times \\text{percentage error in} x \\text{, where} k \\text{is constant of proportionality}\\) . Uncertainty in the average value of many measurements of the same quantity is the mean of absolute differences of measurements form the average value.  For time measurement, uncertainty is obtained by dividing the least count of the timing device with the number of vibrations.    Do you know?  Counting more number of vibrations can reduce the uncertainty in the timing experiments.", 
+            "title": "Assessment of Total Uncertainty in the Final Result"
+        }, 
+        {
+            "location": "/physics/ch01/#dimensions", 
+            "text": "Each basic measurable physical quantity is represented in term of base quantities by a specific symbol for them written with in square brackets is called dimension.  The dimensions are helpful in:   Deriving a possible formula  Checking the homogeneity of a physical equation or formula.", 
+            "title": "Dimensions"
+        }, 
+        {
+            "location": "/physics/ch01/#limitations-of-dimensional-analysis", 
+            "text": "Dimension analysis has no information on dimensionless constants.  If a quantity is dependent on trigonometric or exponential function, this method cannot be used.  In some cases, it is difficult to guess the factors while deriving the relation connecting two or more physical quantities.  This method cannot be used in an equation containing two or more variables with same dimensions.", 
+            "title": "Limitations of Dimensional Analysis"
         }, 
         {
             "location": "/physics/ch02/", 
