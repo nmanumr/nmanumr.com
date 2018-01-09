@@ -62,3 +62,15 @@ button[data-md-color-primary] {
     text-align: left;
     cursor: pointer;
 }
+
+.ld span.katex-display {
+    display: inline;
+}
+
+td{
+  vertical-align: middle!important;
+}
+
+.md-hero__inner{
+  font-weight: 100;
+}
