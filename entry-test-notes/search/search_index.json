@@ -1697,23 +1697,18 @@
         }, 
         {
             "location": "/maths/", 
-            "text": "Number System\n (Not Started)\n\n\n \nSet, Functions \n Groups\n (Not Started)\n\n\n \nMatrices \n Determinants\n (Not Started)\n\n\n \nQuadratic Equations\n (Not Started)\n\n\n \nPartial Fraction\n (Not Started)\n\n\n \nSequence \n Series\n (Done)\n\n\n \nPermutation, Combination \n Probability\n (Done)\n\n\n \nBinomial Theorem\n (Done)\n\n\n \nFundamentals of Trigonometry\n (Not Started)\n\n\n \nTrigonometric Identities\n (Not Started)\n\n\n \nTrigonometric Function\n (Not Started)\n\n\n \nApplication of Trigonometry\n (Not Started)\n\n\n \nInverse Trigonometric Functions\n (Not Started)\n\n\n \nTrigonometric Equations\n (Not Started)\n\n\n \nFunctions \n Limits\n (Done)\n\n\n \nDifferentiation\n (Done)\n\n\n \nIntegration\n (In progress)\n\n\n \nAnalytical Geometry\n (Not Started)\n\n\n \nLinear Inequalities\n (Done)\n\n\n \nConic Sections\n (Almost Done)\n\n\n \nVector\n (Not Started)", 
+            "text": "Number System\n\n\n \nSet, Functions \n Groups\n (In progress)\n\n\n \nMatrices \n Determinants\n (Not Started)\n\n\n \nQuadratic Equations\n (Not Started)\n\n\n \nPartial Fraction\n\n\n \nSequence \n Series\n\n\n \nPermutation, Combination \n Probability\n\n\n \nBinomial Theorem\n\n\n \nFundamentals of Trigonometry\n (Not Started)\n\n\n \nTrigonometric Identities\n (Not Started)\n\n\n \nTrigonometric Function\n (Not Started)\n\n\n \nApplication of Trigonometry\n (Not Started)\n\n\n \nInverse Trigonometric Functions\n (Not Started)\n\n\n \nTrigonometric Equations\n (Not Started)\n\n\n \nFunctions \n Limits\n\n\n \nDifferentiation\n\n\n \nIntegration\n (In progress)\n\n\n \nAnalytical Geometry\n (Not Started)\n\n\n \nLinear Inequalities\n\n\n \nConic Sections\n (Almost Done)\n\n\n \nVector\n (Not Started)", 
             "title": "Index"
         }, 
         {
             "location": "/maths/ch01/", 
-            "text": "Number System\n\n\nTable of Sets\n\n\n\n\n\n\n\n\nName\n\n\nDefinitions\n\n\n\n\n\n\n\n\n\n\nSet of natural numbers\n\n\n\\(N={1,2,3,...}\\)\n\n\n\n\n\n\nSet of whole numbers\n\n\n\\(W={0,1,2,3,...}\\)\n\n\n\n\n\n\nSet of integers\n\n\n\\(Z={0,\\pm1,\\pm2,\\pm3,...}\\)\n\n\n\n\n\n\nSet of positive integers\n\n\n\\(Z^+={0,+1,+2,+3,...}\\)\n\n\n\n\n\n\nSet of negative integers\n\n\n\\(Z^-={0,-1,-2,-3,...}\\)\n\n\n\n\n\n\nSet of odd numbers\n\n\n\\(O={1,3,5,...}\\)\n\n\n\n\n\n\nSet of even numbers\n\n\n\\(E={0,2,4,...}\\)\n\n\n\n\n\n\nSet of prime numbers\n\n\n\\(E={2,3,5,7,11,13,...}\\)\n\n\n\n\n\n\nSet of rational numbers\n\n\n$$ Q=\\lbrace x | x=\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$\n\n\n\n\n\n\nSet of irrational numbers\n\n\n$$ Q'=\\lbrace x | x\\rlap{/}{=}\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$\n\n\n\n\n\n\nSet of real numbers\n\n\n\u211d\n\\(=Q \\cup Q'\\)\n\n\n\n\n\n\n\n\nDecimal Representation of Real Numbers\n\n\nTerminating Decimals\n\n\nA Decimal having finite number of digits in its decimal part. These are Rational numbers.\n\n\nExample\n\n\n\n\n\\(434.8888881\\)\n\n\n\\(686.67482\\)\n\n\n\\(749.6428\\)\n\n\n\n\nNon Terminating Decimals\n\n\nA decimal having infinite number of digits in its decimal part. These are non rational numbers.\n\n\n\n\n\\(3.145291....\\)\n\n\n\\(46.2394737423....\\)\n\n\n\n\nRecurring Decimals or Periodic Decimals\n\n\nA decimal in which one or more digits repeat indefinitely. These are Rational Numbers.\n\n\nExample\n\n\n\n\n\\(3.1311313131\\)\n\n\n\\(1.1211211211\\)\n\n\n\n\nOperations\n\n\nUnary Operations\n\n\nAn operation which converts one number into other.\n\n\nExamples\n\n\n\n\nSquare root\n\n\nTrigonometric functions\n\n\nDerivative\n\n\nIntegration\n\n\n\n\nBinary Operations\n\n\nAn operation which converts two numbers into third.\n\n\nA rule denoted by $* $ in a set \n\\(S\\)\n that assigns to any pair of elements of \n\\(S\\)\n taken in a definite order to another element of \n\\(S\\)\n.\n\n\nExamples\n\n\n\n\nAddition (\n\\(+\\)\n)\n\n\nSubtraction (\n\\(-\\)\n)\n\n\nMultiplication (\n\\(\\times\\)\n)\n\n\nDivision (\n\\(/\\)\n)\n\n\n\n\nReal Numbers\n\n\nProperties\n\n\nBinary Operations\n\n\n\n\n\n\n\n\nProperty\n\n\nAddition\n\n\nMultiplication\n\n\n\n\n\n\n\n\n\n\nClosure Law\n\n\n\\(\\forall x,y\\in R, x+y\\in R\\)\n\n\n\\(\\forall x,y \\in R, x\\cdotp y \\in R\\)\n\n\n\n\n\n\nAssociative Law\n\n\n\\(\\forall x,y,z\\in R, x+(y+z)=(x+y)+z\\)\n\n\n\\(\\forall x,y,z\\in R, x(yz)=(xy)z\\)\n\n\n\n\n\n\nIdentity Law\n\n\n\\(\\forall x \\in R, \\exists0\\in R\\)\n such that \n\\(x+0=0+x=x\\)\n, 0 is identity element of addition.\n\n\n\\(\\forall x \\in R, \\exists1\\in R\\)\n such that \n\\(x.1=1.x=x\\)\n, 1 is identity element of addition.\n\n\n\n\n\n\nInverse Property\n\n\n\\(\\forall x\\in R, \\exists(-x)\\in R\\)\n sucth that \n\\(x+(-x)=(-x)+x=0\\)\n\n\n\\(\\forall x\\in R, \\exists(x^{-1})\\in R\\)\n sucth that \n\\(x(x^{-1})=(x^{-1})x=1\\)\n\n\n\n\n\n\nCommutative Law\n\n\n\\(\\forall x,y\\in R, x+y=y+x\\)\n\n\n\\(\\forall x,y \\in R, xy=yx\\)\n\n\n\n\n\n\n\n\nEquality\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nReflexive Property\n\n\n\\(\\forall x\\in R, x=x\\)\n\n\n\n\n\n\nSymmetric Property\n\n\n\\(\\forall x,y\\in R, x=y\\implies y=x\\)\n\n\n\n\n\n\nTransitive Property\n\n\n\\(\\forall x,y\\in R\\)\n \n \n\\(x=y\\land y=z\\implies x=z\\)\n\n\n\n\n\n\nAdditive Property\n\n\n\\(\\forall x,y,z\\in R, x=y\\implies x+z=y+z\\)\n\n\n\n\n\n\nMultiplication Property\n\n\n\\(\\forall x,y,z\\in R x=y\\implies x.z=y.z\\)\n\n\n\n\n\n\nCancellation Property wrt addition\n\n\n\\(\\forall x,y,x\\in R, x+z=y+z\\implies x=y\\)\n\n\n\n\n\n\nCancellation Property wrt Multiplication\n\n\n\\(\\forall x,y,x\\in R, x.z=y.z\\implies x=y\\)\n, \n\\(z\\rlap{/}{=}0\\)\n\n\n\n\n\n\n\n\nInequality\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nTrichotomy Property\n\n\n\\(\\forall x,y\\in R\\)\n either \n\\(x=y\\)\n \n\\(x\ny\\)\n \n\\(x\ny\\)\n\n\n\n\n\n\nTransition Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny \\land y\nz\\implies x\nz\\)\n \n\\(x\ny \\land y\nz\\implies x\nz\\)\n\n\n\n\n\n\nAddition Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny\\implies x+z\ny+z\\)\n \n\\(x\ny\\implies x+z\ny+z\\)\n \n\n\n\n\n\n\nMultiplication Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny\\implies x.z\ny.z\\)\n (\n\\(z\n0\\)\n)\n \n\\(x\ny\\implies x.z\ny.z\\)\n (\n\\(z\n0\\)\n)\n \n\n\n\n\n\n\n\n\nFraction\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nPrinciple for equality of fractions\n\n\n$$ \\frac{a}{b}=\\frac{c}{d} \\iff ad=bc $$\n\n\n\n\n\n\nRule for Product of fractions\n\n\n$$ \\frac{a}{b} \\cdotp \\frac{c}{d}=\\frac{ac}{bd} $$\n\n\n\n\n\n\nGolden rule of fractions\n\n\n$$ \\frac{a}{b}=\\frac{ka}{kb}\\;\\;(k\\rlap{/}{=}0) $$\n\n\n\n\n\n\nRule for quotient of fractions\n\n\n$$ \\frac{\\frac{a}{b}}{\\frac{c}{d}}=\\frac{ad}{bc} $$\n\n\n\n\n\n\n\n\nComplex Numbers\n\n\n\n\nThe numbers of the form \n\\(x+iy\\)\n where \n\\(x,y\\in R\\)\n are called complex numbers. The complex numbers are denoted by \n\\(C\\)\n.\n\n\n\\(x+iy=(x,y)\\)\n, where \n\\(x\\)\n is called real part and \n\\(y\\)\n is called imaginary part of complex number.\n\n\nEvery real number is complex number with zero as its imaginary part.\n\n\n\\(\\sqrt{-a}\\times\\sqrt{-b}=\\)\n \n\\((i\\sqrt{a})\\times(i\\sqrt{b})=\\)\n \n\\(i^2\\sqrt{ab}=-\\sqrt{ab}\\)\n.\n\n\nEach imaginary number (\n\\(ib\\)\n) is complex number(\n\\(a+ib\\)\n) but each complex number(\n\\(a+ib\\)\n) not an imaginary number(\n\\(ib\\)\n).\n\n\nImaginary numbers are also called pure complex numbers.\n\n\nSum of four consecutive power of iota is always zero.\n\n\nSum and product of two conjugate numbers are always real number.\n\n\n\n\nPowers of \n\\(i\\)\n:\n\n\n\n\n\\(i=\\sqrt{-1}\\)\n\n\n\\(i^2=-1\\)\n\n\n\\(i^3=-i\\)\n\n\n\\(i^4=1\\)\n\n\n\\(i^{4n}=1\\)\n where \n\\(n\\in Z\\)\n\n\n\\(i^n+i^{n+1}+i^{n+2}+i^{n+3}=0\\)\n, \n\\(n\\in Z\\)\n\n\n\\(\\frac{1}{i}=i^{-1}=-i\\)\n\n\n\\(i^i=e^{-\\pi/2}\\)\n\n\n\\(e^{ix}=\\cos x+i\\sin x\\)\n\n\n\n\nSolving \n\\(i\\)\n Powers\n\n\n\n\nIf power is between \n\\(1-4\\)\n use above rules.\n\n\nIf power is greater then \n\\(4\\)\n divide it with 4 and use above rules.\n\n\nIf power is too large like \n\\(10000000004\\)\n add all the digits and follow above rules.\n\n\n\n\n\n\nTip\n\n\n\n\nIf power of \n\\(i\\)\n is even it must be \n\\(1\\)\n or \n\\(-1\\)\n.\n\n\nIf power of \n\\(i\\)\n is odd it must be equal to \n\\(i\\)\n or \n\\(-i\\)\n\n\nIf power of \n\\(i\\)\n is multiple of 4 then it must equal to \n\\(1\\)\n.\n\n\n\n\n\n\nOperations\n\n\n\n\n\n\n\n\nOperation\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nEquality of Complex Numbers\n\n\n\\(a+ib=c+id\\implies a=c\\land b=d\\)\n\n\n\n\n\n\nAddition of Complex Numbers\n\n\n\\(a+ib+c+id=(a+c)+(b+d)i\\)\n \n \n\\((a,b)+(c,d)=(a+c, b+d)\\)\n\n\n\n\n\n\nScalar multiplication of complex numbers\n\n\n\\(k(a+ib)=ka+ikb\\)\n\n\n\n\n\n\nMultiplication of Complex numbers\n\n\n\\((a+ib)(c+ib)=(ac-bd)+(ad+bc)i\\)\n\n\n\n\n\n\nDivision of Complex numbers\n\n\n$$ \\frac{(a,b)}{(c,d)}=\\left(\\frac{ac+bd}{c^2 + d^2}, \\frac{bc-ad}{c^2 + d^2}\\right) $$\n\n\n\n\n\n\nReciprocal or Multiplicative Inverse\n\n\n$$ \\frac{1}{z}=\\frac{a-bi}{a^2 + b^2} $$\n\n\n\n\n\n\nSquare Root\n\n\nfor \n\\(z=a+bi\\)\n $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}+ i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b\n0) $$ $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}- i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b\n0) $$\n\n\n\n\n\n\nLogarithm\n\n\n\\(\\log(z)=\\log\\vert z\\vert+i\\;arg(z)\\)\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nMultiplicative inverse of a Complex number can also be found by:\n$$ z^{-1} = \\left(\\frac{Re(z)}{|z|^2}, -\\frac{Im(z)}{|z|^2} \\right) $$\n\n\n\n\nProperties\n\n\nBinary Operations\n\n\n\n\n\n\n\n\nOperation\n\n\nAddition\n\n\nMultiplication\n\n\n\n\n\n\n\n\n\n\nIdentity Property\n\n\n\\((0,0)=9+0i\\)\n\n\n\\((1,0)=1+0i\\)\n\n\n\n\n\n\nInverse Property\n\n\n\\(\\forall (a,b)\\in C\\)\n has additive inverse \n\\((-a,-b)\\)\n\n\n\\((a,b)\\)\n as non-zero complex number has multiplicative inverse $$ \\left( \\frac{a}{a^2 +b^2}, \\frac{-b}{a^2 +b^2} \\right) $$ \n Distributive Property\nMultiplication is distributive over addition in \n\\(C\\)\n $$ (a,b)[(c,d)\\pm(e,f)]=(a,b)(c,d)\\pm(a,b)(e,f) $$ \n\n\n\n\n\n\n\n\nConjugate of Complex Number\n\n\n\n\nLet \n\\(Z\\)\n denotes a complex number then \n\\(Z=x+iy=(x,y)\\)\n then conjugate of \n\\(Z\\)\n is denoted by \n\\(\\bar{Z}\\)\n and is defined as \n\\(\\bar{Z}=x-iy=(x,-y)\\)\n.\n\n\n\n\nProperties\n\n\n\\(\\forall z, z_1, z_2\\in C\\)\n:\n\n\n\n\n\\(\\overline{(\\overline{z})}=z\\)\n\n\n\\(z.\\overline{z}=|z|^2\\)\n\n\n\\(\\overline{z_1+z_2}=\\overline{z_1}+\\overline{z_2}\\)\n\n\n\\(\\overline{z_1-z_2}=\\overline{z_1}-\\overline{z_2}\\)\n\n\n\\(\\overline{z_1.z_2}=\\overline{z_1}.\\overline{z_2}\\)\n\n\n $$ \\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}\\;\\;(z_2\\rlap{/}{=}0) $$ \n\n\n $$ \\frac{1}{z}=\\frac{\\bar{z}}{|z|^2} \\;\\;(z\\rlap{/}{=}0) $$ \n\n\n\n\nModulus \n Argument of a Complex Number\n\n\nLet \n\\(Z=x+iy=(x,y)\\)\n then:\n\n\n\n\nModulus of \n\\(Z=|Z|=\\sqrt{x^2+y^2}\\)\n\n\nArgument of \n$$ Z=arg\\;Z=\\tan^{-1}\\left(\\frac{y}{x}\\right) $$\n\n\nArgument is also called Amplitude.\n\n\n\n\nProperties of Argument\n\n\n\n\nNature of argument is just like logarithmic function.\n\n\n\\(arg(z_1.z_2)=arg(z_1)+arg(z_2)\\)\n\n\n$$ arg\\left(\\frac{z_1}{z_2}\\right)=arg(z_1)-arg(z_2) $$\n\n\n$$ arg(\\overline{z})=-arg(z)=arg\\left(\\frac{1}{z}\\right) $$\n\n\n\\(arg(z.\\bar{z})\\)\n\n\n$$ arg\\left(\\frac{z}{\\bar{z}}\\right) =2arg(z) $$\n\n\n\\(Aarg(z^n)=n\\; arg(z)\\)\n\n\n\n\nProperties of Modulus\n\n\n\n\n\\(|z|=|-z|=|\\overline{z}|=|-\\overline{z}|\\)\n\n\n\\(z.\\bar{z}=|z|^2\\)\n\n\n\\(|z^n|=|z|^2\\)\n\n\n\\(|z_1.z_2|=|z_1|.|z_2|\\)\n\n\n\\(|z_1/z_2|=|z_1|/|z_2|\\)\n\n\n\\(|z_1|-|z_2|\\le|z_1+z_2|\\le|z_1|+|z_2|\\)\n (Triangular inequality).\n\n\n\n\nGraphical Representation of Complex Numbers:\n\n\nSince a complex number is considered as an order pair of real numbers, so we can represent such numbers by points in a xy-plane (Cartesian plan) which is called \ncomplex plane\n or \nArgand Diagram\n.\n\n\nPrinciple Argument of a Complex Number\n\n\nLet \n\\(\\theta\\)\n be the principle  argument of a complex number \n\\(x+iy\\)\n defined in range \n\\(-\\pi\n\\theta\\le\\pi\\)\n such that:\n\n\n\n\nIn 1\nst\n Quadrant \n$$ \\theta=\\tan^{-1} \\left(\\frac{y}{x}\\right) $$\n\n\nIn 2\nnd\n Quadrant \n$$ \\theta=\\pi-\\tan^{-1} \\left(\\frac{y}{|x|}\\right) $$\n\n\nIn 3\nrd\n Quadrant \n$$ \\theta=\\tan^{-1} \\left(\\frac{|y|}{|x|}\\right)-\\pi $$\n\n\nIn 4\nth\n Quadrant \n$$ \\theta=-\\tan^{-1} \\left(\\frac{|y|}{x}\\right)-\\pi $$\n\n\n\n\nPolar Form of Complex Numbers\n\n\nSince every complex number \n\\(x+iy\\)\n can be represented in the form of a point \n\\((x,y)\\)\n, so we can express every complex number in the form of polar coordinates \n\\((r,\\theta)\\)\n, where \n\\(r=\\sqrt{x^2+y^2}\\)\n and \n\\(\\theta=\\tan^{-1}(y/x)\\)\n\n\n\n\n\\(x+iy=r\\cos\\theta+ir\\sin\\theta\\)\n\n\nTo convert polar coordinates into Cartesian coordinates replace \n\\((r, \\theta)\\)\n into \n\\((r\\cos\\theta, r\\sin\\theta)\\)\n\n\n\n\nDe Moivre's Theorem\n\n\n\\[ (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta,\\;\\;\\forall n\\in Z \\]\n\n\n\n\nIt can be used to solve powers of Complex Numbers.\n\n\n\n\nApplications\n\n\n\n\n$$ (Z)^{1/n} = r^{1/n} \\left(\\cos\\frac{\\theta+2\\pi k}{n} + i\\sin\\frac{\\theta+2\\pi k}{n} \\right) $$\n where \n\\(k=0,1,2,...(n-1)\\)\n. This formula is used to find the nth root of a complex number.\n\n\n\\(Z_1.Z_2=r_1r_2\\left(\\cos(\\theta_1+\\theta_2)+i\\sin(\\theta_1+\\theta_2)\\right)\\)\n\n\n$$ \\frac{Z_1}{Z_2}=\\frac{r_1}{r_2}(\\cos(\\theta_1-\\theta_2)+i\\sin(\\theta_1-\\theta_2)) $$\n\n\nComplex numbers do not hold order axioms.\n\n\n\n\nLocus of a Complex Number\n\n\nA Complex number can form following in a Cartesian Plane:\n\n\n\n\nCircle if \n\\(|z|=1\\)\n\n\nParabola if \n\\(k=|z\\pm z_1|\\)\n\n\nCircle if \n$$ \\frac{z-z_1}{z-z_2}\\rlap{/}{=}1 $$\n\n\nLine if \n$$ \\frac{z-z_1}{z-z_2}=1 $$\n\n\n\\(|z-z_1|+|z-z_2|=k\\)\n\n\nEllipse if \n\\(k\n|z_1-z_2|\\)\n\n\nNo locus if \n\\(k\n|z_1-z_2|\\)\n\n\nLine if \n\\(k=|z_1-z_2|\\)\n\n\n\n\n\n\n\\(|z-z_1|-|z-z_2|=k\\)\n\n\nNo locus if \n\\(k\n|z_1-z_2|\\)\n\n\nHyperbola if \n\\(k\n|z_1-z_2|\\)\n\n\nLine \n\\(k=|z_1-z_2|\\)", 
+            "text": "Number System\n\n\nDecimal Representation of Real Numbers\n\n\nTerminating Decimals\n\n\nA Decimal having finite number of digits in its decimal part. These are Rational numbers.\n\n\nExample\n\n\n\n\n\\(434.8888881\\)\n\n\n\\(686.67482\\)\n\n\n\\(749.6428\\)\n\n\n\n\nNon Terminating Decimals\n\n\nA decimal having infinite number of digits in its decimal part. These are non rational numbers.\n\n\n\n\n\\(3.145291....\\)\n\n\n\\(46.2394737423....\\)\n\n\n\n\nRecurring Decimals or Periodic Decimals\n\n\nA decimal in which one or more digits repeat indefinitely. These are Rational Numbers.\n\n\nExample\n\n\n\n\n\\(3.1311313131\\)\n\n\n\\(1.1211211211\\)\n\n\n\n\nReal Numbers\n\n\nProperties\n\n\n\n\n\n\n\n\nProperty\n\n\nAddition\n\n\nMultiplication\n\n\n\n\n\n\n\n\n\n\nClosure Law\n\n\n\\(\\forall x,y\\in R, x+y\\in R\\)\n\n\n\\(\\forall x,y \\in R, x\\cdotp y \\in R\\)\n\n\n\n\n\n\nAssociative Law\n\n\n\\(\\forall x,y,z\\in R, x+(y+z)=(x+y)+z\\)\n\n\n\\(\\forall x,y,z\\in R, x(yz)=(xy)z\\)\n\n\n\n\n\n\nIdentity Law\n\n\n\\(\\forall x \\in R, \\exists0\\in R\\)\n such that \n\\(x+0=0+x=x\\)\n, 0 is identity element of addition.\n\n\n\\(\\forall x \\in R, \\exists1\\in R\\)\n such that \n\\(x.1=1.x=x\\)\n, 1 is identity element of addition.\n\n\n\n\n\n\nInverse Property\n\n\n\\(\\forall x\\in R, \\exists(-x)\\in R\\)\n sucth that \n\\(x+(-x)=(-x)+x=0\\)\n\n\n\\(\\forall x\\in R, \\exists(x^{-1})\\in R\\)\n sucth that \n\\(x(x^{-1})=(x^{-1})x=1\\)\n\n\n\n\n\n\nCommutative Law\n\n\n\\(\\forall x,y\\in R, x+y=y+x\\)\n\n\n\\(\\forall x,y \\in R, xy=yx\\)\n\n\n\n\n\n\n\n\nEquality\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nReflexive Property\n\n\n\\(\\forall x\\in R, x=x\\)\n\n\n\n\n\n\nSymmetric Property\n\n\n\\(\\forall x,y\\in R, x=y\\implies y=x\\)\n\n\n\n\n\n\nTransitive Property\n\n\n\\(\\forall x,y\\in R\\)\n \n \n\\(x=y\\land y=z\\implies x=z\\)\n\n\n\n\n\n\nAdditive Property\n\n\n\\(\\forall x,y,z\\in R, x=y\\implies x+z=y+z\\)\n\n\n\n\n\n\nMultiplication Property\n\n\n\\(\\forall x,y,z\\in R x=y\\implies x.z=y.z\\)\n\n\n\n\n\n\nCancellation Property wrt addition\n\n\n\\(\\forall x,y,x\\in R, x+z=y+z\\implies x=y\\)\n\n\n\n\n\n\nCancellation Property wrt Multiplication\n\n\n\\(\\forall x,y,x\\in R, x.z=y.z\\implies x=y\\)\n, \n\\(z\\rlap{/}{=}0\\)\n\n\n\n\n\n\n\n\nInequality\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nTrichotomy Property\n\n\n\\(\\forall x,y\\in R\\)\n either \n\\(x=y\\)\n \n\\(x\ny\\)\n \n\\(x\ny\\)\n\n\n\n\n\n\nTransition Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny \\land y\nz\\implies x\nz\\)\n \n\\(x\ny \\land y\nz\\implies x\nz\\)\n\n\n\n\n\n\nAddition Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny\\implies x+z\ny+z\\)\n \n\\(x\ny\\implies x+z\ny+z\\)\n \n\n\n\n\n\n\nMultiplication Property\n\n\n\\(\\forall x,y,z\\in R\\)\n \n \n\\(x\ny\\implies x.z\ny.z\\)\n (\n\\(z\n0\\)\n)\n \n\\(x\ny\\implies x.z\ny.z\\)\n (\n\\(z\n0\\)\n)\n \n\n\n\n\n\n\n\n\nFraction\n\n\n\n\n\n\n\n\nProperty\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nPrinciple for equality of fractions\n\n\n$$ \\frac{a}{b}=\\frac{c}{d} \\iff ad=bc $$\n\n\n\n\n\n\nRule for Product of fractions\n\n\n$$ \\frac{a}{b} \\cdotp \\frac{c}{d}=\\frac{ac}{bd} $$\n\n\n\n\n\n\nGolden rule of fractions\n\n\n$$ \\frac{a}{b}=\\frac{ka}{kb}\\;\\;(k\\rlap{/}{=}0) $$\n\n\n\n\n\n\nRule for quotient of fractions\n\n\n$$ \\frac{\\frac{a}{b}}{\\frac{c}{d}}=\\frac{ad}{bc} $$\n\n\n\n\n\n\n\n\nComplex Numbers\n\n\n\n\nThe numbers of the form \n\\(x+iy\\)\n where \n\\(x,y\\in R\\)\n are called complex numbers. The complex numbers are denoted by \n\\(C\\)\n.\n\n\n\\(x+iy=(x,y)\\)\n, where \n\\(x\\)\n is called real part and \n\\(y\\)\n is called imaginary part of complex number.\n\n\nEvery real number is complex number with zero as its imaginary part.\n\n\nSet  of Real number is a special subset of complex number\n\n\n\\(\\sqrt{-a}\\times\\sqrt{-b}=\\)\n \n\\((i\\sqrt{a})\\times(i\\sqrt{b})=\\)\n \n\\(i^2\\sqrt{ab}=-\\sqrt{ab}\\)\n.\n\n\nEach imaginary number (\n\\(ib\\)\n) is complex number(\n\\(a+ib\\)\n) but each complex number(\n\\(a+ib\\)\n) not an imaginary number(\n\\(ib\\)\n).\n\n\nImaginary numbers are also called pure complex numbers.\n\n\nSum of four consecutive power of iota is always zero.\n\n\nSum and product of two conjugate numbers are always real number.\n\n\n\n\nPowers of \n\\(i\\)\n:\n\n\n\n\n\\(i=\\sqrt{-1}\\)\n\n\n\\(i^2=-1\\)\n\n\n\\(i^3=-i\\)\n\n\n\\(i^4=1\\)\n\n\n\\(i^{4n}=1\\)\n where \n\\(n\\in Z\\)\n\n\n\\(i^n+i^{n+1}+i^{n+2}+i^{n+3}=0\\)\n, \n\\(n\\in Z\\)\n\n\n\\(\\frac{1}{i}=i^{-1}=-i\\)\n\n\n\\(i^i=e^{-\\pi/2}\\)\n\n\n\\(e^{ix}=\\cos x+i\\sin x\\)\n\n\n\n\nSolving \n\\(i\\)\n Powers\n\n\n\n\nIf power is between \n\\(1-4\\)\n use above rules.\n\n\nIf power is greater then \n\\(4\\)\n divide it with 4 and use above rules.\n\n\nIf power is too large like \n\\(10000000004\\)\n add all the digits and follow above rules.\n\n\n\n\n\n\nTip\n\n\n\n\nIf power of \n\\(i\\)\n is even it must be \n\\(1\\)\n or \n\\(-1\\)\n.\n\n\nIf power of \n\\(i\\)\n is odd it must be equal to \n\\(i\\)\n or \n\\(-i\\)\n\n\nIf power of \n\\(i\\)\n is multiple of 4 then it must equal to \n\\(1\\)\n.\n\n\n\n\n\n\nOperations\n\n\n\n\n\n\n\n\nOperation\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nEquality of Complex Numbers\n\n\n\\(a+ib=c+id\\implies a=c\\land b=d\\)\n\n\n\n\n\n\nAddition of Complex Numbers\n\n\n\\(a+ib+c+id=(a+c)+(b+d)i\\)\n \n \n\\((a,b)+(c,d)=(a+c, b+d)\\)\n\n\n\n\n\n\nScalar multiplication of complex numbers\n\n\n\\(k(a+ib)=ka+ikb\\)\n\n\n\n\n\n\nMultiplication of Complex numbers\n\n\n\\((a+ib)(c+ib)=(ac-bd)+(ad+bc)i\\)\n\n\n\n\n\n\nDivision of Complex numbers\n\n\n$$ \\frac{(a,b)}{(c,d)}=\\left(\\frac{ac+bd}{c^2 + d^2}, \\frac{bc-ad}{c^2 + d^2}\\right) $$\n\n\n\n\n\n\nReciprocal or Multiplicative Inverse\n\n\n$$ \\frac{1}{z}=\\frac{a-bi}{a^2 + b^2} $$\n\n\n\n\n\n\nSquare Root\n\n\nfor \n\\(z=a+bi\\)\n $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}+ i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b\n0) $$ $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}- i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b\n0) $$\n\n\n\n\n\n\nLogarithm\n\n\n\\(\\log(z)=\\log\\vert z\\vert+i\\;arg(z)\\)\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nMultiplicative inverse of a Complex number can also be found by:\n$$ z^{-1} = \\left(\\frac{Re(z)}{|z|^2}, -\\frac{Im(z)}{|z|^2} \\right) $$\n\n\n\n\nProperties\n\n\n\n\n\n\n\n\nOperation\n\n\nAddition\n\n\nMultiplication\n\n\n\n\n\n\n\n\n\n\nIdentity Property\n\n\n\\((0,0)=9+0i\\)\n\n\n\\((1,0)=1+0i\\)\n\n\n\n\n\n\nInverse Property\n\n\n\\(\\forall (a,b)\\in C\\)\n has additive inverse \n\\((-a,-b)\\)\n\n\n\\((a,b)\\)\n as non-zero complex number has multiplicative inverse $$ \\left( \\frac{a}{a^2 +b^2}, \\frac{-b}{a^2 +b^2} \\right) $$ \n Distributive Property\nMultiplication is distributive over addition in \n\\(C\\)\n $$ (a,b)[(c,d)\\pm(e,f)]=(a,b)(c,d)\\pm(a,b)(e,f) $$ \n\n\n\n\n\n\n\n\nConjugate of Complex Number\n\n\n\n\nLet \n\\(Z\\)\n denotes a complex number then \n\\(Z=x+iy=(x,y)\\)\n then conjugate of \n\\(Z\\)\n is denoted by \n\\(\\bar{Z}\\)\n and is defined as \n\\(\\bar{Z}=x-iy=(x,-y)\\)\n.\n\n\n\n\nProperties\n\n\n\\(\\forall z, z_1, z_2\\in C\\)\n:\n\n\n\n\n\\(\\overline{(\\overline{z})}=z\\)\n\n\n\\(z.\\overline{z}=|z|^2\\)\n\n\n\\(\\overline{z_1+z_2}=\\overline{z_1}+\\overline{z_2}\\)\n\n\n\\(\\overline{z_1-z_2}=\\overline{z_1}-\\overline{z_2}\\)\n\n\n\\(\\overline{z_1.z_2}=\\overline{z_1}.\\overline{z_2}\\)\n\n\n $$ \\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}\\;\\;(z_2\\rlap{/}{=}0) $$ \n\n\n $$ \\frac{1}{z}=\\frac{\\bar{z}}{|z|^2} \\;\\;(z\\rlap{/}{=}0) $$ \n\n\n\n\nModulus \n Argument of a Complex Number\n\n\nLet \n\\(Z=x+iy=(x,y)\\)\n then:\n\n\n\n\nModulus of \n\\(Z=|Z|=\\sqrt{x^2+y^2}\\)\n\n\nArgument of \n$$ Z=arg\\;Z=\\tan^{-1}\\left(\\frac{y}{x}\\right) $$\n\n\nArgument is also called Amplitude.\n\n\n\n\nProperties of Argument\n\n\n\n\nNature of argument is just like logarithmic function.\n\n\n\\(arg(z_1.z_2)=arg(z_1)+arg(z_2)\\)\n\n\n$$ arg\\left(\\frac{z_1}{z_2}\\right)=arg(z_1)-arg(z_2) $$\n\n\n$$ arg(\\overline{z})=-arg(z)=arg\\left(\\frac{1}{z}\\right) $$\n\n\n\\(arg(z.\\bar{z})\\)\n\n\n$$ arg\\left(\\frac{z}{\\bar{z}}\\right) =2arg(z) $$\n\n\n\\(Aarg(z^n)=n\\; arg(z)\\)\n\n\n\n\nProperties of Modulus\n\n\n\n\n\\(|z|=|-z|=|\\overline{z}|=|-\\overline{z}|\\)\n\n\n\\(z.\\bar{z}=|z|^2\\)\n\n\n\\(|z^n|=|z|^2\\)\n\n\n\\(|z_1.z_2|=|z_1|.|z_2|\\)\n\n\n\\(|z_1/z_2|=|z_1|/|z_2|\\)\n\n\n\\(|z_1|-|z_2|\\le|z_1+z_2|\\le|z_1|+|z_2|\\)\n (Triangular inequality).\n\n\n\n\nGraphical Representation of Complex Numbers:\n\n\nSince a complex number is considered as an order pair of real numbers, so we can represent such numbers by points in a xy-plane (Cartesian plan) which is called \ncomplex plane\n or \nArgand Diagram\n.\n\n\n\n\nInfo\n\n\nIn order pair \n\\((a,b)\\)\n\n\n\n\n\\(a\\)\n is called x-coordinate or \nabscissa\n\n\n\\(b\\)\n is called y-coordinate or \nordinate\n\n\n\n\n\n\nPrinciple Argument of a Complex Number\n\n\nLet \n\\(\\theta\\)\n be the principle  argument of a complex number \n\\(x+iy\\)\n defined in range \n\\(-\\pi\n\\theta\\le\\pi\\)\n such that:\n\n\n\n\nIn 1\nst\n Quadrant \n$$ \\theta=\\tan^{-1} \\left(\\frac{y}{x}\\right) $$\n\n\nIn 2\nnd\n Quadrant \n$$ \\theta=\\pi-\\tan^{-1} \\left(\\frac{y}{|x|}\\right) $$\n\n\nIn 3\nrd\n Quadrant \n$$ \\theta=\\tan^{-1} \\left(\\frac{|y|}{|x|}\\right)-\\pi $$\n\n\nIn 4\nth\n Quadrant \n$$ \\theta=-\\tan^{-1} \\left(\\frac{|y|}{x}\\right)-\\pi $$\n\n\n\n\nPolar Form of Complex Numbers\n\n\nSince every complex number \n\\(x+iy\\)\n can be represented in the form of a point \n\\((x,y)\\)\n, so we can express every complex number in the form of polar coordinates \n\\((r,\\theta)\\)\n, where \n\\(r=\\sqrt{x^2+y^2}\\)\n and \n\\(\\theta=\\tan^{-1}(y/x)\\)\n\n\n\n\n\\(x+iy=r\\cos\\theta+ir\\sin\\theta\\)\n\n\nTo convert polar coordinates into Cartesian coordinates replace \n\\((r, \\theta)\\)\n into \n\\((r\\cos\\theta, r\\sin\\theta)\\)\n\n\n\n\nDe Moivre's Theorem\n\n\n\\[ (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta,\\;\\;\\forall n\\in Z \\]\n\n\n\n\nIt can be used to solve powers of Complex Numbers.\n\n\n\n\nApplications\n\n\n\n\n$$ (Z)^{1/n} = r^{1/n} \\left(\\cos\\frac{\\theta+2\\pi k}{n} + i\\sin\\frac{\\theta+2\\pi k}{n} \\right) $$\n where \n\\(k=0,1,2,...(n-1)\\)\n. This formula is used to find the nth root of a complex number.\n\n\n\\(Z_1.Z_2=r_1r_2\\left(\\cos(\\theta_1+\\theta_2)+i\\sin(\\theta_1+\\theta_2)\\right)\\)\n\n\n$$ \\frac{Z_1}{Z_2}=\\frac{r_1}{r_2}(\\cos(\\theta_1-\\theta_2)+i\\sin(\\theta_1-\\theta_2)) $$\n\n\nComplex numbers do not hold order axioms.\n\n\n\n\nLocus of a Complex Number\n\n\nA Complex number can form following in a Cartesian Plane:\n\n\n\n\nCircle if \n\\(|z|=1\\)\n\n\nParabola if \n\\(k=|z\\pm z_1|\\)\n\n\nCircle if \n$$ \\frac{z-z_1}{z-z_2}\\rlap{/}{=}1 $$\n\n\nLine if \n$$ \\frac{z-z_1}{z-z_2}=1 $$\n\n\n\\(|z-z_1|+|z-z_2|=k\\)\n\n\nEllipse if \n\\(k\n|z_1-z_2|\\)\n\n\nNo locus if \n\\(k\n|z_1-z_2|\\)\n\n\nLine if \n\\(k=|z_1-z_2|\\)\n\n\n\n\n\n\n\\(|z-z_1|-|z-z_2|=k\\)\n\n\nNo locus if \n\\(k\n|z_1-z_2|\\)\n\n\nHyperbola if \n\\(k\n|z_1-z_2|\\)\n\n\nLine \n\\(k=|z_1-z_2|\\)", 
             "title": "01 - Number System"
         }, 
         {
             "location": "/maths/ch01/#number-system", 
             "text": "", 
             "title": "Number System"
-        }, 
-        {
-            "location": "/maths/ch01/#table-of-sets", 
-            "text": "Name  Definitions      Set of natural numbers  \\(N={1,2,3,...}\\)    Set of whole numbers  \\(W={0,1,2,3,...}\\)    Set of integers  \\(Z={0,\\pm1,\\pm2,\\pm3,...}\\)    Set of positive integers  \\(Z^+={0,+1,+2,+3,...}\\)    Set of negative integers  \\(Z^-={0,-1,-2,-3,...}\\)    Set of odd numbers  \\(O={1,3,5,...}\\)    Set of even numbers  \\(E={0,2,4,...}\\)    Set of prime numbers  \\(E={2,3,5,7,11,13,...}\\)    Set of rational numbers  $$ Q=\\lbrace x | x=\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$    Set of irrational numbers  $$ Q'=\\lbrace x | x\\rlap{/}{=}\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$    Set of real numbers  \u211d \\(=Q \\cup Q'\\)", 
-            "title": "Table of Sets"
         }, 
         {
             "location": "/maths/ch01/#decimal-representation-of-real-numbers", 
@@ -1746,44 +1741,14 @@
             "title": "Example"
         }, 
         {
-            "location": "/maths/ch01/#operations", 
-            "text": "", 
-            "title": "Operations"
-        }, 
-        {
-            "location": "/maths/ch01/#unary-operations", 
-            "text": "An operation which converts one number into other.", 
-            "title": "Unary Operations"
-        }, 
-        {
-            "location": "/maths/ch01/#examples", 
-            "text": "Square root  Trigonometric functions  Derivative  Integration", 
-            "title": "Examples"
-        }, 
-        {
-            "location": "/maths/ch01/#binary-operations", 
-            "text": "An operation which converts two numbers into third.  A rule denoted by $* $ in a set  \\(S\\)  that assigns to any pair of elements of  \\(S\\)  taken in a definite order to another element of  \\(S\\) .", 
-            "title": "Binary Operations"
-        }, 
-        {
-            "location": "/maths/ch01/#examples_1", 
-            "text": "Addition ( \\(+\\) )  Subtraction ( \\(-\\) )  Multiplication ( \\(\\times\\) )  Division ( \\(/\\) )", 
-            "title": "Examples"
-        }, 
-        {
             "location": "/maths/ch01/#real-numbers", 
             "text": "", 
             "title": "Real Numbers"
         }, 
         {
             "location": "/maths/ch01/#properties", 
-            "text": "", 
-            "title": "Properties"
-        }, 
-        {
-            "location": "/maths/ch01/#binary-operations_1", 
             "text": "Property  Addition  Multiplication      Closure Law  \\(\\forall x,y\\in R, x+y\\in R\\)  \\(\\forall x,y \\in R, x\\cdotp y \\in R\\)    Associative Law  \\(\\forall x,y,z\\in R, x+(y+z)=(x+y)+z\\)  \\(\\forall x,y,z\\in R, x(yz)=(xy)z\\)    Identity Law  \\(\\forall x \\in R, \\exists0\\in R\\)  such that  \\(x+0=0+x=x\\) , 0 is identity element of addition.  \\(\\forall x \\in R, \\exists1\\in R\\)  such that  \\(x.1=1.x=x\\) , 1 is identity element of addition.    Inverse Property  \\(\\forall x\\in R, \\exists(-x)\\in R\\)  sucth that  \\(x+(-x)=(-x)+x=0\\)  \\(\\forall x\\in R, \\exists(x^{-1})\\in R\\)  sucth that  \\(x(x^{-1})=(x^{-1})x=1\\)    Commutative Law  \\(\\forall x,y\\in R, x+y=y+x\\)  \\(\\forall x,y \\in R, xy=yx\\)", 
-            "title": "Binary Operations"
+            "title": "Properties"
         }, 
         {
             "location": "/maths/ch01/#equality", 
@@ -1802,7 +1767,7 @@
         }, 
         {
             "location": "/maths/ch01/#complex-numbers", 
-            "text": "The numbers of the form  \\(x+iy\\)  where  \\(x,y\\in R\\)  are called complex numbers. The complex numbers are denoted by  \\(C\\) .  \\(x+iy=(x,y)\\) , where  \\(x\\)  is called real part and  \\(y\\)  is called imaginary part of complex number.  Every real number is complex number with zero as its imaginary part.  \\(\\sqrt{-a}\\times\\sqrt{-b}=\\)   \\((i\\sqrt{a})\\times(i\\sqrt{b})=\\)   \\(i^2\\sqrt{ab}=-\\sqrt{ab}\\) .  Each imaginary number ( \\(ib\\) ) is complex number( \\(a+ib\\) ) but each complex number( \\(a+ib\\) ) not an imaginary number( \\(ib\\) ).  Imaginary numbers are also called pure complex numbers.  Sum of four consecutive power of iota is always zero.  Sum and product of two conjugate numbers are always real number.", 
+            "text": "The numbers of the form  \\(x+iy\\)  where  \\(x,y\\in R\\)  are called complex numbers. The complex numbers are denoted by  \\(C\\) .  \\(x+iy=(x,y)\\) , where  \\(x\\)  is called real part and  \\(y\\)  is called imaginary part of complex number.  Every real number is complex number with zero as its imaginary part.  Set  of Real number is a special subset of complex number  \\(\\sqrt{-a}\\times\\sqrt{-b}=\\)   \\((i\\sqrt{a})\\times(i\\sqrt{b})=\\)   \\(i^2\\sqrt{ab}=-\\sqrt{ab}\\) .  Each imaginary number ( \\(ib\\) ) is complex number( \\(a+ib\\) ) but each complex number( \\(a+ib\\) ) not an imaginary number( \\(ib\\) ).  Imaginary numbers are also called pure complex numbers.  Sum of four consecutive power of iota is always zero.  Sum and product of two conjugate numbers are always real number.", 
             "title": "Complex Numbers"
         }, 
         {
@@ -1816,19 +1781,14 @@
             "title": "Solving \\(i\\) Powers"
         }, 
         {
-            "location": "/maths/ch01/#operations_1", 
+            "location": "/maths/ch01/#operations", 
             "text": "Operation  Definition      Equality of Complex Numbers  \\(a+ib=c+id\\implies a=c\\land b=d\\)    Addition of Complex Numbers  \\(a+ib+c+id=(a+c)+(b+d)i\\)     \\((a,b)+(c,d)=(a+c, b+d)\\)    Scalar multiplication of complex numbers  \\(k(a+ib)=ka+ikb\\)    Multiplication of Complex numbers  \\((a+ib)(c+ib)=(ac-bd)+(ad+bc)i\\)    Division of Complex numbers  $$ \\frac{(a,b)}{(c,d)}=\\left(\\frac{ac+bd}{c^2 + d^2}, \\frac{bc-ad}{c^2 + d^2}\\right) $$    Reciprocal or Multiplicative Inverse  $$ \\frac{1}{z}=\\frac{a-bi}{a^2 + b^2} $$    Square Root  for  \\(z=a+bi\\)  $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}+ i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b 0) $$ $$ \\pm\\left(\\sqrt{\\frac{|z|+a}{2}}- i \\sqrt{\\frac{|z|-a}{2}}\\right)\\;\\; (b 0) $$    Logarithm  \\(\\log(z)=\\log\\vert z\\vert+i\\;arg(z)\\)      Tip  Multiplicative inverse of a Complex number can also be found by:\n$$ z^{-1} = \\left(\\frac{Re(z)}{|z|^2}, -\\frac{Im(z)}{|z|^2} \\right) $$", 
             "title": "Operations"
         }, 
         {
             "location": "/maths/ch01/#properties_1", 
-            "text": "", 
-            "title": "Properties"
-        }, 
-        {
-            "location": "/maths/ch01/#binary-operations_2", 
             "text": "Operation  Addition  Multiplication      Identity Property  \\((0,0)=9+0i\\)  \\((1,0)=1+0i\\)    Inverse Property  \\(\\forall (a,b)\\in C\\)  has additive inverse  \\((-a,-b)\\)  \\((a,b)\\)  as non-zero complex number has multiplicative inverse $$ \\left( \\frac{a}{a^2 +b^2}, \\frac{-b}{a^2 +b^2} \\right) $$   Distributive Property Multiplication is distributive over addition in  \\(C\\)  $$ (a,b)[(c,d)\\pm(e,f)]=(a,b)(c,d)\\pm(a,b)(e,f) $$", 
-            "title": "Binary Operations"
+            "title": "Properties"
         }, 
         {
             "location": "/maths/ch01/#conjugate-of-complex-number", 
@@ -1857,7 +1817,7 @@
         }, 
         {
             "location": "/maths/ch01/#graphical-representation-of-complex-numbers", 
-            "text": "Since a complex number is considered as an order pair of real numbers, so we can represent such numbers by points in a xy-plane (Cartesian plan) which is called  complex plane  or  Argand Diagram .", 
+            "text": "Since a complex number is considered as an order pair of real numbers, so we can represent such numbers by points in a xy-plane (Cartesian plan) which is called  complex plane  or  Argand Diagram .   Info  In order pair  \\((a,b)\\)   \\(a\\)  is called x-coordinate or  abscissa  \\(b\\)  is called y-coordinate or  ordinate", 
             "title": "Graphical Representation of Complex Numbers:"
         }, 
         {
@@ -1887,8 +1847,28 @@
         }, 
         {
             "location": "/maths/ch02/", 
-            "text": "", 
+            "text": "Set, Functions \n Groups\n\n\nCollection of well defined objects is called set.\n\n\nWays of Describing a Set\n\n\n\n\n\n\nDescriptive Method:\n In this method the set can be described in words.\n\n\nFor Example: The set of natural numbers.\n\n\n\n\n\n\nTabular Method:\n In this method the set is described by listing its elements with in brackets.\n\n\nFor Example: Set of natural numbers \n\\(=\\{a,e,i,o,u\\}\\)\n\n\n\n\n\n\nSet Builder Method:\n In this method a symbol or letter is used for an arbitrary member of the set and stating the property common to all members of the set.\n\n\nFor Example: Set of natural numbers \n\\(=\\{x | x\\)\n is a vowel of the English alphabets \n\\(\\}\\)\n\n\n\n\n\n\nSet of Numbers\n\n\n\n\nNatural numbers\n \n\\(N=\\{1,2,3,...\\}\\)\n\n\nWhole numbers\n \n\\(W=\\{0,1,2,3,...\\}\\)\n\n\nIntegers\n \n\\(Z=\\{0,\\pm1,\\pm2,\\pm3,...\\}\\)\n\n\nPositive integers\n \n\\(Z^+=\\{0,+1,+2,+3,...\\}\\)\n\n\nNegative integers\n \n\\(Z^-=\\{0,-1,-2,-3,...\\}\\)\n\n\nOdd numbers\n \n\\(O=\\{1,3,5,...\\}\\)\n\n\nEven numbers\n \n\\(E=\\{0,2,4,...\\}\\)\n\n\nPrime numbers\n \n\\(E=\\{2,3,5,7,11,13,...\\}\\)\n\n\nRational numbers\n $$ Q=\\lbrace x | x=\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$\n\n\nIrrational numbers\n $$ Q'=\\lbrace x | x\\rlap{/}{=}\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$\n\n\nReal numbers\n \n\\(R=Q \\cup Q'\\)\n\n\n\n\nTerms Regarding Sets\n\n\n\n\nOrder of Set:\n The number of elements present in a set is called order of set.\n\n\nFinite Set:\n If a set has definite number of elements present in it. \nExample:\n \n\\(\\{1,2,3,...,999\\}\\)\n\n\nInfinite Sets:\n If a set has indefinite number of elements present in it. \nExample:\n \n\\(\\{1,2,3,...,n\\}\\)\n\n\nNull or Empty Set:\n A set having no element. It is denoted by \n\\(\\phi\\)\n.\n\n\nSingleton Set:\n A set having only one element. \nExample:\n \n\\(\\{7\\}\\)\n.\n\n\nEqual Sets:\n Two sets \n\\(A\\)\n \n \n\\(B\\)\n are equal iff they have same elements. \nExample:\n If \n\\(A=\\{1,2,3\\}\\)\n \n \n\\(B=\\{2,1,3\\}\\)\n then \n\\(A=B\\)\n.\n\n\nEquivalent or Similar Set:\n Two sets \n\\(A\\)\n \n \n\\(B\\)\n are equivalent iff a one to one correspondence exits between the elements of the sets. \nExample:\n If \n\\(A=\\{1,2,3,4,5\\}\\)\n \n \n\\(B=\\{a,e,i,o,u\\}\\)\n then \n\\(A~B\\)\n.\n\n\nSubset:", 
             "title": "02 - Set, Functions & Groups"
+        }, 
+        {
+            "location": "/maths/ch02/#set-functions-groups", 
+            "text": "Collection of well defined objects is called set.", 
+            "title": "Set, Functions &amp; Groups"
+        }, 
+        {
+            "location": "/maths/ch02/#ways-of-describing-a-set", 
+            "text": "Descriptive Method:  In this method the set can be described in words.  For Example: The set of natural numbers.    Tabular Method:  In this method the set is described by listing its elements with in brackets.  For Example: Set of natural numbers  \\(=\\{a,e,i,o,u\\}\\)    Set Builder Method:  In this method a symbol or letter is used for an arbitrary member of the set and stating the property common to all members of the set.  For Example: Set of natural numbers  \\(=\\{x | x\\)  is a vowel of the English alphabets  \\(\\}\\)", 
+            "title": "Ways of Describing a Set"
+        }, 
+        {
+            "location": "/maths/ch02/#set-of-numbers", 
+            "text": "Natural numbers   \\(N=\\{1,2,3,...\\}\\)  Whole numbers   \\(W=\\{0,1,2,3,...\\}\\)  Integers   \\(Z=\\{0,\\pm1,\\pm2,\\pm3,...\\}\\)  Positive integers   \\(Z^+=\\{0,+1,+2,+3,...\\}\\)  Negative integers   \\(Z^-=\\{0,-1,-2,-3,...\\}\\)  Odd numbers   \\(O=\\{1,3,5,...\\}\\)  Even numbers   \\(E=\\{0,2,4,...\\}\\)  Prime numbers   \\(E=\\{2,3,5,7,11,13,...\\}\\)  Rational numbers  $$ Q=\\lbrace x | x=\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$  Irrational numbers  $$ Q'=\\lbrace x | x\\rlap{/}{=}\\frac{p}{q}, p, q \\in Z, q\\rlap{/}{=}0 \\rbrace $$  Real numbers   \\(R=Q \\cup Q'\\)", 
+            "title": "Set of Numbers"
+        }, 
+        {
+            "location": "/maths/ch02/#terms-regarding-sets", 
+            "text": "Order of Set:  The number of elements present in a set is called order of set.  Finite Set:  If a set has definite number of elements present in it.  Example:   \\(\\{1,2,3,...,999\\}\\)  Infinite Sets:  If a set has indefinite number of elements present in it.  Example:   \\(\\{1,2,3,...,n\\}\\)  Null or Empty Set:  A set having no element. It is denoted by  \\(\\phi\\) .  Singleton Set:  A set having only one element.  Example:   \\(\\{7\\}\\) .  Equal Sets:  Two sets  \\(A\\)     \\(B\\)  are equal iff they have same elements.  Example:  If  \\(A=\\{1,2,3\\}\\)     \\(B=\\{2,1,3\\}\\)  then  \\(A=B\\) .  Equivalent or Similar Set:  Two sets  \\(A\\)     \\(B\\)  are equivalent iff a one to one correspondence exits between the elements of the sets.  Example:  If  \\(A=\\{1,2,3,4,5\\}\\)     \\(B=\\{a,e,i,o,u\\}\\)  then  \\(A~B\\) .  Subset:", 
+            "title": "Terms Regarding Sets"
         }, 
         {
             "location": "/maths/ch03/", 
@@ -1902,8 +1882,83 @@
         }, 
         {
             "location": "/maths/ch05/", 
-            "text": "", 
+            "text": "Partial Fraction\n\n\n\n\nTo express a single rational fraction as a sum of two or more rational fractions is called Partial fraction.\n\n\nExpressing a rational function as a sum of partial fraction is called Partial Fraction Resolution.\n\n\nIt plays an important part in the study of calculus\n\n\n\n\nTerms Regarding Partial Fraction\n\n\n\n\n\n\nConditional Equation:\n It is an equation is which two two algebraic expressions are equal for particular values of variables.\n\n\nExample:\n \n\\(2x=3\\)\n\n\n\n\n\n\nIdentity:\n An equation that is true for all the value of \n\\(x\\)\n is called identity.\n\n\nExample:\n \n\\((x+3)(x+4)=x^2+7x+12\\)\n\n\n\n\n\n\nRational Fraction:\n The quotient of two polynomials \n\\(\\frac{P(x)}{Q(x)}\\)\n, \n\\(Q\\rlap{/}{=}0\\)\n with no common factors, is called a rational fraction. Rational fractions are of two types.\n\n\nExample:\n \n$$ \\frac{x^3 - x^2 + x+1}{x^2 + 5} $$\n\n\n\n\n\n\nProper Fraction:\n The rational fraction \n\\(\\frac{P(x)}{Q(x)}\\)\n is called proper if degree of numerator (\n\\(P(x)\\)\n) is less than degree of denominator (\n\\(Q(x)\\)\n).\n\n\nExample:\n \n$$ \\frac{2x-5}{x^2+4} $$\n\n\n\n\n\n\nImproper Fraction:\n The rational fraction \n\\(\\frac{P(x)}{q(x)}\\)\n is called proper if degree of numerator (\n\\(P(x)\\)\n) is greater than or equal to degree of denominator (\n\\(Q(x)\\)\n).\n\n\nExample:\n \n$$ \\frac{x}{2x-3} $$\n\n\n\n\n\n\nPartial Fraction Resolution.\n\n\nFollowing are the main points of resolving a rational fraction \n\\(\\frac{P(x)}{Q(x)}\\)\n into partial fraction:\n\n\n\n\nThe degree of \n\\(P(x)\\)\n should be less than the degree of \n\\(Q(x)\\)\n. If not, divide and work with reminder theorem.\n\n\nClear the given equation of fractions.\n\n\nEquate the coefficients of like terms (power of \n\\(x\\)\n)\n\n\nSolve the resulting equation for coefficients.\n\n\n\n\nThere are following cases of partial fraction resolution from a rational fraction $$ \\frac{P(x)}{Q(x)} $$\n\n\nCase 1\n\n\nWhen \n\\(Q(x)\\)\n has only non-repeating linear factors\n\n\nExample\n\n\n\\[ \\frac{x-7}{(x-1)(x+2)} \\]\n\n\nSolution\n\n\nThis case can be solved easily by using cover up method:\n\n\n\n\nAs we known the above equation will be written as: $$ \\frac{x-7}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2} $$\n\n\nTo find \n\\(A\\)\n cover \n\\(x-1\\)\n and put \n\\(x=1\\)\n on right side: $$ \\frac{(1)-7}{(1)+2}=\\frac{-6}{3}=-2 $$\n\n\nTo find \n\\(B\\)\n cover \n\\(x+2\\)\n and put \n\\(x=-2\\)\n on right side: $$ \\frac{(-2)-7}{(-2)-1}=\\frac{-9}{-3}=3 $$\n\n\nSo $$ \\frac{x-7}{(x-1)(x+2)}=\\frac{-2}{x-1}+\\frac{3}{x+2} $$\n\n\n\n\nCase 2\n\n\nWhen \n\\(Q(x)\\)\n has repeating linear factors\n\n\nExample\n\n\n\\[ \\frac{x^2 + x-1}{(x+2)^3} \\]\n\n\nSolution\n\n\nCheckout textbook solution.\n\n\nCase 3\n\n\nWhen \n\\(Q(x)\\)\n has non-repeating irreducible quadratic factors\n\n\nExample\n\n\n\\[ \\frac{3x-11}{(x^2 +1)(x+3)} \\]\n\n\nSolution\n\n\nCheckout textbook solution.\n\n\nCase 4\n\n\nWhen \n\\(Q(x)\\)\n has repeating irreducible quadratic factors\n\n\nExample\n\n\n\\[ \\frac{3x-11}{(x^2 +1)^2(x+3)} \\]\n\n\nSolution\n\n\nCheckout textbook solution.", 
             "title": "05 - Partial Fraction"
+        }, 
+        {
+            "location": "/maths/ch05/#partial-fraction", 
+            "text": "To express a single rational fraction as a sum of two or more rational fractions is called Partial fraction.  Expressing a rational function as a sum of partial fraction is called Partial Fraction Resolution.  It plays an important part in the study of calculus", 
+            "title": "Partial Fraction"
+        }, 
+        {
+            "location": "/maths/ch05/#terms-regarding-partial-fraction", 
+            "text": "Conditional Equation:  It is an equation is which two two algebraic expressions are equal for particular values of variables.  Example:   \\(2x=3\\)    Identity:  An equation that is true for all the value of  \\(x\\)  is called identity.  Example:   \\((x+3)(x+4)=x^2+7x+12\\)    Rational Fraction:  The quotient of two polynomials  \\(\\frac{P(x)}{Q(x)}\\) ,  \\(Q\\rlap{/}{=}0\\)  with no common factors, is called a rational fraction. Rational fractions are of two types.  Example:   $$ \\frac{x^3 - x^2 + x+1}{x^2 + 5} $$    Proper Fraction:  The rational fraction  \\(\\frac{P(x)}{Q(x)}\\)  is called proper if degree of numerator ( \\(P(x)\\) ) is less than degree of denominator ( \\(Q(x)\\) ).  Example:   $$ \\frac{2x-5}{x^2+4} $$    Improper Fraction:  The rational fraction  \\(\\frac{P(x)}{q(x)}\\)  is called proper if degree of numerator ( \\(P(x)\\) ) is greater than or equal to degree of denominator ( \\(Q(x)\\) ).  Example:   $$ \\frac{x}{2x-3} $$", 
+            "title": "Terms Regarding Partial Fraction"
+        }, 
+        {
+            "location": "/maths/ch05/#partial-fraction-resolution", 
+            "text": "Following are the main points of resolving a rational fraction  \\(\\frac{P(x)}{Q(x)}\\)  into partial fraction:   The degree of  \\(P(x)\\)  should be less than the degree of  \\(Q(x)\\) . If not, divide and work with reminder theorem.  Clear the given equation of fractions.  Equate the coefficients of like terms (power of  \\(x\\) )  Solve the resulting equation for coefficients.   There are following cases of partial fraction resolution from a rational fraction $$ \\frac{P(x)}{Q(x)} $$", 
+            "title": "Partial Fraction Resolution."
+        }, 
+        {
+            "location": "/maths/ch05/#case-1", 
+            "text": "When  \\(Q(x)\\)  has only non-repeating linear factors", 
+            "title": "Case 1"
+        }, 
+        {
+            "location": "/maths/ch05/#example", 
+            "text": "\\[ \\frac{x-7}{(x-1)(x+2)} \\]", 
+            "title": "Example"
+        }, 
+        {
+            "location": "/maths/ch05/#solution", 
+            "text": "This case can be solved easily by using cover up method:   As we known the above equation will be written as: $$ \\frac{x-7}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2} $$  To find  \\(A\\)  cover  \\(x-1\\)  and put  \\(x=1\\)  on right side: $$ \\frac{(1)-7}{(1)+2}=\\frac{-6}{3}=-2 $$  To find  \\(B\\)  cover  \\(x+2\\)  and put  \\(x=-2\\)  on right side: $$ \\frac{(-2)-7}{(-2)-1}=\\frac{-9}{-3}=3 $$  So $$ \\frac{x-7}{(x-1)(x+2)}=\\frac{-2}{x-1}+\\frac{3}{x+2} $$", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/maths/ch05/#case-2", 
+            "text": "When  \\(Q(x)\\)  has repeating linear factors", 
+            "title": "Case 2"
+        }, 
+        {
+            "location": "/maths/ch05/#example_1", 
+            "text": "\\[ \\frac{x^2 + x-1}{(x+2)^3} \\]", 
+            "title": "Example"
+        }, 
+        {
+            "location": "/maths/ch05/#solution_1", 
+            "text": "Checkout textbook solution.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/maths/ch05/#case-3", 
+            "text": "When  \\(Q(x)\\)  has non-repeating irreducible quadratic factors", 
+            "title": "Case 3"
+        }, 
+        {
+            "location": "/maths/ch05/#example_2", 
+            "text": "\\[ \\frac{3x-11}{(x^2 +1)(x+3)} \\]", 
+            "title": "Example"
+        }, 
+        {
+            "location": "/maths/ch05/#solution_2", 
+            "text": "Checkout textbook solution.", 
+            "title": "Solution"
+        }, 
+        {
+            "location": "/maths/ch05/#case-4", 
+            "text": "When  \\(Q(x)\\)  has repeating irreducible quadratic factors", 
+            "title": "Case 4"
+        }, 
+        {
+            "location": "/maths/ch05/#example_3", 
+            "text": "\\[ \\frac{3x-11}{(x^2 +1)^2(x+3)} \\]", 
+            "title": "Example"
+        }, 
+        {
+            "location": "/maths/ch05/#solution_3", 
+            "text": "Checkout textbook solution.", 
+            "title": "Solution"
         }, 
         {
             "location": "/maths/ch06/", 
@@ -2806,77 +2861,87 @@
             "title": "21 - Vector"
         }, 
         {
-            "location": "/chemistry/ch01/", 
-            "text": "", 
-            "title": "01 - Chemistry"
-        }, 
-        {
-            "location": "/computer/ch01/", 
-            "text": "", 
-            "title": "01 - Computer"
-        }, 
-        {
-            "location": "/iq/", 
-            "text": "This portion just requires some practices with a sound mind. If one have both he can easily score 10 out of 10 marks in this portion.\n\n\nThere are 4 types of questions in IQ portion that appears in NET:\n\n\n\n\nCoding\n\n\nDirections\n\n\nOdd one out\n\n\nFind the missing number", 
+            "location": "/comingsoon/", 
+            "text": "Coming Soon", 
             "title": "Index"
         }, 
         {
-            "location": "/iq/coding/", 
-            "text": "Coding\n\n\nThis type has some further sub-types.\n\n\nSubstitution based questions:\n\n\nIn this type of questions something is substituted in place of each letter. We have to find the corresponding substitution and substitute these value for the next word given.\n\n\nFor example:\n If \"earth\" is coded as 23456 then how the word \"heart\" will be coded as?\n\n\nSolution:\n Note the word Earth and Heart are made from the same set of alphabets. In this case each alphabet corresponds to a specific number. In this case 2 for e, 3 for a and so on. So you'll use this knowledge to construct the new number from the given word ie. heart. In place of the number (23456) you can also be given another word. Then each alphabet will correspond to some other alphabet.\n\n\nAlphabets Shuffling\n\n\nEach alphabet is moved forward or backward to give the new word: This method might seem lengthy apparently but once you get used to it, you will solve the questions within few seconds. Consider a question.\n\n\nFor example:\n If BAT stands for CDQ then PEN stands for?\n\n\nSolution:\n\n\n\n\nStep 1:\n Write down all the alphabets along with numbers from 1 to 26.\n\n\n\n\nStep 2:\n Convert the alphabets you have to numbers. i.e.\n\nB A  T will be 2 1 20\n\nAnd\n\nC  D Q will be 3 4 17\n\n\n\n\n\n\nStep 3:\n Find the difference between the two figures\n\n3 \u2013 2 = 1\n\n4 \u2013 1 = 3\n\n17 \u2013 20 = -3\n\n\n\n\n\n\nStep 4:\n Convert second word (PEN) into digits that will be 16 5 14\n\n\n\n\n\n\nStep 5:\n Add the difference you got above.\n\n16 + 1 = 17\n\n5 + 3 = 8\n\n14 + (-3)  = 11\n\n\n\n\n\n\nStep 6:\n Convert it back to alphabets. (Q H K)", 
-            "title": "Coding"
+            "location": "/comingsoon/#coming-soon", 
+            "text": "", 
+            "title": "Coming Soon"
         }, 
         {
-            "location": "/iq/coding/#coding", 
+            "location": "/comingsoon/", 
+            "text": "Coming Soon", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/comingsoon/#coming-soon", 
+            "text": "", 
+            "title": "Coming Soon"
+        }, 
+        {
+            "location": "/iq/", 
+            "text": "This portion just requires some practices with a sound mind. If one have both he can easily score 10 out of 10 marks in this portion.\n\n\nThere are 4 types of questions in IQ portion that appears in NET:\n\n\n\n\n01 - Coding\n\n\n02 - Directions\n\n\n03 - Odd one out\n\n\n04 - Find the missing number", 
+            "title": "Index"
+        }, 
+        {
+            "location": "/iq/ch01/", 
+            "text": "Coding\n\n\nThis type has some further sub-types.\n\n\nSubstitution based questions:\n\n\nIn this type of questions something is substituted in place of each letter. We have to find the corresponding substitution and substitute these value for the next word given.\n\n\nFor example:\n If \"earth\" is coded as 23456 then how the word \"heart\" will be coded as?\n\n\nSolution:\n Note the word Earth and Heart are made from the same set of alphabets. In this case each alphabet corresponds to a specific number. In this case 2 for e, 3 for a and so on. So you'll use this knowledge to construct the new number from the given word ie. heart. In place of the number (23456) you can also be given another word. Then each alphabet will correspond to some other alphabet.\n\n\nAlphabets Shuffling\n\n\nEach alphabet is moved forward or backward to give the new word: This method might seem lengthy apparently but once you get used to it, you will solve the questions within few seconds. Consider a question.\n\n\nFor example:\n If BAT stands for CDQ then PEN stands for?\n\n\nSolution:\n\n\n\n\nStep 1:\n Write down all the alphabets along with numbers from 1 to 26.\n\n\n\n\nStep 2:\n Convert the alphabets you have to numbers. i.e.\n\nB A  T will be 2 1 20\n\nAnd\n\nC  D Q will be 3 4 17\n\n\n\n\n\n\nStep 3:\n Find the difference between the two figures\n\n3 \u2013 2 = 1\n\n4 \u2013 1 = 3\n\n17 \u2013 20 = -3\n\n\n\n\n\n\nStep 4:\n Convert second word (PEN) into digits that will be 16 5 14\n\n\n\n\n\n\nStep 5:\n Add the difference you got above.\n\n16 + 1 = 17\n\n5 + 3 = 8\n\n14 + (-3)  = 11\n\n\n\n\n\n\nStep 6:\n Convert it back to alphabets. (Q H K)", 
+            "title": "01 - Coding"
+        }, 
+        {
+            "location": "/iq/ch01/#coding", 
             "text": "This type has some further sub-types.", 
             "title": "Coding"
         }, 
         {
-            "location": "/iq/coding/#substitution-based-questions", 
+            "location": "/iq/ch01/#substitution-based-questions", 
             "text": "In this type of questions something is substituted in place of each letter. We have to find the corresponding substitution and substitute these value for the next word given.  For example:  If \"earth\" is coded as 23456 then how the word \"heart\" will be coded as?  Solution:  Note the word Earth and Heart are made from the same set of alphabets. In this case each alphabet corresponds to a specific number. In this case 2 for e, 3 for a and so on. So you'll use this knowledge to construct the new number from the given word ie. heart. In place of the number (23456) you can also be given another word. Then each alphabet will correspond to some other alphabet.", 
             "title": "Substitution based questions:"
         }, 
         {
-            "location": "/iq/coding/#alphabets-shuffling", 
+            "location": "/iq/ch01/#alphabets-shuffling", 
             "text": "Each alphabet is moved forward or backward to give the new word: This method might seem lengthy apparently but once you get used to it, you will solve the questions within few seconds. Consider a question.  For example:  If BAT stands for CDQ then PEN stands for?  Solution:   Step 1:  Write down all the alphabets along with numbers from 1 to 26.   Step 2:  Convert the alphabets you have to numbers. i.e. \nB A  T will be 2 1 20 \nAnd \nC  D Q will be 3 4 17    Step 3:  Find the difference between the two figures \n3 \u2013 2 = 1 \n4 \u2013 1 = 3 \n17 \u2013 20 = -3    Step 4:  Convert second word (PEN) into digits that will be 16 5 14    Step 5:  Add the difference you got above. \n16 + 1 = 17 \n5 + 3 = 8 \n14 + (-3)  = 11    Step 6:  Convert it back to alphabets. (Q H K)", 
             "title": "Alphabets Shuffling"
         }, 
         {
-            "location": "/iq/direction/", 
+            "location": "/iq/ch02/", 
             "text": "Directions:\n\n\nQuestions from this category can give you hard time, but if you just follow the steps it will be an easy task.\n\n\nFor example:\n Ali moved 5km north, turned right and moved 4km straight, again turned right and moved 5km. What is his position with respect to the starting point?\n\n\nSolution:\n\n\n\n\nStep 1:\n Draw the direction axis first of all. I.e. North, south, east and west.\n\n\nStep 2:\n Consider origin as the starting point.\n\n\nStep 3:\n Plot the distance moved as lines on the paper. i.e from origin a line towards north will show 5km, then a line on right 4km, then line on another right 5km. This is the final point.\n\n\nStep 4:\n Check the distance of this point from the origin. You can also be asked the direction of the final point.", 
-            "title": "Directions"
+            "title": "02 - Directions"
         }, 
         {
-            "location": "/iq/direction/#directions", 
+            "location": "/iq/ch02/#directions", 
             "text": "Questions from this category can give you hard time, but if you just follow the steps it will be an easy task.  For example:  Ali moved 5km north, turned right and moved 4km straight, again turned right and moved 5km. What is his position with respect to the starting point?  Solution:   Step 1:  Draw the direction axis first of all. I.e. North, south, east and west.  Step 2:  Consider origin as the starting point.  Step 3:  Plot the distance moved as lines on the paper. i.e from origin a line towards north will show 5km, then a line on right 4km, then line on another right 5km. This is the final point.  Step 4:  Check the distance of this point from the origin. You can also be asked the direction of the final point.", 
             "title": "Directions:"
         }, 
         {
-            "location": "/iq/odd_one_out/", 
+            "location": "/iq/ch03/", 
             "text": "Odd One Out:\n\n\nThis portion tests your intelligence and your general knowledge. In most of the questions General knowledge is tested. Now these questions can be about anything that exists including the people. Moreover such questions can have multiple answers depending upon the reader. Everyone thinks in his own way.\n\n\nQuestions may include 3 countries of Asia and a 4\nth\n one from Africa. You may be given 3 parts of a specific structure and a 4\nth\n one from some other source. Questions may include animals, birds, and books. Also a common question in which some months are given and you are to select the odd one. This is done on basis of number of days in them usually, however their can also be some different logic. To master this portion you need practice.", 
-            "title": "Pick Odd one Out"
+            "title": "03 - Pick Odd one Out"
         }, 
         {
-            "location": "/iq/odd_one_out/#odd-one-out", 
+            "location": "/iq/ch03/#odd-one-out", 
             "text": "This portion tests your intelligence and your general knowledge. In most of the questions General knowledge is tested. Now these questions can be about anything that exists including the people. Moreover such questions can have multiple answers depending upon the reader. Everyone thinks in his own way.  Questions may include 3 countries of Asia and a 4 th  one from Africa. You may be given 3 parts of a specific structure and a 4 th  one from some other source. Questions may include animals, birds, and books. Also a common question in which some months are given and you are to select the odd one. This is done on basis of number of days in them usually, however their can also be some different logic. To master this portion you need practice.", 
             "title": "Odd One Out:"
         }, 
         {
-            "location": "/iq/find_number/", 
+            "location": "/iq/ch04/", 
             "text": "Finding the missing number\n\n\nIn these questions you have to detect which operation is performed on first number to get next number, or which operation is performed on first two numbers to get 3\nrd\n number.\n\n\nYou have to search for any such operation. It can be multiplication, division, addition, a combination of two operations. In these questions you need to use ur brain. As you'll solve the questions you'll get to know about different possibilities/operations which can be performed.\n\n\nExamples\n\n\n\n\nFind the number which replaces the question mark. 1, 2, 3, 5, 8, 13,?\n\n\nFind the next term in series 1, 2, 4, 8, 16 ...\n\n\n\n\nSolutions\n\n\n\n\nTwo numbers are added to get the next number. 1+2 = 3 2 +3 =5 and so on...\n\n\n2 is multiplied to first term to get next one", 
-            "title": "Find Missing Number"
+            "title": "04 - Find Missing Number"
         }, 
         {
-            "location": "/iq/find_number/#finding-the-missing-number", 
+            "location": "/iq/ch04/#finding-the-missing-number", 
             "text": "In these questions you have to detect which operation is performed on first number to get next number, or which operation is performed on first two numbers to get 3 rd  number.  You have to search for any such operation. It can be multiplication, division, addition, a combination of two operations. In these questions you need to use ur brain. As you'll solve the questions you'll get to know about different possibilities/operations which can be performed.", 
             "title": "Finding the missing number"
         }, 
         {
-            "location": "/iq/find_number/#examples", 
+            "location": "/iq/ch04/#examples", 
             "text": "Find the number which replaces the question mark. 1, 2, 3, 5, 8, 13,?  Find the next term in series 1, 2, 4, 8, 16 ...", 
             "title": "Examples"
         }, 
         {
-            "location": "/iq/find_number/#solutions", 
+            "location": "/iq/ch04/#solutions", 
             "text": "Two numbers are added to get the next number. 1+2 = 3 2 +3 =5 and so on...  2 is multiplied to first term to get next one", 
             "title": "Solutions"
         }
