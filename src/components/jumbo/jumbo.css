@@ -1,0 +1,39 @@
+#jumbo canvas {
+    background-color: #f1f1f1;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+#jumbo {
+    position: relative;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.banner-title h1 {
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.banner-title h3{
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: n
+}
+
+@media (max-width: 700px){
+    .banner-title h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .banner-title h3{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nmanumr.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmanumr/nmanumr.github.io.git"
+  },
+  "author": "Nauman Umer <nmanumr@gmail.com> (https://nmanumr.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmanumr/nmanumr.github.io/issues"
+  },
+  "homepage": "https://github.com/nmanumr/nmanumr.github.io#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  }
+}
