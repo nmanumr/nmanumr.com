@@ -109,5 +109,8 @@ const options = {
     setTimeout(function(){
         particlesJS("particle", options);
         window.dispatchEvent(new Event('resize'));
+
+        var loader = document.getElementById('loader');
+        loader.classList.add('hide');
     }, 100)
 })()

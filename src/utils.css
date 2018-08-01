@@ -47,10 +47,6 @@
     background-color: var(--primary-color);
 }
 
-.gray-bg {
-    background: #f5f5f5;
-}
-
 .print-only {
     display: none;
 }
