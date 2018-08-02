@@ -43,6 +43,11 @@ section {
     font-weight: 600;
 }
 
+.section h2>a{
+    padding-left: 10px;
+    font-size: 90%;
+}
+
 .section .subheading {
     font-size: 14px;
 }
@@ -60,4 +65,10 @@ p {
     font-weight: 700;
     line-height: 14px;
     opacity: 0.6;
+}
+
+@media print{
+    .section h2>a{
+        display: none;
+    }
 }
