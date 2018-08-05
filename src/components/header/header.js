@@ -7,7 +7,7 @@ const header = document.getElementById('header');
 function setHeaderScroll() {
     var top = window.scrollY;
 
-    header.setAttribute('data-scrolled', top > 5 ? 'scrolled' : 'none');
+    header.setAttribute('data-scrolled', top > 5 ? 'scrolled' : '');
 }
 
 
