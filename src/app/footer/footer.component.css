@@ -1,0 +1,25 @@
+footer{
+    padding: 80px 0;
+    text-align: center;
+}
+
+footer .copyright {
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.heart{
+    height: 14px;
+    position: relative;
+    bottom: -2px;
+}
+
+use{
+    fill: var(--text-color);
+}
+
+.copyright>svg{
+    position: relative;
+    bottom: -2px;
+}
