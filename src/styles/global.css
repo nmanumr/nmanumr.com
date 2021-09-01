@@ -22,9 +22,15 @@
     body {
         counter-reset: sectionCounter;
     }
+}
 
+@layer utilities {
     .prose h1.title {
-        @apply font-recoleta font-normal mb-0;
+        @apply font-recoleta text-4xl md:text-5xl lg:text-6xl font-normal mb-0;
+    }
+
+    .prose h2.title {
+        @apply font-recoleta text-3xl md:text-4xl font-normal mt-0 mb-0;
     }
 
     .prose .subtitle {
@@ -39,5 +45,20 @@
     .section-title::before {
         content: counter(sectionCounter, decimal-leading-zero) " ───";
         @apply inline-block mr-2.5;
+    }
+
+    .prose a {
+        @apply font-normal relative pb-0.5;
+        text-decoration: none;
+    }
+
+    .prose a::after {
+        @apply absolute bottom-0 -left-0.5 w-0 h-0.5 transition-all duration-150 rounded-full;
+        content: ' ';
+        background-color: currentColor;
+    }
+
+    .prose a:hover::after {
+        width: calc(100% + 8px)
     }
 }
