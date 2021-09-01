@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Recoleta';
+        src: url('/fonts/Recoleta-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Recoleta';
+        src: url('/fonts/Recoleta-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    body {
+        counter-reset: sectionCounter;
+    }
+
+    .prose h1.title {
+        @apply font-recoleta font-normal mb-0;
+    }
+
+    .prose .subtitle {
+        @apply mt-0;
+    }
+
+    .section-title {
+        @apply font-mono relative text-sm text-gray-400 mb-3;
+        counter-increment: sectionCounter;
+    }
+
+    .section-title::before {
+        content: counter(sectionCounter, decimal-leading-zero) " ───";
+        @apply inline-block mr-2.5;
+    }
+}
