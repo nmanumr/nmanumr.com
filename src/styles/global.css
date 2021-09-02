@@ -19,12 +19,24 @@
         font-display: swap;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         counter-reset: sectionCounter;
     }
 }
 
 @layer utilities {
+    .container {
+        @apply w-full max-w-7xl mx-auto px-6;
+    }
+
+    .prose.container {
+        @apply max-w-7xl;
+    }
+
     .prose h1.title {
         @apply font-recoleta text-4xl md:text-5xl lg:text-6xl font-normal mb-0;
     }
@@ -47,18 +59,42 @@
         @apply inline-block mr-2.5;
     }
 
-    .prose a {
-        @apply font-normal relative pb-0.5;
+    .prose a.underline {
+        @apply relative pb-1;
         text-decoration: none;
     }
 
-    .prose a::after {
+    .prose a.underline:not(.arrow) {
+        @apply font-normal text-gray-600 hover:text-gray-900;
+        text-decoration: none;
+    }
+
+    .prose a.underline::before {
         @apply absolute bottom-0 -left-0.5 w-0 h-0.5 transition-all duration-150 rounded-full;
         content: ' ';
         background-color: currentColor;
     }
 
-    .prose a:hover::after {
-        width: calc(100% + 8px)
+    .prose a.underline:hover::before,
+    .prose a.underline:focus::before {
+        width: calc(100% + 4px)
     }
+    
+    a.arrow::after {
+        @apply absolute ml-2 -bottom-0.5 transition duration-300;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+        content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 3H13M13 3V11M13 3L3 13' stroke='black' stroke-width='2' stroke-linecap='square'/%3E%3C/svg%3E%0A");
+    }
+
+    a.arrow:hover::after,
+    a.arrow:focus::after {
+        transform: translate3d(10px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+    }
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    @apply py-2 focus:outline-none border-b border-gray-400 focus:border-gray-900;
 }

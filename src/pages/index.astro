@@ -1,5 +1,8 @@
 ---
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
 ---
+
 <html lang="en">
 
 <head>
@@ -14,33 +17,43 @@
 	<link rel="stylesheet" href={Astro.resolve('../styles/global.css')} />
 </head>
 
-<body class="w-full max-w-7xl mx-auto px-6">
-	<div class="prose prose-sm sm:prose" style="max-width: none;">
-		<div class="max-w-2xl min-h-screen py-20 flex items-center">
-			<div>
-				<h6 class="section-title">Welcome</h6>
-				<h1 class="title">Nauman Umer.</h1>
-				<p class="font-sans text-sm subtitle opacity-75">@nmanumr</p>
+<body>
+	<Header />
 
-				<p class="text-justify">
-					Hi there, I'm a web developer. I loves building and rebuilding programs using
-					color, fonts, and illustrations.
-				</p>
-				<p class="text-justify">
-					I'm a great admirer of attention to details and beautifily crafted designs that not only look great
-					but also are easy to use. I specialize in creating user interfaces and user experiences utilizing
-					the latest web technologies.
-				</p>
-				<p class="text-justify">
-					I'm passionate about helping others, and I'm always looking for an opportunity to help someone out.
-				</p>
+	<section class="min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-81px)] py-20 flex items-center" id="welcome">
+		<div class="container prose prose-sm sm:prose">
+			<div class="max-w-2xl">
+				<div>
+					<h6 class="section-title">Welcome</h6>
+					<h1 class="title">Nauman Umer.</h1>
+					<p class="font-sans text-sm subtitle opacity-75">@nmanumr</p>
 
-				<!-- Add contect me button -->
+					<p class="text-justify">
+						Hi there, I'm a web developer. I loves building and rebuilding programs using
+						color, fonts, and illustrations.
+					</p>
+					<p class="text-justify">
+						I'm a great admirer of attention to details and beautifily crafted designs that not only look great
+						but also are easy to use. I specialize in creating user interfaces and user experiences utilizing
+						the latest web technologies.
+					</p>
+					<p class="text-justify">
+						I'm passionate about helping others, and I'm always looking for an opportunity to help someone out.
+					</p>
+
+					<div>
+						<a href="#contact" class="underline arrow">
+							Contact Me
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
+	</section>
 
-		<div class="py-16">
-			<h6 class="section-title">Tools &amp; Technologies</h6>
+	<section class="py-16" id="expertise">
+		<div class="container prose prose-sm sm:prose">
+			<h6 class="section-title">Expertise</h6>
 			<h2 class="title">Things I'm good at.</h2>
 			<p class="text-sm subtitle"></p>
 
@@ -76,8 +89,10 @@
 				</div>
 			</div>
 		</div>
+	</section>
 
-		<div class="py-16">
+	<section class="py-16" id="projects">
+		<div class="container prose prose-sm sm:prose">
 			<h6 class="section-title">Projects</h6>
 			<h2 class="title">Things I've been working on.</h2>
 			<p class="text-sm subtitle"></p>
@@ -87,46 +102,77 @@
 				Take a peek at some of the projects I had been recently working on.
 			</p>
 		</div>
+	</section>
 
-		<div class="py-16">
+	<section class="py-16" id="contact">
+		<div class="container prose prose-sm sm:prose">
 			<h6 class="section-title">Contact Me</h6>
 			<h2 class="title">Let's build somthing<br>Incredible Together.</h2>
 			<p class="text-sm subtitle"></p>
 
-			<p class="max-w-2xl text-justify">
-				Feel free to reach out if you're looking for a <a>developer</a>,
-				have a question, or just want to connect.
-			</p>
+			<div class="grid md:grid-cols-2 gap-x-12">
+				<div>
+					<p class="max-w-md text-justify">
+						Feel free to reach out if you're looking for a developer,
+						have a question, or just want to connect.
+					</p>
 
-			<div class="mt-10 space-y-4 flex flex-col">
-				<div>
-					<a href="#" class="inline-flex items-center space-x-4">
-						<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 00.497-3.753C20.18 7.773 21.692 5.25 22 4.009v.001z"/>
-						</svg>
-						<span>@nmanumr</span>
-					</a>
+					<div class="mt-10 space-y-4 flex flex-col">
+						<div>
+							<a href="#" class="inline-flex items-center space-x-4 underline">
+								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 00.497-3.753C20.18 7.773 21.692 5.25 22 4.009v.001z"/>
+								</svg>
+								<span>@nmanumr</span>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="inline-flex items-center space-x-4 underline">
+								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>
+								</svg>
+								<span>@nmanumr</span>
+							</a>
+						</div>
+						<div>
+							<a href="#" class="inline-flex items-center space-x-4 underline">
+								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 16a4 4 0 100-8 4 4 0 000 8z"/>
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1.5a2.5 2.5 0 105 0V12a9 9 0 10-5.5 8.28"/>
+								</svg>
+								<span>nmanumr@gmail.com</span>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div>
-					<a href="#" class="inline-flex items-center space-x-4">
-						<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>
-						</svg>
-						<span>@nmanumr</span>
-					</a>
-				</div>
-				<div>
-					<a href="#" class="inline-flex items-center space-x-4">
-						<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 16a4 4 0 100-8 4 4 0 000 8z"/>
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1.5a2.5 2.5 0 105 0V12a9 9 0 10-5.5 8.28"/>
-						</svg>
-						<span>nmanumr@gmail.com</span>
-					</a>
-				</div>
+				<form class="space-y-10" action="https://formspree.io/f/mjvjjwne" method="POST">
+					<div class="flex flex-col">
+						<label class="w-full">Name</label>
+						<input placeholder="enter your name" type="text" name="name" required />
+					</div>
+					<div class="flex flex-col">
+						<label class="w-full">Subject</label>
+						<input placeholder="enter a subject" type="text" name="subject" required />
+					</div>
+					<div class="flex flex-col">
+						<label class="w-full">Email Address</label>
+						<input placeholder="enter your email address" type="email" name="_replyto" required />
+					</div>
+					<div class="flex flex-col">
+						<label class="w-full">Message</label>
+						<textarea style="min-height: 2.5rem;" placeholder="how can I help you today" rows="3" name="message" required></textarea>
+					</div>
+					<div>
+						<button class="bg-gray-900 font-medium text-gray-100 rounded py-3 px-6 hover:bg-gray-700 transition duration-250">
+							Send Message
+						</button>
+					</div>
+				</form>
 			</div>
 		</div>
-	</div>
+	</section>
+
+	<Footer />
 </body>
 
 </html>
