@@ -1,0 +1,86 @@
+---
+import BaseLayout from './Base.astro';
+import DevTag from '../components/DevTag.jsx';
+
+
+const {content} = Astro.props;
+---
+
+<BaseLayout title={content.title} description={content.description}>
+  <section class="py-16" id="expertise">
+    <div class="container container-sm prose prose-sm sm:prose">
+      <div class="mb-10">
+        <h1 class="title text-center">{content.title}</h1>
+        <p class="text-sm subtitle text-center">Late 2018</p>
+        <div class="w-full flex-shrink-0">
+          <div class="aspect-w-16 aspect-h-9">
+            <img class="object-cover rounded !m-0" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <dl class="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2">
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">
+              Code
+            </dt>
+            <dd class="mt-1 text-sm text-gray-900">
+              <a class="inline-flex space-x-1 items-center">
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>
+								</svg>
+                <span>nmanumr/maze@cb5b561</span>
+              </a>
+            </dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">
+              Live
+            </dt>
+            <dd class="mt-1 text-sm text-gray-900">
+              <a class="inline-flex space-x-1 items-center">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9" />
+                  <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                  <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                  <path d="M11.5 3a17 17 0 0 0 0 18" />
+                  <path d="M12.5 3a17 17 0 0 1 0 18" />
+                </svg>
+                <span>View Site</span>
+              </a>
+            </dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">
+              Collabrators
+            </dt>
+            <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
+              <div class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative">
+                  <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src="https://avatars.githubusercontent.com/u/31469896" />
+                  <span class="pl-5">Ameer Hamza Naveed</span>
+              </div>
+              <div class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative">
+                  <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src="https://avatars.githubusercontent.com/u/48012712" />
+                  <span class="pl-5">Ibtasham Ali</span>
+              </div>
+            </dd>
+          </div>
+          <div class="sm:col-span-1">
+            <dt class="text-sm font-medium text-gray-500">
+              Stack
+            </dt>
+            <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
+              <DevTag name="js" />
+              <DevTag name="TailwindCSS" />
+              <DevTag name="Angular" />
+              <DevTag name="JQuery" />
+            </dd>
+          </div>
+        </dl>
+      </div>
+
+      <slot />
+    </div>
+  </section>
+</BaseLayout>

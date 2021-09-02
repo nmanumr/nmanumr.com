@@ -37,6 +37,10 @@
         @apply max-w-7xl;
     }
 
+    .prose.container-sm {
+        @apply max-w-5xl;
+    }
+
     .prose h1.title {
         @apply font-recoleta text-4xl md:text-5xl lg:text-6xl font-normal mb-0;
     }
