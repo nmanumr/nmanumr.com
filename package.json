@@ -13,6 +13,8 @@
     "tailwindcss": "^2.2.9"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1"
   }
 }

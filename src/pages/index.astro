@@ -1,6 +1,23 @@
 ---
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
+
+let projects = [{
+	name: "Class Resources",
+	description: "An app that provides a platform to share class learning resources especially for COMSATS Students."
+}, {
+	name: "FUNG Short Notes",
+	description: "Short Entry Test Notes for FUNG. It was an attempt the write short notes that can be used to easily revise different subjects before entry."
+}, {
+	name: "Mazes 101",
+	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
+}, {
+	name: "FUNG Short Notes",
+	description: "Short Entry Test Notes for FUNG. It was an attempt the write short notes that can be used to easily revise different subjects before entry."
+}, {
+	name: "Mazes 101",
+	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
+}]
 ---
 
 <html lang="en">
@@ -41,11 +58,11 @@ import Footer from "../components/footer.astro";
 						I'm passionate about helping others, and I'm always looking for an opportunity to help someone out.
 					</p>
 
-					<div>
+					<p>
 						<a href="#contact" class="underline arrow">
 							Contact Me
 						</a>
-					</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -100,6 +117,35 @@ import Footer from "../components/footer.astro";
 			<p class="max-w-2xl text-justify">
 				I prefer to keep myself active and am always working on a new project.
 				Take a peek at some of the projects I had been recently working on.
+			</p>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 max-w-md md:max-w-full mx-auto">
+				{projects.map((prod) => (
+				<div class="flex flex-col space-y-6">
+					<div class="w-full flex-shrink-0">
+						<div class="aspect-w-16 aspect-h-9">
+							<img class="object-cover rounded !m-0" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80" />
+						</div>
+					</div>
+					<div class="flex-grow flex flex-col">
+						<h4 class="!mt-0">{prod.name}</h4>
+						<p class="text-justify line-clamp-4 flex-grow">
+							{prod.description}
+						</p>
+						<div>
+							<a href="#contact" class="underline arrow">
+								Learn More
+							</a>
+						</div>
+					</div>
+				</div>
+				))}
+			</div>
+
+			<p class="text-right pr-10 md:!mt-12">
+				<a href="#contact" class="underline arrow">
+					View All Projects
+				</a>
 			</p>
 		</div>
 	</section>
