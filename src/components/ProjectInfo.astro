@@ -1,0 +1,41 @@
+---
+import DevTag from './DevTag';
+import ProjectUrls from './ProjectUrls.jsx';
+
+const {codeUrl, siteUrl, siteText = 'View Site', stack = [], collabrators} = Astro.props;
+const userData = {};
+
+for (let user of (collabrators || [])) {
+    let data = await fetch(`https://api.github.com/users/${user}`);
+    userData[user] = await data.json();
+}
+---
+
+<dl class="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2">
+    <ProjectUrls codeUrl={codeUrl} siteUrl={siteUrl} siteText={siteText} />
+
+    <div class="sm:col-span-1">
+        <dt class="text-sm font-medium text-gray-500">
+            Stack
+        </dt>
+        <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
+            {stack.map((tech) => <DevTag name={tech} />)}
+        </dd>
+    </div>
+
+    {
+        !collabrators ? <div class="sm:col-span-1" /> : <div>
+            <dt class="text-sm font-medium text-gray-500">
+                Collabrators
+            </dt>
+            <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
+                {collabrators.map((user) => (
+                    <a href={userData[user].html_url} class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative !no-underline">
+                        <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src={userData[user].avatar_url} />
+                        <span class="pl-5">{userData[user].name}</span>
+                    </a>
+                ))}
+            </dd>
+        </div>
+    }
+</dl>

@@ -22,7 +22,7 @@ const devNamesMap = {
     'ts': 'TypeScript'
 }
 
-export default function devTag({name}) {
+export default function DevTag({name}) {
     let [icon, color1, color2] = iconsMap[name.toLowerCase()];
 
     if (devNamesMap[name]) {
