@@ -48,10 +48,10 @@ export default function ProjectUrls({ codeUrl, siteUrl, siteText = 'View Site' }
                 </dt>
                 <dd class="mt-1 text-sm text-gray-900">
                     {
-                        codeUrl ? <a class="inline-flex space-x-1 items-center">
+                        codeUrl ? <a href={codeUrl} class="inline-flex space-x-1 items-center">
                             <GithubIcon />
                             <span>{codeUrlTitle}</span>
-                        </a> : <a class="inline-flex space-x-1 items-center">
+                        </a> : <a href={siteUrl} class="inline-flex space-x-1 items-center">
                             <GlobeIcon />
                             <span>{siteText}</span>
                         </a>
@@ -63,7 +63,7 @@ export default function ProjectUrls({ codeUrl, siteUrl, siteText = 'View Site' }
                 !codeUrl ? <div class="sm:col-span-1" /> : <div>
                     <dt class="text-sm font-medium text-gray-500">Live</dt>
                     <dd class="mt-1 text-sm text-gray-900">
-                        <a class="inline-flex space-x-1 items-center">
+                        <a href={siteUrl} class="inline-flex space-x-1 items-center">
                             <GlobeIcon />
                             <span>{siteText}</span>
                         </a>

@@ -2,20 +2,21 @@
 import BaseLayout from "../layouts/Base.astro";
 
 let projects = [{
+	name: "Working at Objex, Inc.",
+	image: "/images/objex.png",
+	description: "At Objex, Inc. I workd remotely as UI/UX Engineer on their product named Rabbito, a social microblogging platform."
+}, {
+	name: "Mazes 101",
+	image: "/images/mazes101.png",
+	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
+}, {
 	name: "Class Resources",
+	image: "/images/classresources.png",
 	description: "An app that provides a platform to share class learning resources especially for COMSATS Students."
 }, {
-	name: "FUNG Short Notes",
-	description: "Short Entry Test Notes for FUNG. It was an attempt the write short notes that can be used to easily revise different subjects before entry."
-}, {
-	name: "Mazes 101",
-	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
-}, {
-	name: "FUNG Short Notes",
-	description: "Short Entry Test Notes for FUNG. It was an attempt the write short notes that can be used to easily revise different subjects before entry."
-}, {
-	name: "Mazes 101",
-	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
+	name: "EasyBasic IDE",
+	image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80",
+	description: "A desktop IDE for GWBASIC. Supports GW-BASIC syntax highlighting, IntelliSense, program execution, built-in documentation, code examples."
 }]
 ---
 
@@ -63,30 +64,30 @@ let projects = [{
 				I am passionate about creating simple and elegant solutions that make complex tasks easy for users to execute.
 			</p>
 
-			<div class="grid md:grid-cols-2">
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-8">
 				<div>
-					<h4>Languages &amp; Frameworks</h4>
-					<ul>
-						<li>Javascript/Typescript</li>
-						<li>HTML/CSS</li>
-						<li>React</li>
-						<li>VueJs</li>
-						<li>Angular 2+</li>
-						<li>Python/Django</li>
-						<li>Flutter/Dart</li>
-					</ul>
+					<h4>Languages</h4>
+					<p class="text-justify">
+						I mostly work with javascript/typescript and feel myself quite good at web
+						technologies like HTML/CSS and javascript. But, I also have worked with
+						Python, Java, C/C++ and bit of rust.
+					</p>
 				</div>
 				<div>
-					<h4>Tools &amp; Platforms</h4>
-					<ul>
-						<li>Git</li>
-						<li>Docker</li>
-						<li>ZSH</li>
-						<li>Postman</li>
-						<li>WebStrom</li>
-						<li>MacOS</li>
-						<li>Linux</li>
-					</ul>
+					<h4>Frameworks</h4>
+					<p class="text-justify">
+						I look at frameworks just a tool to get things done and thats why I always
+						open to different frameworks. Some of the frameworks I have worked with includes,
+						Angular, Vue, React, Alpine, TailwindCss, Bootstrap, JQuery, Django, Scrappy.
+					</p>
+				</div>
+				<div>
+					<h4>Platforms &amp; Tools</h4>
+					<p class="text-justify">
+						Some of the platsforms &amp; tools I use on regularly includes, Figma, Git,
+						Postman, VsCode, WebStrom, Docker, PyCharm, WebStrom, Latex. I use MacOS as
+						primary OS but had been a great admirrer of Linux for long time. 
+					</p>
 				</div>
 			</div>
 		</div>
@@ -108,7 +109,7 @@ let projects = [{
 				<div class="flex flex-col space-y-6">
 					<div class="w-full flex-shrink-0">
 						<div class="aspect-w-16 aspect-h-9">
-							<img class="object-cover rounded !m-0" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80" />
+							<img class="object-cover rounded !m-0" src={prod.image} />
 						</div>
 					</div>
 					<div class="flex-grow flex flex-col">

@@ -85,7 +85,7 @@
     }
     
     a.arrow::after {
-        @apply absolute ml-2 -bottom-0.5 transition duration-300;
+        @apply absolute ml-2 -bottom-0.5 transition duration-300 pointer-events-none;
         transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
         transform-style: preserve-3d;
         content: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 3H13M13 3V11M13 3L3 13' stroke='black' stroke-width='2' stroke-linecap='square'/%3E%3C/svg%3E%0A");

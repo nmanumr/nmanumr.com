@@ -1,0 +1,36 @@
+---
+import PostLayout from "../../layouts/Post.astro";
+import ProjectInfo from '../../components/ProjectInfo.astro';
+import { Markdown } from 'astro/components';
+---
+
+<PostLayout content={{title: "Class Resources"}}>
+    <Markdown>
+An app that provides a platform to share class learning resources especially for COMSATS Students.
+Features include sharing class resources, course timetable, events, and reminders like assignments deadlines, etc.
+
+## Class Resources Mobile App
+
+<ProjectInfo
+    codeUrl="https://github.com/nmanumr/comsats-class-resources"
+    siteUrl="https://apkpure.com/comsats-class-resources/com.firebaseapp.comsats_cr"
+    stack={['flutter', 'dart', 'Firebase']}
+    collabrators={['ameerhmzx', 'ibtashamalee']}
+/>
+
+Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+
+## Class Resources Web App
+
+<ProjectInfo
+    codeUrl="https://github.com/BlackArcX/classx_vue"
+    siteUrl="https://classx.web.app/classes/FA18-BCS-B"
+    stack={['Vue', 'TailwindCSS', 'Firebase']}
+    collabrators={['ibtashamalee', 'lablnet']}
+/>
+
+Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+
+
+    </Markdown>
+</PostLayout>
