@@ -60,7 +60,7 @@ export default function ProjectUrls({ codeUrl, siteUrl, siteText = 'View Site' }
             </div>
 
             {
-                !codeUrl ? <div class="sm:col-span-1" /> : <div>
+                !codeUrl || !siteUrl ? <div class="sm:col-span-1" /> : <div>
                     <dt class="text-sm font-medium text-gray-500">Live</dt>
                     <dd class="mt-1 text-sm text-gray-900">
                         <a href={siteUrl} class="inline-flex space-x-1 items-center">

@@ -3,18 +3,22 @@ import BaseLayout from "../layouts/Base.astro";
 
 let projects = [{
 	name: "Working at Objex, Inc.",
+	url: '/work/objex',
 	image: "/images/objex.png",
 	description: "At Objex, Inc. I workd remotely as UI/UX Engineer on their product named Rabbito, a social microblogging platform."
 }, {
 	name: "Mazes 101",
+	url: '/projects/mazes101',
 	image: "/images/mazes101.png",
 	description: "Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze."
 }, {
 	name: "Class Resources",
+	url: '/projects/class-resources',
 	image: "/images/classresources.png",
 	description: "An app that provides a platform to share class learning resources especially for COMSATS Students."
 }, {
 	name: "EasyBasic IDE",
+	url: '/projects/easybasic',
 	image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80",
 	description: "A desktop IDE for GWBASIC. Supports GW-BASIC syntax highlighting, IntelliSense, program execution, built-in documentation, code examples."
 }]
@@ -101,24 +105,24 @@ let projects = [{
 
 			<p class="max-w-2xl text-justify">
 				I prefer to keep myself active and am always working on a new project.
-				Take a peek at some of the projects I had been recently working on.
+				Take a peek at some of the recent things I had been working on.
 			</p>
 
 			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 max-w-md md:max-w-full mx-auto">
-				{projects.map((prod) => (
+				{projects.map((project) => (
 				<div class="flex flex-col space-y-6">
 					<div class="w-full flex-shrink-0">
 						<div class="aspect-w-16 aspect-h-9">
-							<img class="object-cover rounded !m-0" src={prod.image} />
+							<img class="object-cover rounded !m-0" src={project.image} />
 						</div>
 					</div>
 					<div class="flex-grow flex flex-col">
-						<h4 class="!mt-0">{prod.name}</h4>
+						<h4 class="!mt-0">{project.name}</h4>
 						<p class="text-justify line-clamp-4 flex-grow">
-							{prod.description}
+							{project.description}
 						</p>
 						<div>
-							<a href="#contact" class="underline arrow">
+							<a href={project.url} class="underline arrow">
 								Learn More
 							</a>
 						</div>

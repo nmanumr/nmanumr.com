@@ -1,0 +1,34 @@
+---
+import PostLayout from "../../layouts/Post.astro";
+import ProjectInfo from '../../components/ProjectInfo.astro';
+import { Markdown } from 'astro/components';
+---
+
+<PostLayout content={{title: "Easybasic IDE"}}>
+    <Markdown>
+
+<ProjectInfo
+    codeUrl="https://github.com/nmanumr/maze/tree/cb5b561554b4f6beb06d3ec65d72a0a47ed8ec84"
+    siteUrl="https://nmanumr.github.io/maze"
+    stack={['ts', 'angular', 'TailwindCSS']}
+    collabrators={['ameerhmzx']}
+/>
+
+A desktop IDE for GWBASIC. Supports GW-BASIC syntax highlighting, IntelliSense, program execution,
+built-in documentation, code examples. GW-BASIC code was executed using another open-source GW-BASIC
+interpreter named PC-BASIC.
+
+
+
+Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+
+
+## Maze Puzzle v2
+
+Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+
+## Mazes101
+
+Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+    </Markdown>
+</PostLayout>

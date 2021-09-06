@@ -32,7 +32,7 @@ for (let user of (collabrators || [])) {
                 {collabrators.map((user) => (
                     <a href={userData[user].html_url} class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative !no-underline">
                         <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src={userData[user].avatar_url} />
-                        <span class="pl-5">{userData[user].name}</span>
+                        <span class="pl-5">{userData[user].name || user}</span>
                     </a>
                 ))}
             </dd>
