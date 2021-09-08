@@ -6,12 +6,12 @@ import { Markdown } from 'astro/components';
 
 <PostLayout content={{title: "Maze Puzzle", image: "/images/mazes101-2x.png"}}>
     <Markdown>
-A Maze is a puzzle where the player has to find a path from entrance to a goal without hitting the dead end.
-What's so special about mazes for me as a computer science student was the algorithm which generate a
+A Maze is a puzzle where the player has to find a path from the entrance to a goal without hitting the dead end.
+What's so special about mazes for me as a computer science student was the algorithm that generates a
 maze with a guarantee that one and only one path between given any two points on board.
-My main source of motivation for mazes came from a book ["Mazes for Programmers" by Jamis Buck](https://pragprog.com/titles/jbmaze/mazes-for-programmers/).
+My main source of motivation for mazes came from the book ["Mazes for Programmers" by Jamis Buck](https://pragprog.com/titles/jbmaze/mazes-for-programmers/).
 
-I have been fasinated by mazes for quite long time and hence attempted to do quite alot of stuff with mazes
+I have been fascinated by mazes for a quite long time and hence attempted to do quite a lot of stuff with mazes
 and algorithms. Following are some of these attempts:
 
 <hr class="!mb-4" />
@@ -28,23 +28,23 @@ and algorithms. Following are some of these attempts:
 </video>
 ### Purpose and Goal
 
-I was just exploring the algorithms to generate a pure mazes (pure maze is a maze with one
-and only one path between given any two cells) and I stambled across an algorithm named
+I was just exploring the algorithms to generate a pure maze (pure maze is a maze with one
+and only one path between given any two cells) and I stumbled across an algorithm named
 [Recursive Backtrack](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search)
-the good thing about this algorithm that it is easy to implement and generates relatively complex
+the good thing about this algorithm is that it is easy to implement and generates relatively complex
 mazes.
 
 ### Problems Faced
 
 The biggest hurdle for me at that time was a way to draw a maze of screen along with player.
-Although I should have drawn it using SVGs but due to my limited of knowledge SVGs I instead drawn
-the maze board with a div as a cell with border as their wall. Which went well expect some caveats
-on edges.
+Although I should have drawn it using SVGs but due to my limited of knowledge SVGs. Instead I drew
+the maze board with a div as a cell with the border as their wall. Which went well expect some caveats
+on the edges.
 
 ### Lessons Learnt
 
 The greatest takeaway from this project was that CSS borders don't have smooth edges. Which can be
-a blessing or curse specially if you don't fully understand them. Overall, this project helped me
+a blessing or curse especially if you don't fully understand them. Overall, this project helped me
 better understand DOM manipulations, keyboard interactions and simple board game designs.
 
 <hr class="!mb-4" />
@@ -63,22 +63,21 @@ better understand DOM manipulations, keyboard interactions and simple board game
 
 ### Purpose and Goal
 
-This version of the maze was developed as semester project and we tried to explore different maze
+This version of the maze was developed as a semester project and we tried to explore different maze
 generation algorithms and animations, path finder algorithms. Another aim for
-this project was to get fimilar with Java.
+this project was to get familiar with Java.
 
 ### Problems Faced
 
-The biggest problem here was to draw maze board and align player inside cells which is actually
-hovering independently on board. And, for some reason we choose the same approch of div with border
-as in web version. There were alot of other small goodies too which became quite hard to implement
-like multiple maze generetion algorithms support, player animation.
+The biggest problem here was to draw a maze board and align player inside cells that is actually
+hovering independently on board. And, for some reason, we choose the same approach of div with the border
+as in the web version. There were a lot of other small goodies too which became quite hard to implement
+like multiple maze generation algorithms support, player animation.
 
 ### Lessons Learnt
 
-This project helped us develop better understanding of cross platform GUI frameworks, object
-oriented approches and Java. Also in the process we developed a great respect for developers who
-work with stictly typed languages.
+This project helped us develop a better understanding of cross-platform GUI frameworks, object-oriented approaches, and Java. Also in the process, we developed a great respect for developers who
+work with strictly typed languages.
 
 <hr class="!mb-4" />
 
