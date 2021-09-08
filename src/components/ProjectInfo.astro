@@ -6,10 +6,8 @@ const {title, subtitle="", codeUrl, siteUrl, siteText = 'View Site', stack = [],
 const userData = {};
 
 for (let user of (collabrators || [])) {
-    // let data = await fetch(`https://api.github.com/users/${user}`);
-    // userData[user] = await data.json();
-
-    userData[user] = {};
+    let data = await fetch(`https://api.github.com/users/${user}`);
+    userData[user] = await data.json();
 }
 ---
 
