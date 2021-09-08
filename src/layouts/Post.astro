@@ -12,11 +12,11 @@ const {content} = Astro.props;
       <div class="mb-8">
         <div class="w-full flex-shrink-0 mb-10">
           <div class="aspect-w-16 aspect-h-9">
-            <img class="object-cover rounded !m-0" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3452&q=80" />
+            <img class="object-cover rounded !m-0" src={content.image} />
           </div>
         </div>
         <h2 class="title">{content.title}</h2>
-        <p class="text-sm subtitle">Thursday 12, Aug 2019</p>
+        <p class="text-sm subtitle">{content.subtitle}</p>
       </div>
 
       <slot />
