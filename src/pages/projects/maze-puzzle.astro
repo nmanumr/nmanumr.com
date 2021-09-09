@@ -6,12 +6,12 @@ import { Markdown } from 'astro/components';
 
 <PostLayout content={{title: "Maze Puzzle", image: "/images/mazes101-2x.png"}}>
     <Markdown>
-A Maze is a puzzle where the player has to find a path from entrance to a goal without hitting the dead end.
-What's so special about mazes for me as a computer science student was the algorithm which generate a
+A Maze is a puzzle where the player has to find a path from the entrance to a goal without hitting the dead end.
+What's so special about mazes for me as a computer science student was the algorithm that generates a
 maze with a guarantee that one and only one path between given any two points on board.
-My main source of motivation for mazes came from a book ["Mazes for Programmers" by Jamis Buck](https://pragprog.com/titles/jbmaze/mazes-for-programmers/).
+My main source of motivation for mazes came from the book ["Mazes for Programmers" by Jamis Buck](https://pragprog.com/titles/jbmaze/mazes-for-programmers/).
 
-I have been fasinated by mazes for quite long time and hence attempted to do quite alot of stuff with mazes
+I have been fascinated by mazes for a quite long time and hence attempted to do quite a lot of stuff with mazes
 and algorithms. Following are some of these attempts:
 
 <hr class="!mb-4" />
@@ -28,23 +28,23 @@ and algorithms. Following are some of these attempts:
 </video>
 ### Purpose and Goal
 
-I was just exploring the algorithms to generate a pure mazes (pure maze is a maze with one
-and only one path between given any two cells) and I stambled across an algorithm named
+I was just exploring the algorithms to generate a pure maze (pure maze is a maze with one
+and only one path between given any two cells) and I stumbled across an algorithm named
 [Recursive Backtrack](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search)
-the good thing about this algorithm that it is easy to implement and generates relatively complex
+the good thing about this algorithm is that it is easy to implement and generates relatively complex
 mazes.
 
 ### Problems Faced
 
 The biggest hurdle for me at that time was a way to draw a maze of screen along with player.
-Although I should have drawn it using SVGs but due to my limited of knowledge SVGs I instead drawn
-the maze board with a div as a cell with border as their wall. Which went well expect some caveats
-on edges.
+Although I should have drawn it using SVGs but due to my limited of knowledge SVGs. Instead I drew
+the maze board with a div as a cell with the border as their wall. Which went well expect some caveats
+on the edges.
 
 ### Lessons Learnt
 
 The greatest takeaway from this project was that CSS borders don't have smooth edges. Which can be
-a blessing or curse specially if you don't fully understand them. Overall, this project helped me
+a blessing or curse especially if you don't fully understand them. Overall, this project helped me
 better understand DOM manipulations, keyboard interactions and simple board game designs.
 
 <hr class="!mb-4" />
@@ -63,22 +63,21 @@ better understand DOM manipulations, keyboard interactions and simple board game
 
 ### Purpose and Goal
 
-This version of the maze was developed as semester project and we tried to explore different maze
+This version of the maze was developed as a semester project and we tried to explore different maze
 generation algorithms and animations, path finder algorithms. Another aim for
-this project was to get fimilar with Java.
+this project was to get familiar with Java.
 
 ### Problems Faced
 
-The biggest problem here was to draw maze board and align player inside cells which is actually
-hovering independently on board. And, for some reason we choose the same approch of div with border
-as in web version. There were alot of other small goodies too which became quite hard to implement
-like multiple maze generetion algorithms support, player animation.
+The biggest problem here was to draw a maze board and align player inside cells that is actually
+hovering independently on board. And, for some reason, we choose the same approach of div with the border
+as in the web version. There were a lot of other small goodies too which became quite hard to implement
+like multiple maze generation algorithms support, player animation.
 
 ### Lessons Learnt
 
-This project helped us develop better understanding of cross platform GUI frameworks, object
-oriented approches and Java. Also in the process we developed a great respect for developers who
-work with stictly typed languages.
+This project helped us develop a better understanding of cross-platform GUI frameworks, object-oriented approaches, and Java. Also in the process, we developed a great respect for developers who
+work with strictly typed languages.
 
 <hr class="!mb-4" />
 
@@ -96,27 +95,26 @@ work with stictly typed languages.
 
 ### Purpose and Goal
 
-The purpose of this attempt was to apply everything I learnt about mazes till now to write an
-imporved version.
+The purpose of this attempt was to apply everything I learned about mazes till now to write an
+improved version.
 
 ### Problems Faced
 
-I wanted the final build to be as small as it cam be so I didn't want to include any frontend
+I wanted the final build to be as small as it can be so I didn't want to include any frontend
 framework but at this time I was in love with JSX syntax so I created a custom
-[JSX Fatcory Function](https://github.com/nmanumr/maze/blob/master/src/utils/h/index.ts#L52).
+[JSX Factory Function](https://github.com/nmanumr/maze/blob/master/src/utils/h/index.ts#L52).
 Instead of returning a virtual DOM this factory function returns an actual DOM Node which can be
-inserted to the DOM directly without any need of framework.
+inserted into the DOM directly without any need of a framework.
 
-But, this solution created another of state management, for which I used
-[RxJS](https://rxjs-dev.firebaseapp.com/guide/overview) and quickly fell in love with event driven
-development. And infact wrote reactive wrapper arround every browser APIs used like
+But, this solution created another state management, for which I used
+[RxJS](https://rxjs-dev.firebaseapp.com/guide/overview) and quickly fell in love with event-driven
+development. And in fact wrote a reactive wrapper around every browser APIs used like
 [Keyboard](https://github.com/nmanumr/maze/blob/master/src/browser/keyboard/index.ts#L39),
 [Touch](https://github.com/nmanumr/maze/blob/master/src/browser/touch/index.ts#L12).
 
 ### Lessons Learnt
 
-Although the end result seems quite simple but I learnt alot during this project, like SVGs
-paths, event driven development, JSX and alot about javascript bundlers.
+Although the end result seems quite simple I learned a lot during this project, like SVGs paths, event-driven development, JSX, and a lot about javascript bundlers.
 
 <hr class="!mb-4" />
 
@@ -139,10 +137,9 @@ Source: [https://nmanumr.github.io/mazes101/playground](https://nmanumr.github.i
 
 ### Purpose and Goal
 
-The idea behind Mazes101 was to develop a generic framework that is extensible with minimum
-bundle footprint. And thankfully I was able to achieve both, it is generic enough that it can handle
-any kind of maze board (Rectangular, Weave, Circular, Hexagonal or triangular) and it completely
-purgable down to indiviual functions.
+The idea behind Mazes101 was to develop a generic framework that is extensible with a minimum bundle footprint.
+And thankfully I was able to achieve both, it is generic enough that it can handle any kind of maze board (Rectangular, Weave, Circular, Hexagonal, or triangular) and
+it is completely purgeable down to individual functions.
 
 ### Problems Faced
 
@@ -151,39 +148,38 @@ that with a generic base board that describes the indiviual cells while the spec
 a view layer on top of that same base board. There could be as many board views as you want.
 
 I also wanted to stay as low level as possible that will make porting this package to other
-languages much easier. For this I used a byte to represent a cell, this single byte can represent
-all everything about a cell and all the premetive operations on cells are basically bit wise
-operations. For now Mazes101 supports EcmaScript, CommonJS &amp; Deno Modules.
+languages much easier. For this I used a byte to represent a cell, this single byte can represent everything about a cell and all the primitive operations on cells are basically bit-wise
+operations. For now, Mazes101 supports EcmaScript, CommonJS &amp; Deno Modules.
 
-For better integration with frontend frameworks all the renderers accept an `h` function. These
-renderers by default return a SVG Strign but users can customize that by providing a custom `h`
-function. For example if user want the renderer output as react component they can pass
+For better integration with frontend frameworks, all the renderers accept an `h` function. These
+renderers by default return an SVG String but users can customize that by providing a custom `h`
+function. For example, if users want the renderer output as react component they can pass
 `React.createElement` as `h` function, or a custom `h` function that can create a DOM node directly.
 
-I wanted the maze generation algorithms to visualized, for this there is a `movesRegister` that can
-register moves while maze is being generated and these moves can be played back to provide a nice
-visualization of maze genration.
+I wanted the maze generation algorithms to be visualized, for this there is a `movesRegister` that can
+register moves while the maze is being generated and these moves can be played back to provide a nice
+visualization of maze generation.
 
 ### Lessons Learnt
 
-This was the very first project where I played with SVGs and learnt alot of great stuff about them.
-As I worked closely with multiple module systems, I got better understanding how they work and 
-there differences. I also published my first NPM package and used automated symentic releases, which
-helped be better understand the process behind developing and maintaining a package.
+This was the very first project where I played with SVGs and learned a lot of great stuff about them.
+As I worked closely with multiple module systems, I got a better understanding of how they work and 
+their differences. I also published my first NPM package and used automated semantic releases, which
+helped me better understand the process behind developing and maintaining a package.
 
 <hr />
 
 ## Future Thoughts
-I would like to continue maintaining and improving the mazes101 package in future. Here are few
+I would like to continue maintaining and improving the mazes101 package in the future. Here are few
 things I would like to do in this project:
 
-* Port this package to other langauges too and in fact python and rust ports are
+* Port this package to other languages too and in fact, python and rust ports are
 currently underway.
-* The generation algorithms should be chainable so that a maze can be generation by appling multiple
-algorithms in series to generate mix flavoured maze.
-* More text drawing support need to be added as it seams to be quite fun thing to do.
-* Add some maze post processors like a post processor to generate labyrinth mazes.
-* Support for block wise geometery
+* The generation algorithms should be chainable so that a maze can be generated by applying multiple
+algorithms in series to generate mix flavored maze.
+* More text drawing support needs to be added as it seems to be quite a fun thing to do.
+* Add some maze post-processors like a post-processor to generate labyrinth mazes.
+* Support for block-wise geometry
 
 ## Inspirations / Related Works
 * [Mazes for Programmers](https://pragprog.com/titles/jbmaze/mazes-for-programmers/) by Jamis Buck.
@@ -192,7 +188,7 @@ algorithms in series to generate mix flavoured maze.
 * [Angelika Tyborska's Maze generator](https://mazes.angelika.me/)
 
 <br />
-Any question, any idea or got intrested? [Contact Me](/#contact)
+Any question, any idea or got interested? [Contact Me](/#contact)
 
     </Markdown>
 </PostLayout>
