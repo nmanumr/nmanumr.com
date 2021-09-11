@@ -99,6 +99,20 @@
     a.arrow:focus::after {
         transform: translate3d(10px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
     }
+    
+    @keyframes heart-beat {
+        0%, 40%, 80%, to {
+            transform: scale(1)
+        }
+    
+        20%, 60% {
+            transform: scale(1.15)
+        }
+    }
+    
+    .heart-beat {
+        animation: heart-beat 1s infinite;
+    }
 }
 
 input[type='text'],

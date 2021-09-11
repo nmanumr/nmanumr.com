@@ -6,6 +6,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            screens: {
+                'xs': "470px"
+            },
             fontFamily: {
                 'recoleta': ['Recoleta', 'ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
                 'sans': ['IBM Plex Sans', 'ui-sans-serif', 'sans-serif']
