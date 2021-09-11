@@ -54,8 +54,12 @@
     }
 
     .section-title {
-        @apply font-mono relative text-sm text-gray-400 mb-3;
+        @apply font-mono relative text-sm !text-gray-400 mb-3 !no-underline;
         counter-increment: sectionCounter;
+    }
+
+    .section-title[href] {
+        @apply hover:!text-gray-600;
     }
 
     .section-title::before {
