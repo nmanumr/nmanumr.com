@@ -119,4 +119,5 @@ input[type='text'],
 input[type='email'],
 textarea {
     @apply py-2 focus:outline-none border-b border-gray-400 focus:border-gray-900;
+    -webkit-appearance: none;
 }
