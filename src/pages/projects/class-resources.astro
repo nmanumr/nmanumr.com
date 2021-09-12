@@ -9,20 +9,103 @@ import { Markdown } from 'astro/components';
 An app that provides a platform to share class learning resources especially for COMSATS Students.
 Features include sharing class resources, course timetable, events, and reminders like assignments deadlines, etc.
 
-## Class Resources Mobile App
+<hr class="!mb-4" />
 
 <ProjectInfo
+    title="Class Resources (FA18-BCS-C)"
+    subtitle="February 2019"
+    codeUrl="https://github.com/nmanumr/fa18-bcs-c"
+    siteUrl="https://fa18-bcs-c.web.app/"
+    stack={['Angular', 'Ionic', 'Typescript', 'Firebase']}
+/>
+
+### Purpose and Goal
+
+As a university student a common problem faced while exam night study was that we couldn't find the
+lecture slides and other class resources. So, I decided to create an application using where we can
+find all the class resources at one place. So, I just sat down one weekend and developed a web
+application using angular. And, I never thought this
+[one weekend side project](https://github.com/nmanumr/fa18-bcs-c/tree/e875cb6c5e375d3994bfd548d02d3561aa1dc9a0)
+will actually be very helpful and boy did this helped.
+
+### Some goodies
+
+* With firebase local data presistence and a service worker the app could work offline too.
+Although user can't download resources but, they can see the list even without internet connection.
+* The app layout adopts between mobile and desktop browsers. On mobile devices it starts to behaviour
+like regular mobile app and can be added to home screen (thanks to a manifest file and a service worker).
+I also created an andriod app using Ionic framework, but for some reason the overall exeprince was
+little laggy.
+* Dark mode was supported, and I guess this was the very first time I implemented a dark mode in any
+of the application.
+
+### Lesons Learnt
+
+This was probably my first developed app with some real users, so I had some sort of pressure to
+maintain the project after its development so on this road I learnt a lesson hard way that sometime
+the maintaince of a project can become much harder that actual development.
+
+<hr class="!mb-4" />
+
+<ProjectInfo
+    title="Class Resources Mobile App"
+    subtitle="February 2019"
     codeUrl="https://github.com/nmanumr/comsats-class-resources"
     siteUrl="https://apkpure.com/comsats-class-resources/com.firebaseapp.comsats_cr"
+    siteText="View APK *"
     stack={['flutter', 'dart', 'Firebase']}
     collabrators={['ameerhmzx', 'ibtashamalee']}
 />
 
-Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
+### Purpose and Goal
 
-## Class Resources Web App
+The initial class resources version was quite successful in a way that my fellows found it really
+useful and it was serving its purpose quite well. But, eventhough everyone really liked the web app
+the mobile app wasn't that great and was quite laggy. So, I decided to redesign the mobile app in
+next semester break.
+
+My idea was that I'm going redesign the app that will not only work for my
+class but also for everyone othe class in the university and lunching it in the start of semester
+will also be a great idea, right? yeah not completely, the only thing I didn't knew that the problem
+also scale exponentially with userbase and features. But, first lets talk about what I was able to
+accomplish.
+
+### New Features
+* Now, students can have a personlized experince by logging in to the app. They will only be
+presented with the only subjects they are enrolled in and also they can add or remove different course if
+they want.
+* CRs could maintain the resourse of there respective classes.
+* Along with class resources students could also receive notifications from CR and CR can also add
+tasks/events like assignments, quizzes etc.
+* Students could see their timetable easily from homescreen (without opening the app) with a
+homescreen widget.
+
+### Issues Faced
+* The first and foremost issue was about maintaining the resources. Previously I myself volunteered
+to add resources like lectures slides, text books etc. But, now I wanted the CRs to do so who were
+quite lazy enough the do so.
+* When @ameerhmzx and I added the homescreen widget to the app, for some unexpected reasons app
+started to crash randomly and frequently, thankfully we haven't annouced our app publically and the
+only users we had were our class fellows.
+* The scaling issues hitted us the most, our app could work quite good for lets say a single
+class but I wasn't scaling well which thankfully we realized quite early.
+* On top of everything, it was my first time I ever developed an andriod app and, not to mention with,
+a framework named Flutter that is just released now.
+
+And there were alot of other issues too but all in all the app had really cool features everyone
+liked them but we had alot of internal issues that we just couldn't maintaint this app.
+
+### Lessons Learnt
+With this project I could easily add a new course to my degree "How Not to Start a New Project".
+
+<div class="text-sm">\* **Why its not PlayStore's link?** This was one of many issues happened with
+this project, we lost our playstore account.</div>
+
+<hr class="!mb-4" />
 
 <ProjectInfo
+    title="Class Resources Web App"
+    subtitle="February 2019"
     codeUrl="https://github.com/BlackArcX/classx_vue"
     siteUrl="https://classx.web.app/classes/FA18-BCS-B"
     stack={['Vue', 'TailwindCSS', 'Firebase']}

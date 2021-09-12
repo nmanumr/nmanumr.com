@@ -81,6 +81,7 @@ const iconsMap = {
     'flutter': [devIcon('flutter-plain'), 'bg-blue-100', 'text-blue-800'],
     'firebase': [devIcon('firebase-plain'), 'bg-yellow-100', 'text-yellow-800'],
     'gcp': [svgIconMap['gcp'], 'bg-blue-100', 'text-blue-800'],
+    'ionic': [devIcon('ionic-original'), 'bg-blue-100', 'text-blue-800'],
     'js': [devIcon('javascript-plain'), 'bg-yellow-100', 'text-yellow-800'],
     'java': [devIcon('java-plain'), 'bg-red-100', 'text-red-800'],
     'javascript': [devIcon('javascript-plain'), 'bg-yellow-100', 'text-yellow-800'],
