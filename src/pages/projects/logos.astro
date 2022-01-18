@@ -1,0 +1,193 @@
+---
+import PostLayout from "../../layouts/Post.astro";
+import ProjectInfo from '../../components/ProjectInfo.astro';
+import { Markdown } from 'astro/components';
+---
+
+<PostLayout content={{title: "Logos / Icons I designed"}}>
+    <style>
+        .icon:hover .arrow {
+            stroke-dashoffset: 0;
+        }
+
+        .icon .arrow {
+            stroke-dasharray: 97px;
+            stroke-dashoffset: 97;
+        }
+
+        .icon:hover .circle {
+            opacity: 0;
+        }
+        
+        .icon .arrow,
+        .icon .circle {
+            transition: all .25s cubic-bezier(0.61, 1, 0.88, 1);
+        }
+        
+
+        .icon path {
+            stroke: rgba(55, 71, 79, 1);
+            stroke-width: 32px;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .mpvir:hover #shutter {
+            transform: scale(1.5);
+            opacity: 1;
+            transition: transform ease-out 0.15s, opacity cubic-bezier(0, 0.55, 0.45, 1) 0.07s;
+        }
+
+        .mpvir:hover #shutter-2 {
+            transform: scale(1.5);
+        }
+
+        .mpvir #shutter {
+            transform-origin: center;
+            transform: scale(0.7);
+            transition: transform ease-out 0.15s, opacity cubic-bezier(0, 0.55, 0.45, 1) 0.23s;
+            opacity: 0;
+        }
+
+        .mpvir #shutter-2 {
+            transform-origin: center;
+            transform: scale(0.7);
+            transition: transform ease-out 0.15s;
+        }
+    </style>
+
+    <Markdown>
+I'm not that good at icons / logos designing but I was always inspired from designs so I decided to
+push my boundaries. Following are some icons that unexpectedly turned out to be great:
+
+<hr class="!mb-4" />
+<div></div>
+<img class="rounded-md border border-gray-200 hidden sm:block sm:float-right sm:mt-10 sm:ml-4" src="/images/gwbasic.net.png" alt="GwBasic Logo" />
+
+<ProjectInfo title="GwBasic.net" subtitle="June 2016" />
+
+<img class="rounded-md border border-gray-200 sm:hidden block mx-auto" src="/images/gwbasic.net.png" alt="GwBasic Logo" />
+
+
+This was probably the first logo that alteast looked good after the 'N' logo
+(the same logo used in header of this site). I had Photoshop and Illustrator craze at that time
+although, I couldn't understand most of the things going on especially Illustrator. So, it was
+designed in photoshop. I also designed the [splash screen](https://raw.githubusercontent.com/nmanumr/gwbasic.net/master/GwBasic.Net/Resources/splash2.png) of this project, that for which I was
+just sleeping the thread for some amount of time before loading the actuall app. ;)
+
+
+<hr class="!mb-4 clear-both" />
+
+<img class="rounded-md border border-gray-200 hidden sm:block sm:float-right sm:mt-10 sm:ml-4" src="/images/x-logo.png" alt="X Logo" />
+
+<ProjectInfo title="BlackArcX Logos" />
+
+<img class="rounded-md border border-gray-200 sm:hidden block mx-auto" src="/images/x-logo.png" alt="X Logo" />
+
+BlackArcX is a hypothetical company that I with my friend ([@ameerhmzx](https://github.com/ameerhmzx)) fantasized. For this we came
+up with a idea to start with a 3x3 grid of dots and connections can be made with a fluid like stripe.
+And infact we drew all the alphabets on this grid. Following are few of them:
+
+<div class="grid grid-cols-3 gap-x-4 gap-y-4 sm:grid-cols-3 md:grid-cols-5 mt-10">
+    <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/a-logo.png" alt="A Logo" />
+    <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/n-logo3.png" alt="N Logo" />
+    <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/v-logo.png" alt="V Logo" />
+    <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/s-logo.png" alt="S Logo" />
+    <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/w-logo.png" alt="W Logo" />
+</div>
+
+<hr class="!mb-4" />
+<ProjectInfo title="Exosoft" />
+
+<figure class="h-64 w-64 sm:float-right flex flex-col items-center justify-center sm:justify-start mx-auto !my-0">
+    <svg class="h-40 w-40 icon" width="470" height="532" viewBox="0 0 470 532" fill="none">
+        <path d="M150 390.062L302.352 477.009L452.79 390.841"></path>
+        <path d="M235.114 17L386.444 103.526V276.382"></path>
+        <path d="M302.611 400.963L453.017 314.794V141.614"></path>
+        <path d="M17.2109 141.159L167.649 55.2507L320.001 142.457"></path>
+        <path d="M168.168 131.297L16.9833 217.465V391.068"></path>
+        <path d="M83.2971 256.137V428.474L234.659 515"></path>
+        <path class="arrow" d="M84.8545 255.229L168.168 207.603"></path>
+        <path class="arrow" d="M302.612 400.963L219.709 352.624"></path>
+        <path class="arrow" d="M386.444 276.382L303.131 324.008"></path>
+        <path class="arrow" d="M320.412 142.457L320.001 238.422"></path>
+        <path class="arrow" d="M168.606 131.297L251.508 179.635"></path>
+        <path class="arrow" d="M150 390.062L150.411 294.097"></path>
+        <path class="circle" d="M320.206 217.998L235.206 169.426L150.205 217.998V315.141L235.206 363.713L320.206 315.141V217.998Z" stroke-opacity="0.6"></path>
+    </svg>
+    <figcaption class="italic text-sm">Hover/tap to see effect.</figcaption>
+</figure>
+
+Exosoft is a software house. For them I drew my very first interactive SVG logo for them. I couldn't
+come up with shape that sounds like exosoft, evently I drew this abtract shape but, they actually
+liked it. I also helped build their [website](https://exosoft.io/)
+(not sure if its still up or not :D).
+
+While draw this logo I learnt how difficult it is not draw seamingly simple shapes.
+Also, I learnt a trick to animate stroke length.
+
+<hr class="!mb-4 clear-both" />
+<ProjectInfo title="D-Square" />
+
+
+<img class="rounded border border-gray-200 mx-auto sm:float-right sm:ml-4 mt-10 !mt-0" src="/images/dsquare.png" alt="DSquare Logo" />
+
+D-Square aka Data Drive is also a software house. I just redrew thier logo picked a font pair and also
+designed their job advertism and also an HTML page for [jobs section](https://jobs.dsquare.io/).
+
+
+<hr class="!mb-4 clear-both" />
+<ProjectInfo title="MPVIR Group Logo" subtitle="August 2021" />
+
+<figure class="h-64 w-64 sm:float-right flex flex-col items-center justify-center mx-auto !mt-0">
+    <svg fill="none" class="h-48 w-48 mpvir" viewBox="0 0 56 56">
+        <ellipse cx="28" cy="28" fill="#2563EB" rx="8.274" ry="7.869"/>
+        <mask id="a" width="24" height="24" x="16" y="16" mask-type="alpha" maskUnits="userSpaceOnUse">
+            <path id="shutter" fill="#000" fill-rule="evenodd" d="M26.544 16v10.443l11.31-6.21.345.567-9.51 5.222L40 32.232l-.345.568-9.509-5.221V40h-.69V29.557l-11.31 6.21-.345-.567 9.51-5.222L16 23.768l.345-.568 9.509 5.221V16h.69Z" clip-rule="evenodd"/>
+        </mask>
+        <g mask="url(#a)">
+            <ellipse cx="28" cy="28" fill="#fff" rx="12.596" ry="11.98"/>
+        </g>
+        <path fill="#2563EB" fill-opacity=".25" fill-rule="evenodd" d="M28.5 16c-8.68 0-16.03 5.045-18.5 12 2.47 6.955 9.82 12 18.5 12 8.682 0 16.03-5.045 18.5-12-2.47-6.955-9.818-12-18.5-12ZM28 35.869c4.57 0 8.274-3.523 8.274-7.87 0-4.345-3.705-7.868-8.274-7.868-4.57 0-8.274 3.523-8.274 7.869S23.43 35.869 28 35.869Z" clip-rule="evenodd"/>
+        <path fill="#fff" id="shutter-2" d="M27.5 25.888a1 1 0 0 1 1 0l1.078.623a1 1 0 0 1 .5.866v1.245a1 1 0 0 1-.5.866l-1.078.623a1 1 0 0 1-1 0l-1.078-.623a1 1 0 0 1-.5-.866v-1.245a1 1 0 0 1 .5-.866l1.078-.623Z"/>
+        <path stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.333 9.333h-8v8M17.333 46.667h-8v-8M38.667 46.667h8v-8M38.667 9.333h8v8"/>
+    </svg>
+    <figcaption class="italic text-sm">Hover/tap to see effect.</figcaption>
+</figure>
+
+MPVIRG stands for Machine Perception & Visual Intelligence Research Group. This research was lead by
+our final year project supervisor and they also had a website for sole purpose of sharing all the
+projects and researches. They also had an existing logo, one day was just looking a their logo and I
+decided to redesign it so, I just did it. Its still not being used on actual site.
+
+Along with the actual logo I also took inspiration from
+[Nigel Standford's](https://www.youtube.com/channel/UCPhq7iR65k0gWcraXgLiY1A) music video of
+[Automatica](https://youtu.be/bAdqazixuRY?t=225). BTW he produces great music if you haven't heard
+him checkout his [CYMATICS](https://www.youtube.com/watch?v=Q3oItpVa9fs).
+
+<hr class="!mb-4 clear-both" />
+<ProjectInfo title="Personal Logos" />
+
+When you can draw few logos etc you have to draw logos for your friends and family members too.
+And yes, I did this too. I infact was thinking of designing logos for all my friends so that in chat
+all of avatars can look consistent, kind of a branded friends group. But, here are few good ones:
+
+<div class="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
+    <figure class="text-center !my-0">
+        <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/am.png" alt="AM Logo" />
+        <figcaption class="text-sm">Asma Marryum</figcaption>
+    </figure>
+    <figure class="text-center !my-0">
+        <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/fa.png" alt="FA Logo" />
+        <figcaption class="text-sm">Faseeh Ahmed</figcaption>
+    </figure>
+    <figure class="text-center !my-0">
+        <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/ia.png" alt="IA Logo" />
+        <figcaption class="text-sm">Ibtasham Ali</figcaption>
+    </figure>
+</div>
+
+<hr class="!mb-4" />
+
+    </Markdown>
+</PostLayout>
