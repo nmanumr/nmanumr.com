@@ -30,11 +30,11 @@
 
 @layer utilities {
     .container {
-        @apply w-full max-w-7xl mx-auto px-6;
+        @apply w-full max-w-6xl mx-auto px-6;
     }
 
     .prose.container {
-        @apply max-w-7xl;
+        @apply max-w-6xl;
     }
 
     .prose.container-sm {
@@ -84,7 +84,9 @@
     }
 
     .prose a.underline:hover::before,
-    .prose a.underline:focus::before {
+    .prose a.underline:focus::before,
+    .prose .a-group:hover a.underline::before,
+    .prose .a-group:focus a.underline::before {
         width: calc(100% + 4px)
     }
     
@@ -96,7 +98,9 @@
     }
 
     a.arrow:hover::after,
-    a.arrow:focus::after {
+    a.arrow:focus::after,
+    .a-group:hover a.arrow::after,
+    .a-group:focus a.arrow::after {
         transform: translate3d(10px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
     }
     
