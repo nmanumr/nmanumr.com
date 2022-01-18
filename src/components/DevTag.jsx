@@ -89,6 +89,7 @@ const iconsMap = {
     'nodejs': [devIcon('nodejs-plain'), 'bg-green-100', 'text-green-800'],
     'python': [svgIconMap['python'], 'bg-blue-100', 'text-blue-800'],
     'rxjs': [svgIconMap['rxjs'], 'bg-pink-100', 'text-pink-800'],
+    'react': [devIcon('react-original'), 'bg-blue-100', 'text-blue-800'],
     'tailwindcss': [devIcon('tailwindcss-plain'), 'bg-blue-100', 'text-blue-800'],
     'typescript': [devIcon('typescript-plain'), 'bg-blue-100', 'text-blue-800'],
     'ts': [devIcon('typescript-plain'), 'bg-blue-100', 'text-blue-800'],
