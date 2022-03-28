@@ -1,5 +1,6 @@
 ---
 // src/layouts/BaseHead.astro
+import '../styles/global.css';
 const {title = 'Nauman Umer', description = ''} = Astro.props;
 ---
 <meta charset="utf-8" />
@@ -13,5 +14,4 @@ const {title = 'Nauman Umer', description = ''} = Astro.props;
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-<style global>@import '../styles/global.css';</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
