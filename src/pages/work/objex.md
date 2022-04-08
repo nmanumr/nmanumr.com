@@ -1,11 +1,11 @@
 ---
-import PostLayout from "../../layouts/Post.astro";
-import ProjectInfo from '../../components/ProjectInfo.astro';
-import { Markdown } from 'astro/components';
+title: "Working at Objex, Inc."
+image: '/images/objex.png'
+layout: '../../layouts/Post.astro'
+setup: |
+    import ProjectInfo from '../../components/ProjectInfo.astro';
 ---
 
-<PostLayout content={{title: "Working at Objex, Inc.", image: "/images/objex.png"}}>
-    <Markdown>
 A Maze is a puzzle where the player has to find a path from entrance to a goal without hitting the dead end.
 What's so special about mazes for me as a computer science student was the algorithm which generate a
 maze with a guarantee that one and only one path between given any two points on board.
@@ -18,41 +18,32 @@ My main source of motivation for mazes came from a book ["Mazes for Programmers"
 I have been fasinated by mazes for quite long time and hence attempted to do quite alot of stuff with mazes
 and algorithms. Following are some of these attempts:
 
-## Rabbito Website
-
 <ProjectInfo
-    siteUrl="https://nmanumr.github.io/maze"
-    stack={['React', 'TailwindCSS']}
+  title="Rabbito Website"
+  siteUrl="https://nmanumr.github.io/maze"
+  stack="React,TailwindCSS"
 />
 
 Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
 
-## Rabbito Server
-
 <ProjectInfo
-    stack={['node', 'gcp']}
+  title="Rabbito Server"
+  stack="node,gcp"
 />
 
 Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
 
-
-## Rabbito Blog
-
 <ProjectInfo
-    stack={['TailwindCSS']}
+  title="Rabbito Blog"
+  stack="TailwindCSS"
 />
 
 Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
 
-## Objex Editor
-
 <ProjectInfo
-    codeUrl="https://github.com/objex/editor",
-    stack={['Typescript', 'Python', 'Web Assembly', 'Electron']}
+  title="Rabbito Editor"
+  codeUrl="https://github.com/objex/editor"
+  stack="Typescript,Python,Web Assembly,Electron"
 />
 
 Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze. Currently, supports rectangular, weave & circular mazes, 7 different generation algorithms, SVG rendering, and packages for Deno, ECMAScript, TypeScript, and NodeJS. The renders also support custom JSX factor functions (like Rect.CreateElement, Vue.h, Preact.h etc) to output different kinds of components like SVG string, SVG Element, React Component, Vue component etc.
-
-
-    </Markdown>
-</PostLayout>

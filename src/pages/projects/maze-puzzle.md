@@ -1,11 +1,14 @@
 ---
-import PostLayout from "../../layouts/Post.astro";
-import ProjectInfo from '../../components/ProjectInfo.astro';
-import { Markdown } from 'astro/components';
+title: Class Resources
+image: /images/classresources-2x.png
+altImage: /images/mazes101.png
+layout: ../../layouts/Post.astro
+description: Mazes101 provides a set of utilities that can be used to generate, render and hack with any kind of maze.
+featured: true
+setup: |
+  import ProjectInfo from '../../components/ProjectInfo.astro';
 ---
 
-<PostLayout content={{title: "Maze Puzzle", image: "/images/mazes101-2x.png"}}>
-    <Markdown>
 A Maze is a puzzle where the player has to find a path from the entrance to a goal without hitting the dead end.
 What's so special about mazes for me as a computer science student was the algorithm that generates a
 maze with a guarantee that one and only one path between given any two points on board.
@@ -17,14 +20,14 @@ and algorithms. Following are some of these attempts:
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Maze Puzzle"
-    subtitle="August 2017"
-    codeUrl="https://github.com/nmanumr/maze/tree/cb5b561554b4f6beb06d3ec65d72a0a47ed8ec84"
-    stack={['JavaScript', 'JQuery']}
+  title="Maze Puzzle"
+  subtitle="August 2017"
+  codeUrl="https://github.com/nmanumr/maze/tree/cb5b561554b4f6beb06d3ec65d72a0a47ed8ec84"
+  stack="JavaScript,JQuery"
 />
 
 <video class="md:float-right max-w-sm w-full mx-auto rounded-lg" autoplay muted loop playsinline>
-    <source src="/images/mazev1.mp4" type="video/mp4">
+  <source src="/images/mazev1.mp4" type="video/mp4">
 </video>
 
 ### Purpose and Goal
@@ -51,15 +54,15 @@ better understand DOM manipulations, keyboard interactions and simple board game
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Maze Puzzle in Java"
-    subtitle="November 2019"
-    codeUrl="https://github.com/ameerhmzx/maze-puzzle"
-    stack={['Java', 'JavaFX']}
-    collabrators={['ameerhmzx']}
+  title="Maze Puzzle in Java"
+  subtitle="November 2019"
+  codeUrl="https://github.com/ameerhmzx/maze-puzzle"
+  stack="Java,JavaFX"
+  collabrators="ameerhmzx"
 />
 
 <video class="max-w-md w-full mx-auto rounded-lg border border-gray-300" autoplay muted loop playsinline>
-    <source src="/images/maze-java.mp4" type="video/mp4">
+  <source src="/images/maze-java.mp4" type="video/mp4">
 </video>
 
 ### Purpose and Goal
@@ -83,15 +86,15 @@ work with strictly typed languages.
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Maze Puzzle v2"
-    subtitle="March 2021"
-    codeUrl="https://github.com/nmanumr/maze"
-    siteUrl="https://nmanumr.github.io/maze/"
-    stack={['TypeScript', 'TailwindCSS', 'RxJs']}
+  title="Maze Puzzle v2"
+  subtitle="March 2021"
+  codeUrl="https://github.com/nmanumr/maze"
+  siteUrl="https://nmanumr.github.io/maze/"
+  stack="TypeScript,TailwindCSS,RxJs"
 />
 
 <video class="md:float-right max-w-sm w-full mx-auto rounded-lg" autoplay muted loop playsinline>
-    <source src="/images/mazev2.mp4" type="video/mp4">
+  <source src="/images/mazev2.mp4" type="video/mp4">
 </video>
 
 ### Purpose and Goal
@@ -120,16 +123,16 @@ Although the end result seems quite simple I learned a lot during this project, 
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Mazes101"
-    subtitle="May 2021"
-    codeUrl="https://github.com/nmanumr/mazes101/"
-    siteUrl="https://nmanumr.github.io/mazes101/"
-    siteText="View Docs"
-    stack={['TypeScript', 'NodeJs', 'Deno', 'Sementic Release']}
+  title="Mazes101"
+  subtitle="May 2021"
+  codeUrl="https://github.com/nmanumr/mazes101/"
+  siteUrl="https://nmanumr.github.io/mazes101/"
+  siteText="View Docs"
+  stack="TypeScript,NodeJs,Deno,Sementic Release"
 />
 
 <video class="max-w-lg w-full mx-auto rounded-lg border border-gray-300" autoplay muted loop playsinline>
-    <source src="/images/mazes101.mp4" type="video/mp4">
+  <source src="/images/mazes101.mp4" type="video/mp4">
 </video>
 
 <div class="text-center text-sm relative -mt-2">
@@ -190,6 +193,3 @@ algorithms in series to generate mix flavored maze.
 
 <br />
 Any question, any idea or got interested? <a href="/#contact">Contact Me</a>
-
-    </Markdown>
-</PostLayout>

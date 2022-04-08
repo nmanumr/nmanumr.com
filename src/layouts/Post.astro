@@ -1,7 +1,5 @@
 ---
 import BaseLayout from './Base.astro';
-import DevTag from '../components/DevTag.jsx';
-
 
 const {content} = Astro.props;
 ---
@@ -10,11 +8,14 @@ const {content} = Astro.props;
   <section class="py-16" id="expertise">
     <div class="container container-sm prose prose-sm sm:prose">
       <div class="mb-8">
-        {content.image && <div class="w-full shrink-0 mb-10">
-          <div class="aspect-w-16 aspect-h-9">
-            <img class="object-cover rounded !m-0" src={content.image} />
+        {content.image && (
+          <div class="w-full shrink-0 mb-10">
+            <div class="aspect-w-16 aspect-h-9">
+              <img class="object-cover rounded !m-0" src={content.image} />
+            </div>
           </div>
-        </div>}
+        )}
+
         <h2 class="title">{content.title}</h2>
         <p class="text-sm subtitle">{content.subtitle}</p>
       </div>

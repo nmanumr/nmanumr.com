@@ -1,0 +1,48 @@
+.icon:hover .arrow {
+    stroke-dashoffset: 0;
+}
+
+.icon .arrow {
+    stroke-dasharray: 97px;
+    stroke-dashoffset: 97;
+}
+
+.icon:hover .circle {
+    opacity: 0;
+}
+
+.icon .arrow,
+.icon .circle {
+    transition: all .25s cubic-bezier(0.61, 1, 0.88, 1);
+}
+
+
+.icon path {
+    stroke: rgba(55, 71, 79, 1);
+    stroke-width: 32px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.mpvir:hover #shutter {
+    transform: scale(1.5);
+    opacity: 1;
+    transition: transform ease-out 0.15s, opacity cubic-bezier(0, 0.55, 0.45, 1) 0.07s;
+}
+
+.mpvir:hover #shutter-2 {
+    transform: scale(1.5);
+}
+
+.mpvir #shutter {
+    transform-origin: center;
+    transform: scale(0.7);
+    transition: transform ease-out 0.15s, opacity cubic-bezier(0, 0.55, 0.45, 1) 0.23s;
+    opacity: 0;
+}
+
+.mpvir #shutter-2 {
+    transform-origin: center;
+    transform: scale(0.7);
+    transition: transform ease-out 0.15s;
+}

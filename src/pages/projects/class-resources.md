@@ -1,22 +1,25 @@
 ---
-import PostLayout from "../../layouts/Post.astro";
-import ProjectInfo from '../../components/ProjectInfo.astro';
-import { Markdown } from 'astro/components';
+title: Class Resources
+image: /images/classresources-2x.png
+altImage: /images/classresources.png
+layout: ../../layouts/Post.astro
+description: An app that provides a platform to share class learning resources especially for COMSATS Students.
+featured: true
+setup: |
+  import ProjectInfo from '../../components/ProjectInfo.astro';
 ---
 
-<PostLayout content={{title: "Class Resources", image: "/images/classresources-2x.png"}}>
-    <Markdown>
 An app that provides a platform to share class learning resources especially for COMSATS Students.
 Features include sharing class resources, course timetable, events, and reminders like assignments deadlines, etc.
 
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Class Resources (FA18-BCS-C)"
-    subtitle="February 2019"
-    codeUrl="https://github.com/nmanumr/fa18-bcs-c"
-    siteUrl="https://fa18-bcs-c.web.app/"
-    stack={['Angular', 'Ionic', 'Typescript', 'Firebase']}
+  title="Class Resources (FA18-BCS-C)"
+  subtitle="February 2019"
+  codeUrl="https://github.com/nmanumr/fa18-bcs-c"
+  siteUrl="https://fa18-bcs-c.web.app/"
+  stack="Angular,Ionic,Typescript,Firebase"
 />
 
 <video class="md:float-right md:ml-4 border border-gray-200 max-w-sm w-full mx-auto rounded-lg" autoplay muted loop playsinline>
@@ -50,17 +53,17 @@ This was probably my first developed app with some real users, so I had some sor
 maintain the project after its development so on this road I learned a lesson hard way that sometimes
 the maintenance of a project can become much harder than actual development.
 
-<div class="clear-both"></div>
+<div class="clear-both" />
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Class Resources Mobile App"
-    subtitle="February 2019"
-    codeUrl="https://github.com/nmanumr/comsats-class-resources"
-    siteUrl="https://apkpure.com/comsats-class-resources/com.firebaseapp.comsats_cr"
-    siteText="View APK *"
-    stack={['flutter', 'dart', 'Firebase']}
-    Collaborators={['ameerhmzx', 'ibtashamalee']}
+  title="Class Resources Mobile App"
+  subtitle="February 2019"
+  codeUrl="https://github.com/nmanumr/comsats-class-resources"
+  siteUrl="https://apkpure.com/comsats-class-resources/com.firebaseapp.comsats_cr"
+  siteText="View APK *"
+  stack="flutter,dart,Firebase"
+  Collaborators="ameerhmzx,ibtashamalee"
 />
 
 ### Purpose and Goal
@@ -110,10 +113,10 @@ this project, we lost our play store account.</div>
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="Class Resources Web App"
-    subtitle="February 2019"
-    codeUrl="https://github.com/nmanumr/class-resources-web"
-    stack={['Angular', 'Typescript', 'Firebase']}
+  title="Class Resources Web App"
+  subtitle="February 2019"
+  codeUrl="https://github.com/nmanumr/class-resources-web"
+  stack="Angular,Typescript,Firebase"
 />
 
 ### Purpose and Goal
@@ -125,16 +128,16 @@ develop a better mobile app next time or maybe just fix the existing app.
 <hr class="!mb-4" />
 
 <ProjectInfo
-    title="ClassX"
-    subtitle="February 2019"
-    codeUrl="https://github.com/BlackArcX/classx_vue"
-    siteUrl="https://classx.web.app/classes/FA18-BCS-B"
-    stack={['Vue', 'TailwindCSS', 'Firebase']}
-    Collaborators={['ibtashamalee', 'lablnet']}
+  title="ClassX"
+  subtitle="February 2019"
+  codeUrl="https://github.com/BlackArcX/classx_vue"
+  siteUrl="https://classx.web.app/classes/FA18-BCS-B"
+  stack="Vue,TailwindCSS,Firebase"
+  Collaborators="ibtashamalee,lablnet"
 />
 
 <video class="max-w-md w-full mx-auto rounded-lg border border-gray-200" autoplay muted loop playsinline>
-    <source src="/images/classx.mp4" type="video/mp4">
+  <source src="/images/classx.mp4" type="video/mp4">
 </video>
 
 ### Purpose and Goal
@@ -157,6 +160,3 @@ Although there isn't much to say about this project I learned few new technologi
 during this project like Vuejs &amp; TailwindCSS (which I still love working with).
 
 <div class="clear-both"></div>
-
-    </Markdown>
-</PostLayout>
