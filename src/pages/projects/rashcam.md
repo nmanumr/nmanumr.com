@@ -70,7 +70,27 @@ RashCam is mainly a device
   <figcaption class="text-sm">Rashcam Software Architecture</figcaption>
 </figure>
 
-At the core of everything we have a Django HTTP and WebSocket (Signaling) server.
+- At the core of everything we have [Django](https://www.djangoproject.com/) Web Server. It uses
+Django rest framework to provide Rest APIs and [Django Channels](https://channels.readthedocs.io/en/stable/)
+for WebSocket connections.
+
+- We also have a TURN server which is just the [coturn](https://github.com/coturn/coturn) deployed.
+
+- Moving next we have a [PostgreSQL](https://www.postgresql.org/) database connected to our backend server.
+The database stores the users authentication information, devices info and detected trips and incidents.
+
+- [Redis](https://redis.io/) is being used as a cache provider for backend server and it also provide messaging queue between
+django and celery workers.
+
+- Next up [Celery](https://docs.celeryq.dev/en/stable/) workers are being used to off load background tasks from web server.
+
+- On frontend side, we have [NextJS](https://nextjs.org/) that serves the web app. Our web app is
+quite simple with 3 to 4 routes other than the authentication pages. Web app communicates with backend via REST APIs.
+
+- RashCam device communiates all three servers. It uses TURN server for WebRTC communication, websocket for signaling
+and RestAPI for posting data like detected incidents/video chunks to server.
+
+For local development we uses [Docker Compose](https://docs.docker.com/compose/) to runn all these services (execpt NextJS app).
 
 
 ## Rashcam Device
@@ -117,5 +137,20 @@ At the core of everything we have a Django HTTP and WebSocket (Signaling) server
   <figcaption class="text-sm">Rashcam Streams Flow</figcaption>
 </figure>
 
+RashCam system is totally event driven and utilizes great deal of mutli processing. It uses streams/pipeline architecture. Before goind into to details lets look at some of the nomenclature:
+
+- **Source** is bassically an events producer.
+- **Sink** is where the those events get dumped.
+- **Bin** is just a special element that is can be a source and sink at the same time.
+- **Operators/Filters** are the intermediate operations happening on the events. They can skip, combine or map events.
+
+Now let talk about the actuall architecture:
+
+- 
+
 ## About Team
+
+- **Nauman Umer**: Me as a Team Lead, I mostly worked on everything that has web in it including WebRTC.
+- [Ameer Hamza Naveed](https://github.com/ameerhmzx): He did all the hardware stuff, detection algorithm stuff and DevOps including docker configurations & CI/CD Pipelines.
+- [Dr. Usama Ijaz Bajwa](http://www.usamaijaz.com/): He as a supervisor, was the main driving force behind the whole project.
 
