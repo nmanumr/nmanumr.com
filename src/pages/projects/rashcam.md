@@ -1,0 +1,156 @@
+---
+title: RashCam (FYP)
+layout: ../../layouts/Post.astro
+altImage: /images/logos.png
+draft: true
+description: I'm not that good at icons / logos designing but I always like to push my boundaries. Here are some of my designs.
+featured: true
+setup: |
+  import ProjectInfo from '../../components/ProjectInfo.astro';
+---
+
+<div class="-mt-8 relative">
+  <ProjectInfo collabrators="nmanumr,ameerhmzx,usamaibajwa" stack="Django,NextJS,PostgreSQL,RaspberyPi,GStreamer" />
+</div>
+
+RashCam was a final year project we did as a fulfilment of COMSATS University, Degree of BS in Computer Science.
+RashCam is mainly a device 
+
+## Software Architecture
+
+
+<figure class="text-center">
+  <svg class="w-full h-auto mx-auto text-gray-800 font-medium rounded-md border border-gray-200 !my-0" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="335" fill="none" viewBox="0 0 720 335">
+    <rect width="136.373" height="37.881" x="536.907" y="92.683" stroke="#000" rx="4.041"/>
+    <text fill="#336791" font-size="16.5"><tspan x="550" y="119" class="devicon-"></tspan></text>
+    <text fill="currentColor" font-size="9.092"><tspan x="574" y="115.034">PostgreSQL Database</tspan></text>
+    <rect width="136.373" height="37.881" x="536.907" y="149.253" stroke="#000" rx="4.041"/>
+    <image xlink:href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="17.425" height="14.783" x="550" y="160.87"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="574" y="171.671">Redis Cache/Queue</tspan></text>
+    <rect width="136.373" height="37.881" x="549.028" y="231.582" stroke="#000" stroke-dasharray="3.03 1.52" stroke-opacity=".5" rx="4.041"/>
+    <rect width="136.373" height="37.881" x="542.967" y="225.521" fill="#fff" stroke="#000" stroke-dasharray="3.03 1.52" stroke-opacity=".5" rx="4.041"/>
+    <rect width="136.373" height="37.881" x="536.906" y="219.46" fill="#fff" stroke="#000" rx="4.041"/>
+    <path fill="url(#a)" d="M559.13 227.793h21.466v21.466H559.13z"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="589.434" y="241.936">Celery Workers</tspan></text>
+    <rect width="136.373" height="37.881" x="46.973" y="120.715" stroke="#000" rx="4.041"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="107.157" y="143.192">Client App</tspan></text>
+    <rect width="136.373" height="37.881" x="46.973" y="177.285" stroke="#000" rx="4.041"/>
+    <image xlink:href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="18" height="18" x="79.492" y="131.154"/>
+    <path fill="#232F3E" d="M90.492 195.612c0 .076-.068.139-.152.139h-.666c-.084 0-.152-.063-.152-.139v-.207c0-.076.068-.139.152-.139h.666c.084 0 .152.063.152.139v.207Zm1.386 1.21a.88.88 0 1 1 1.76.001.88.88 0 0 1-1.76-.001Zm-.55 0a1.431 1.431 0 0 0 2.861 0 1.432 1.432 0 0 0-2.862 0Zm-.22 0c0-.909.74-1.649 1.65-1.649.909 0 1.648.74 1.648 1.649s-.74 1.649-1.649 1.649-1.649-.74-1.649-1.649Zm-.553 0c0 1.215.987 2.202 2.202 2.202a2.204 2.204 0 0 0 2.203-2.202 2.204 2.204 0 0 0-2.203-2.202 2.204 2.204 0 0 0-2.202 2.202Zm5.238 2.114a.176.176 0 0 1-.177.177h-6.374a.176.176 0 0 1-.177-.177v-3.95c0-.096.078-.175.177-.175h.265l.015.003h.97l.015-.003h.965c.131 0 .242-.09.27-.219l.126-.601a.34.34 0 0 1 .076-.147h1.664a.368.368 0 0 1 .076.147l.127.601a.273.273 0 0 0 .27.219h1.535c.099 0 .177.079.177.175v3.95Zm-5.996-4.827c0-.007 0-.015.003-.022h.414a.064.064 0 0 1 .003.022v.152h-.42v-.152Zm4.506.152-.078-.381c-.048-.228-.248-.586-.581-.586h-1.735c-.334 0-.533.358-.581.586l-.081.381h-.48v-.152c0-.32-.21-.573-.477-.573h-.563c-.27 0-.48.253-.48.573v.152h-.005a.727.727 0 0 0-.728.725v3.95c0 .401.326.727.728.727h6.374a.728.728 0 0 0 .728-.727v-3.95a.727.727 0 0 0-.728-.725h-1.313Zm2.46 6.236a.315.315 0 0 1-.313.313h-8.037a.315.315 0 0 1-.313-.313v-8.032c0-.172.142-.313.313-.313h8.037c.171 0 .313.141.313.313v8.032Zm1.73-6.653v-.55h-1.18v-.829a.867.867 0 0 0-.863-.866h-.834v-1.182h-.55v1.182h-.904v-1.182h-.551v1.182h-.904v-1.182h-.55v1.182h-.905v-1.182h-.55v1.182h-.905v-1.182h-.55v1.182h-.834a.867.867 0 0 0-.863.866v.829h-1.18v.55h1.18v.904h-1.18v.551h1.18v.904h-1.18v.551h1.18v.904h-1.18v.55h1.18v.905h-1.18v.55h1.18v.834c0 .477.389.863.863.863h.834v1.18h.55v-1.18h.904v1.18h.551v-1.18h.904v1.18h.55v-1.18h.905v1.18h.55v-1.18h.905v1.18h.55v-1.18h.834a.865.865 0 0 0 .864-.863v-.834h1.179v-.55h-1.18v-.905h1.18v-.55h-1.18v-.904h1.18v-.551h-1.18v-.904h1.18v-.551h-1.18v-.904h1.18Z"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="109.15" y="199.762">RashCam</tspan></text>
+    <rect width="136.373" height="37.881" x="270.474" y="80.309" stroke="#000" rx="4.041"/>
+    <path stroke="#0891B2" stroke-linecap="square" stroke-width="1.515" d="M300.442 95.697h3.872a3.098 3.098 0 0 1 3.098 3.098m-6.97-3.098 1.936 1.936m-1.936-1.936 1.936-1.936m5.034 5.034v1.549m0-1.549a3.099 3.099 0 0 1 3.099-3.098h3.872m0 7.745h-3.872a3.098 3.098 0 0 1-3.099-3.098m6.971 3.098-1.936-1.936m1.936 1.936-1.936 1.936m-5.035-5.034a3.098 3.098 0 0 1-3.098 3.098h-3.872m13.941-7.745-1.936 1.936m1.936-1.936-1.936-1.936m-12.005 9.681 1.936-1.936m-1.936 1.936 1.936 1.936"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="324.9" y="102.785">TURN Server</tspan></text>
+    <rect width="136.373" height="37.881" x="270.474" y="149" stroke="#000" rx="4.041"/>
+    <g clip-path="url(#b)">
+      <path fill="#EA580C" d="M306.302 171.221h2.163v-5.194l-2.437-2.437-1.53 1.529 1.804 1.804v4.298Zm2.169 1.084H300.925l-1.804-1.803.765-.765 1.49 1.489h3.065l-3.019-3.025.77-.77 3.02 3.019v-3.065l-1.484-1.484.759-.759-3.75-3.767h-7.534l2.157 2.157v.006h4.475l1.581 1.581-2.312 2.312-1.581-1.581v-1.227h-2.163v2.123l3.744 3.744-1.524 1.524 2.438 2.437h10.61l-2.157-2.146Z"/>
+    </g>
+    <text fill="currentColor" font-size="9.092"><tspan x="319.489" y="171.353">Signaling Server</tspan></text>
+    <rect width="136.373" height="37.881" x="270.474" y="217.692" stroke="#000" rx="4.041"/>
+    <path fill="url(#c)" d="M302.546 228.046h17.425v17.425h-17.425z"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="328.564" y="240.169">Web Server</tspan></text>
+    <rect width="203.045" height="237.895" x="237.138" y="48.993" stroke="#000" stroke-dasharray="3.03 1.52" stroke-opacity=".5" stroke-width="1.01" rx="3.536"/>
+    <text fill="currentColor" font-size="9.092"><tspan x="242.554" y="62.764">Backend Server</tspan></text>
+    <path fill="#000" d="M183.078 139.389a.379.379 0 0 0 0 .536l2.411 2.41a.378.378 0 1 0 .535-.535l-2.143-2.143 2.143-2.143a.379.379 0 0 0-.535-.536l-2.411 2.411Zm53.822.536a.379.379 0 0 0 0-.536l-2.411-2.411a.378.378 0 1 0-.535.536l2.143 2.143-2.143 2.143a.378.378 0 1 0 .535.535l2.411-2.41Zm-53.554.111h53.286v-.758h-53.286v.758ZM338.928 186.614a.379.379 0 0 0-.536 0l-2.41 2.411a.378.378 0 1 0 .535.535l2.143-2.142 2.143 2.142a.379.379 0 0 0 .536-.535l-2.411-2.411Zm-.536 31.346a.379.379 0 0 0 .536 0l2.411-2.411a.379.379 0 0 0-.536-.536l-2.143 2.143-2.143-2.143a.379.379 0 0 0-.535.536l2.41 2.411Zm-.111-31.078v30.81h.758v-30.81h-.758ZM605.361 186.866a.379.379 0 0 0-.536 0l-2.411 2.411a.379.379 0 0 0 .536.536l2.143-2.143 2.143 2.143a.378.378 0 1 0 .535-.536l-2.41-2.411Zm-.536 32.862a.379.379 0 0 0 .536 0l2.41-2.411a.379.379 0 0 0-.535-.536l-2.143 2.143-2.143-2.143a.379.379 0 0 0-.536.536l2.411 2.411Zm-.111-32.594v32.326h.758v-32.326h-.758ZM495.742 111.372v-.379.379Zm41.432.267a.378.378 0 0 0 0-.535l-2.411-2.411a.378.378 0 1 0-.535.536l2.143 2.143-2.143 2.142a.379.379 0 0 0 .535.536l2.411-2.411Zm-96.754 28.128a.379.379 0 0 0 0 .536l2.41 2.411a.379.379 0 0 0 .536-.536l-2.143-2.143 2.143-2.143a.378.378 0 1 0-.536-.535l-2.41 2.41Zm51.281-24.355h.379-.379Zm45.473 53.176a.379.379 0 0 0 0-.536l-2.411-2.411a.378.378 0 1 0-.535.536l2.143 2.143-2.143 2.143a.379.379 0 0 0 .535.536l2.411-2.411Zm-45.473-4.309h.379-.379Zm4.041-52.529h41.164v-.757h-41.164v.757Zm-55.054 28.664h51.013v-.758h-51.014l.001.758Zm51.392-.379v-24.623h-.758v24.623h.758Zm3.662-29.042a4.42 4.42 0 0 0-4.42 4.419h.758a3.662 3.662 0 0 1 3.662-3.662v-.757Zm0 57.706h41.164v-.758h-41.164v.758Zm-4.42-28.664v24.244h.758v-24.244h-.758Zm4.42 27.906a3.661 3.661 0 0 1-3.662-3.662h-.758a4.42 4.42 0 0 0 4.42 4.42v-.758ZM183.078 195.958a.379.379 0 0 0 0 .536l2.411 2.411a.378.378 0 1 0 .535-.536l-2.143-2.143 2.143-2.143a.379.379 0 0 0-.535-.536l-2.411 2.411Zm53.822.536a.379.379 0 0 0 0-.536l-2.411-2.411a.379.379 0 0 0-.535.536l2.143 2.143-2.143 2.143a.379.379 0 0 0 .535.536l2.411-2.411Zm-53.554.111h53.286v-.758h-53.286v.758Z"/>
+    <defs>
+      <image xlink:href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" id="d" width="128" height="128"/>
+      <image xlink:href="https://raw.githubusercontent.com/celery/celery/master/docs/images/celery_512.png" id="e" width="512" height="512"/>
+      <image xlink:href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" id="f" width="225" height="225"/>
+      <pattern id="a" width="1" height="1" patternContentUnits="objectBoundingBox">
+        <use xlink:href="#e" transform="scale(.00195)"/>
+      </pattern>
+      <pattern id="c" width="1" height="1" patternContentUnits="objectBoundingBox">
+        <use xlink:href="#f" transform="scale(.00444)"/>
+      </pattern>
+      <clipPath id="b">
+        <path fill="#fff" d="M0 0h17.425v13.137H0z" transform="translate(293.202 161.375)"/>
+      </clipPath>
+    </defs>
+  </svg>
+  <figcaption class="text-sm">Rashcam Software Architecture</figcaption>
+</figure>
+
+- At the core of everything we have [Django](https://www.djangoproject.com/) Web Server. It uses
+Django rest framework to provide Rest APIs and [Django Channels](https://channels.readthedocs.io/en/stable/)
+for WebSocket connections.
+
+- We also have a TURN server which is just the [coturn](https://github.com/coturn/coturn) deployed.
+
+- Moving next we have a [PostgreSQL](https://www.postgresql.org/) database connected to our backend server.
+The database stores the users authentication information, devices info and detected trips and incidents.
+
+- [Redis](https://redis.io/) is being used as a cache provider for backend server and it also provide messaging queue between
+django and celery workers.
+
+- Next up [Celery](https://docs.celeryq.dev/en/stable/) workers are being used to off load background tasks from web server.
+
+- On frontend side, we have [NextJS](https://nextjs.org/) that serves the web app. Our web app is
+quite simple with 3 to 4 routes other than the authentication pages. Web app communicates with backend via REST APIs.
+
+- RashCam device communiates all three servers. It uses TURN server for WebRTC communication, websocket for signaling
+and RestAPI for posting data like detected incidents/video chunks to server.
+
+For local development we uses [Docker Compose](https://docs.docker.com/compose/) to runn all these services (execpt NextJS app).
+
+
+## Rashcam Device
+
+<figure class="text-center">
+  <svg class="max-w-full mx-auto text-gray-800 font-medium rounded-md border border-gray-200 !my-0" width="673" height="542" fill="none" viewBox="0 0 673 542">
+    <path fill="#fff" d="M0 0h673v542H0z"/>
+    <rect width="98" height="49" x="54.5" y="418.5" fill="#FEFCE8" rx="5.5"/>
+    <text fill="#854D0E" font-size="12"><tspan x="68.377" y="447.5">Video Source</tspan></text>
+    <rect width="98" height="49" x="54.5" y="418.5" stroke="#CA8A04" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="207.326" y="447.5">Video Encoder</tspan></text>
+    <rect width="98" height="49" x="197.5" y="418.5" stroke="#000" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="371.43" y="398.5">Split Chunk</tspan><tspan x="377.963" y="414.5">Recorder</tspan></text>
+    <rect width="98" height="49" x="353.5" y="377.5" stroke="#000" rx="5.5"/>
+    <rect width="98" height="49" x="353.5" y="460.5" fill="#ECFDF5" rx="5.5"/>
+    <text fill="#065F46" font-size="12"><tspan x="362.143" y="489.5">WebRtc Bin (n)</tspan></text>
+    <rect width="98" height="49" x="353.5" y="460.5" stroke="#059669" rx="5.5"/>
+    <rect width="98" height="49" x="54.5" y="204.5" fill="#FEFCE8" rx="5.5"/>
+    <text fill="#854D0E" font-size="12"><tspan x="72.008" y="233.5">IMU Source</tspan></text>
+    <rect width="98" height="49" x="54.5" y="204.5" stroke="#CA8A04" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="211.395" y="283.5">Roling Filters</tspan></text>
+    <rect width="98" height="49" x="197.5" y="254.5" stroke="#000" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="210.475" y="68.5">Distinct Filter</tspan></text>
+    <rect width="98" height="49" x="197.5" y="39.5" stroke="#000" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="352.125" y="68.5">Throttle Filter</tspan></text>
+    <rect width="98" height="49" x="340.5" y="39.5" stroke="#000" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="222.281" y="183.5">Compass</tspan></text>
+    <rect width="98" height="49" x="197.5" y="154.5" stroke="#000" rx="5.5"/>
+    <text fill="#000" font-size="12"><tspan x="377.477" y="283.5">Classifier</tspan></text>
+    <path fill="#000" d="M402.646 376.354a.502.502 0 0 0 .708 0l3.182-3.182a.502.502 0 0 0-.708-.708L403 375.293l-2.828-2.829a.502.502 0 0 0-.708.708l3.182 3.182ZM402.5 304v1h1v-1h-1Zm0 3v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v2h1v-2h-1Zm0 4v1h1v-1h-1Z"/>
+    <rect width="98" height="49" x="353.5" y="254.5" stroke="#000" rx="5.5"/>
+    <rect width="98" height="49" x="522.5" y="315.5" fill="#EFF6FF" rx="5.5"/>
+    <text fill="#1E40AF" font-size="12"><tspan x="535.205" y="344.5">Rest API Sink</tspan></text>
+    <rect width="98" height="49" x="522.5" y="315.5" stroke="#2563EB" rx="5.5"/>
+    <rect width="98" height="49" x="523.5" y="89.5" fill="#EFF6FF" rx="5.5"/>
+    <text fill="#1E40AF" font-size="12"><tspan x="542.463" y="110.5">WebSocket</tspan><tspan x="561.564" y="126.5">Sink</tspan></text>
+    <rect width="98" height="49" x="523.5" y="89.5" stroke="#2563EB" rx="5.5"/>
+    <rect width="98" height="49" x="54.5" y="39.5" fill="#FEFCE8" rx="5.5"/>
+    <text fill="#854D0E" font-size="12"><tspan x="72.449" y="68.5">GPS Source</tspan></text>
+    <rect width="98" height="49" x="54.5" y="39.5" stroke="#CA8A04" rx="5.5"/>
+    <path fill="#64748B" d="M197.354 64.354a.5.5 0 0 0 0-.708l-3.182-3.181a.501.501 0 0 0-.708.707L196.293 64l-2.829 2.828a.5.5 0 0 0 .708.707l3.182-3.181ZM153 64.5h44v-1h-44v1ZM353.354 279.354a.502.502 0 0 0 0-.708l-3.182-3.182a.502.502 0 0 0-.708.708l2.829 2.828-2.829 2.828a.502.502 0 0 0 .708.708l3.182-3.182ZM296 279.5h57v-1h-57v1ZM197.354 443.354a.502.502 0 0 0 0-.708l-3.182-3.182a.502.502 0 0 0-.708.708l2.829 2.828-2.829 2.828a.502.502 0 0 0 .708.708l3.182-3.182ZM153 443.5h44v-1h-44v1ZM340.354 64.354a.5.5 0 0 0 0-.708l-3.182-3.181a.501.501 0 0 0-.708.707L339.293 64l-2.829 2.828a.5.5 0 0 0 .708.707l3.182-3.181ZM296 64.5h44v-1h-44v1ZM488 114v.5-.5Zm35.354.354a.5.5 0 0 0 0-.707l-3.182-3.182a.499.499 0 0 0-.707 0 .499.499 0 0 0 0 .707l2.828 2.828-2.828 2.829a.5.5 0 0 0 .707.707l3.182-3.182ZM472 64v.5-.5Zm8 8h-.5.5Zm0 34h-.5.5Zm8 8.5h35v-1h-35v1Zm-49-50h33v-1h-33v1Zm40.5 7.5v34h1V72h-1Zm-7.5-7.5a7.5 7.5 0 0 1 7.5 7.5h1a8.5 8.5 0 0 0-8.5-8.5v1Zm16 49a7.5 7.5 0 0 1-7.5-7.5h-1a8.5 8.5 0 0 0 8.5 8.5v-1ZM182 178v-.5.5Zm13.603.354a.502.502 0 0 0 0-.708l-3.182-3.181a.5.5 0 0 0-.707.707l2.828 2.828-2.828 2.829a.5.5 0 0 0 .707.707l3.182-3.182ZM166 229v-.5.5Zm8-8h-.5.5Zm0-35h-.5.5Zm8-7.5h13.25l-.001-1H182v1Zm-30 51h14v-1h-14v1Zm22.5-8.5v-35h-1v35h1Zm-8.5 8.5a8.5 8.5 0 0 0 8.5-8.5h-1a7.5 7.5 0 0 1-7.5 7.5v1Zm16-52a8.5 8.5 0 0 0-8.5 8.5h1a7.5 7.5 0 0 1 7.5-7.5v-1ZM339.376 402.34v-.5.5Zm13.604.353a.5.5 0 0 0 0-.707l-3.182-3.182a.5.5 0 0 0-.707.707l2.828 2.829-2.828 2.828a.5.5 0 0 0 .707.707l3.182-3.182ZM323.377 444v.5-.5Zm8-8h-.5.5Zm0-25.66h-.5.5Zm7.999-7.5h13.25v-1h-13.25v1Zm-43.999 41.66h28v-1h-28v1Zm36.5-8.5v-25.66h-1V436h1Zm-8.5 8.5a8.5 8.5 0 0 0 8.5-8.5h-1a7.5 7.5 0 0 1-7.5 7.5v1Zm15.999-42.66a8.499 8.499 0 0 0-8.499 8.5h1a7.5 7.5 0 0 1 7.499-7.5v-1Z"/>
+    <path fill="#64748B" d="M339.215 486.669v-.5.5Zm13.603-.353a.5.5 0 0 1 0 .707l-3.182 3.182a.5.5 0 0 1-.707-.707l2.828-2.829-2.828-2.828a.5.5 0 0 1 .707-.707l3.182 3.182ZM323.215 444v.5-.5Zm8 8h.5-.5Zm0 26.669h-.5.5Zm8 7.5h13.249v1h-13.249v-1Zm-30-42.669h14v1h-14v-1Zm22.5 8.5v26.669h-1V452h1Zm-8.5-8.5a8.5 8.5 0 0 1 8.5 8.5h-1a7.5 7.5 0 0 0-7.5-7.5v-1Zm16 43.669a8.5 8.5 0 0 1-8.5-8.5h1a7.5 7.5 0 0 0 7.5 7.5v1ZM182.114 280.66v.5-.5Zm13.603-.353a.499.499 0 0 1 0 .707l-3.182 3.182a.5.5 0 0 1-.707-.707l2.829-2.828-2.829-2.829a.5.5 0 0 1 .707-.707l3.182 3.182ZM166.114 229v-.5.5Zm8 8h.5-.5Zm0 35.66h.5-.5Zm8 7.5 13.25.001v1l-13.25-.001v-1ZM152 228.5h14.114v1H152v-1Zm22.614 8.5v35.66h-1V237h1Zm-8.5-8.5a8.5 8.5 0 0 1 8.5 8.5h-1a7.5 7.5 0 0 0-7.5-7.5v-1Zm16 52.66a8.5 8.5 0 0 1-8.5-8.5h1a7.5 7.5 0 0 0 7.5 7.5v1ZM326.114 114v.5-.5Zm197.24.354a.5.5 0 0 0 0-.707l-3.182-3.182a.499.499 0 0 0-.707 0 .499.499 0 0 0 0 .707l2.828 2.828-2.828 2.828a.5.5 0 1 0 .707.708l3.182-3.182Zm-213.24 65.006v-.5.5Zm8-8h-.5.5Zm0-49.36h.5-.5Zm8-7.5H523v-1H326.114v1ZM295.5 179.86h14.614v-1H295.5v1Zm23.114-8.5V122h-1v49.36h1Zm-8.5 8.5a8.5 8.5 0 0 0 8.5-8.5h-1a7.5 7.5 0 0 1-7.5 7.5v1Zm16-66.36a8.5 8.5 0 0 0-8.5 8.5h1a7.5 7.5 0 0 1 7.5-7.5v-1ZM521.354 332.354a.502.502 0 0 0 0-.708l-3.182-3.182a.502.502 0 0 0-.708.708l2.829 2.828-2.829 2.828a.502.502 0 0 0 .708.708l3.182-3.182ZM452 279.5h23.266v-1H452v1Zm31.766 8.5v35h1v-35h-1Zm9.5 44.5H521v-1h-27.734v1Zm-9.5-9.5a9.5 9.5 0 0 0 9.5 9.5v-1a8.5 8.5 0 0 1-8.5-8.5h-1Zm-8.5-43.5a8.5 8.5 0 0 1 8.5 8.5h1a9.5 9.5 0 0 0-9.5-9.5v1ZM521.354 347.646a.502.502 0 0 1 0 .708l-3.182 3.182a.502.502 0 0 1-.708-.708l2.829-2.828-2.829-2.828a.502.502 0 0 1 .708-.708l3.182 3.182ZM452 403.5h23.266v1H452v-1Zm31.766-8.5v-38h1v38h-1Zm9.5-47.5H521v1h-27.734v-1Zm-9.5 9.5a9.5 9.5 0 0 1 9.5-9.5v1a8.5 8.5 0 0 0-8.5 8.5h-1Zm-8.5 46.5a8.5 8.5 0 0 0 8.5-8.5h1a9.5 9.5 0 0 1-9.5 9.5v-1Z"/>
+  </svg>
+  <figcaption class="text-sm">Rashcam Streams Flow</figcaption>
+</figure>
+
+RashCam system is totally event driven and utilizes great deal of mutli processing. It uses streams/pipeline architecture. Before goind into to details lets look at some of the nomenclature:
+
+- **Source** is bassically an events producer.
+- **Sink** is where the those events get dumped.
+- **Bin** is just a special element that is can be a source and sink at the same time.
+- **Operators/Filters** are the intermediate operations happening on the events. They can skip, combine or map events.
+
+Now let talk about the actuall architecture:
+
+- 
+
+## About Team
+
+- **Nauman Umer**: Me as a Team Lead, I mostly worked on everything that has web in it including WebRTC.
+- [Ameer Hamza Naveed](https://github.com/ameerhmzx): He did all the hardware stuff, detection algorithm stuff and DevOps including docker configurations & CI/CD Pipelines.
+- [Dr. Usama Ijaz Bajwa](http://www.usamaijaz.com/): He as a supervisor, was the main driving force behind the whole project.
+

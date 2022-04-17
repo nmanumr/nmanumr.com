@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/Base.astro";
 
 let allProjects = await Astro.glob('./projects/*.{md,astro}');
-allProjects = allProjects.filter((e) => e.frontmatter.featured)
+allProjects = allProjects.filter((e) => e.frontmatter.featured && !e.frontmatter.draft)
 ---
 
 <BaseLayout title="Nauman Umer" description="">

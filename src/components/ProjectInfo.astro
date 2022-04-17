@@ -14,8 +14,23 @@ if (typeof stack === 'string') {
 
 const userData = {};
 for (let user of (collabrators || [])) {
-    let data = await fetch(`https://api.github.com/users/${user}`);
-    userData[user] = await data.json();
+  if (!globalThis.collabrators) {
+    globalThis.collabrators = {};
+  } 
+
+  if (globalThis.collabrators[user]) {
+    userData[user] = globalThis.collabrators[user];
+    continue;
+  }
+
+  try {
+    const res = await fetch(`https://api.github.com/users/${user}`);
+    const data = await res.json();
+
+    globalThis.collabrators[user] = data;
+    userData[user] = data;
+  } catch (e) {
+  }
 }
 ---
 
@@ -43,9 +58,9 @@ for (let user of (collabrators || [])) {
     </dt>
     <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
       {collabrators.map((user) => (
-        <a href={userData[user].html_url} class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative !no-underline">
-          <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src={userData[user].avatar_url} />
-          <span class="pl-5">{userData[user].name || user}</span>
+        <a href={userData[user]?.html_url} class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative !no-underline">
+          <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src={userData[user]?.avatar_url} />
+          <span class="pl-5">{userData[user]?.name || user}</span>
         </a>
       ))}
     </dd>
