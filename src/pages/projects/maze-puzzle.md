@@ -1,5 +1,5 @@
 ---
-title: Class Resources
+title: Mazes 101
 image: /images/classresources-2x.png
 altImage: /images/mazes101.png
 layout: ../../layouts/Post.astro

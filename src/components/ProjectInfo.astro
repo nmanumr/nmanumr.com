@@ -24,7 +24,6 @@ for (let user of (collabrators || [])) {
   }
 
   try {
-    console.log('here');
     const res = await fetch(`https://api.github.com/users/${user}`);
     const data = await res.json();
 
