@@ -1,6 +1,8 @@
-import react from '@astrojs/react';
+import { defineConfig } from "astro/config";
 
-// @ts-check
-export default /** @type {import('astro').AstroUserConfig} */ ({
-  integrations: [react()],
+import react from '@astrojs/react';
+import mdx from "@astrojs/mdx";
+
+export default defineConfig({
+  integrations: [react(), mdx()]
 });
