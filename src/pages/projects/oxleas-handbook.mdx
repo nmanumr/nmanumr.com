@@ -1,0 +1,62 @@
+---
+title: Oxleas Handbook
+image: /images/classresources-2x.png
+altImage: /images/mazes101.png
+layout: ../../layouts/Post.astro
+draft: true
+description: A handbook app for Oxleas NHS Trust hospitals.
+featured: false
+---
+import ProjectInfo from '../../components/ProjectInfo.astro';
+
+<div class="-mt-8 relative">
+  <ProjectInfo
+    collabrators="nmanumr,maliashraf9"
+    stack="React,Ionic,TailwindCss,Mdx"
+  />
+</div>
+
+
+## Background
+
+In mid of July I joined Carte Blanche and they were basically working on a product but, recently got
+open to provides services too. When I joined we got our we first gig that was to develop a handbook
+app for staff of a trust hospital.
+
+We had initial meetings with client they gave us bird eye view or I would say an over simplified version of app, which has just a menu a submenu and some content in section. The only issue was we had a deadline of 2 weeks. One more thing to mention here they wanted the app to have minimum to no running cost. According to our current understanding this was going to to just have some static content so we thought we can eliminate the backend and cut the cost.
+
+We had some internal meetings in which we had to decide the tech stack. As, we need and web app and a mobile app, so suggestions. for base framework were React Native, Flutter and I pitched Ionic too. While React Native and Flutter had some draw backs in our context but Ionic was something that was too good to be true. So, I was assigned to do some more research on possibly a POC so that we don’t have to face surprises during the development. I did initial POC and we decided to go with Ionic.
+
+We had more meetings with client, they provided use with initial content which was basically just the menu structure. Anyways I was assigned with the task of development, so I started bootstrapping some screens according to the requirements. But, there were delays in content from client’s side, which was a persistent issue through out the project so much that they gave us 11 more documents the day we handed off the project. But, wasn’t really a problem, the real surprise came when the client told us that there is a lot more than just some static content. Let me dramatise it a little bit:
+
+
+- Client: Can we have a feedback page please. Nothing special, just a page with two field and an email will be sent one user submits the form.  
+We: Ok we don’t have any backend but we can figure it out and BTW what is the email address you want this email to be sent at?  
+Client: aahh, just put any dummy email for now we’ll share the actual email address later on.  
+(and we waited till the end of project)
+- Client: There is one more little thing. We need to have a contacts directory in app were a user can search for some contacts and also I would be great if they can star some of the contacts.  
+We: ok, we can take care of this one too.  
+Client: ahh, one more thing some contact contacts are site specific but don;t worry you can show all the contacts but I would be great if there some sort of filter.  
+We: ok, not a problem. BTW can you share the list of these contacts?  
+Client: aahh, just put some dummy contacts for now we’ll share the the list later on.  
+(another thing added to later bucket)
+-  site specific content
+- Rota
+- Protocols
+
+We were discovering all these new feature requirements and on the other side Ali (the designer guy) developed an initial design of app which the client didn't liked at all. So he had to go through quite a lot of design iteration. Finally around 2 days before the deadline the basic design was almost ready which everyone except me really liked. Why not me, because there are only 2 days left design is still not totally finalised and everything I developed in past 2 weeks is rendered obsolete by the new design.
+
+It took me 2 sleepless nights to finally implement that design. finally we delivered our first project on time. Anyways, it was a trilling experience (although it didn’t felt very thrilling at that time). The client really liked the final outcome a wrote a very elaborate review and here it is:
+
+## Conclusion
+
+This project was all about very tight deadlines & unclear/changing requirements. But, the good part
+is that, at Carte Blanche, we were still able to deliver the project on time while maintaining our
+signature attention to details.
+
+
+## About Team
+
+- [Muhammad Ali Ashraf](https://github.com/ameerhmzx): The designer who designed all the mockups.
+- **Nauman Umer**: I had to develop the app according to client's required and designer's specs. 
+- [Rehman Rauf](): He as a buisness guy/supervisor, was the main driving force behind the whole project.

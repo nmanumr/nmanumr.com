@@ -5,19 +5,19 @@ altImage: /images/logos.png
 draft: true
 description: I'm not that good at icons / logos designing but I always like to push my boundaries. Here are some of my designs.
 featured: true
-setup: |
-  import ProjectInfo from '../../components/ProjectInfo.astro';
 ---
+import ProjectInfo from '../../components/ProjectInfo.astro';
 
 <div class="-mt-8 relative">
   <ProjectInfo collabrators="nmanumr,ameerhmzx,usamaibajwa" stack="Django,NextJS,PostgreSQL,RaspberyPi,GStreamer" />
 </div>
 
 RashCam was a final year project we did as a fulfilment of COMSATS University, Degree of BS in Computer Science.
-RashCam is mainly a device 
+RashCam is mainly a smart dashcam equipped with state-of-the-art yet cheap and easily available sensors that
+can detect bad driving behaviors like speeding, aggressive driving & hard cornering.
+And notify the vehicle owner regarding these events along with video clip from the dashboard of the vehicle.
 
 ## Software Architecture
-
 
 <figure class="text-center">
   <svg class="w-full h-auto mx-auto text-gray-800 font-medium rounded-md border border-gray-200 !my-0" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="335" fill="none" viewBox="0 0 720 335">
@@ -137,20 +137,50 @@ For local development we uses [Docker Compose](https://docs.docker.com/compose/)
   <figcaption class="text-sm">Rashcam Streams Flow</figcaption>
 </figure>
 
-RashCam system is totally event driven and utilizes great deal of mutli processing. It uses streams/pipeline architecture. Before goind into to details lets look at some of the nomenclature:
+RashCam system is totally event driven and utilizes great deal of mutli processing.
+It uses streams/pipeline architecture. Before getting into to details lets look at some of the nomenclature:
 
 - **Source** is bassically an events producer.
 - **Sink** is where the those events get dumped.
 - **Bin** is just a special element that is can be a source and sink at the same time.
 - **Operators/Filters** are the intermediate operations happening on the events. They can skip, combine or map events.
 
-Now let talk about the actuall architecture:
+Now with these definitions in mind here is the architecture:
+- **GPS Source** produces GPS events once the satellite connection is established. These events contains the GPS cordinates.
+  - A **Distinct Filter** is applied on these events which only let pass events with alteast certains amount of change.
+  For example if the vehicle is parked it won't throw multiple events with same cordinates.
+  - Next a **Throttling Filter** is applied which throttles the number of events per second.
+  - Finally, the events are pushed to **Websocket Sink**, which is connected to the server via websocket.
+- **IMU Sensors** gives the readings of accelrometer, gyroscope and megnatometer across 3 axis x, y and z.
+  - **Compass filter** takes 3 megnatometer axis and returns a 2d compass direction.
+  - That direction is sent than sent to the server **WebRTC Bin**. I'm just realizing while writting
+  that the image above is inaccurate but, I'm lazy enough that I will leave this as it is.  
+- IMU Sensors data is then passed to **Rolling Filter**. This rolling filter takes n values before
+emitting a new event with those n values. And, when it received (n+1)th value it emits 2nd to (n+1) values,
+discarting the first value.
+  - These n values are passed to **Classifier** which classifies the events within this window of values.
+  NOTE: the real implementation of Rolling filter is bit different to avoid duplicate classification of same event.
+  - When the classifier detects an event it signals the **Split Chunk Recorder**.
+- We take raw frames **Video Source** and pass them to **Video Encoder**.
+  - Now this encoded video is live streamed on demand to via **WebRtc Bin**.
+  A WebRTC bin is constructed and added to the pipeline for each new connection.
+  - The encoded video is also passed to **Split Chunk Recorder** that saves the video in chunks of 10s,
+  This also writes in loop so when have 10 different chunks it overwrites the first one.
 
-- 
+
+This is the whole architecture of our RashCam device but, I would like to mention one more piece of
+the puzzle, when the Classifier signals the Split Chunk Recorder, we need the 30 second video to be
+uploaded to the server. We archeive this by following algo:
+1. Copy previous 10 seconds chunk, wait for current and a future chunk to completed and copy them too.
+2. If there isn't another event for next 3 chunks (30s), merge 3 copied chunks into one video and upload it to the server.
+3. Else repeat the step one until we have not event for next 30s.
+
+I seems very simple in words but belive me that was may be the most hardest thing we solved in this whole project.
+
 
 ## About Team
 
-- **Nauman Umer**: Me as a Team Lead, I mostly worked on everything that has web in it including WebRTC.
+- **Nauman Umer**: Me as a Group Lead, I mostly worked on everything that has web in it including WebRTC.
 - [Ameer Hamza Naveed](https://github.com/ameerhmzx): He did all the hardware stuff, detection algorithm stuff and DevOps including docker configurations & CI/CD Pipelines.
 - [Dr. Usama Ijaz Bajwa](http://www.usamaijaz.com/): He as a supervisor, was the main driving force behind the whole project.
 
