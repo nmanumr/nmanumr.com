@@ -1,194 +1,200 @@
 ---
-import BaseLayout from "../layouts/Base.astro";
+import {SiLinkedin, SiX, SiGithub} from '@icons-pack/react-simple-icons';
+import {Image} from 'astro:assets';
+
+import BaseLayout from '../layouts/Base.astro';
+
+import ProfileImage from '../images/profile.jpeg';
 
 let allProjects = await Astro.glob('./projects/*.{md,mdx,astro}');
-allProjects = allProjects.filter((e) => e.frontmatter.featured && !e.frontmatter.draft)
+allProjects = allProjects.filter((e) => e.frontmatter.featured && !e.frontmatter.draft);
 ---
 
 <BaseLayout title="Nauman Umer" description="">
+  <section class="mt-20 lg:mt-28">
+    <div class="flex items-center gap-x-4">
+      <Image class="rounded-full w-24 h-24" width="180" height="180" src={ProfileImage} alt="profile" />
+      <div>
+        <div class="text-xs	text-muted">Hi there, I’m</div>
+        <h1 class="font-recoleta text-3xl text-emphasis">Nauman Umer</h1>
+        <div class="text-sm">Web Developer in Lahore Pakistan</div>
+      </div>
+    </div>
 
-	<section class="min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-81px)] py-20 flex items-center" id="welcome">
-		<div class="container prose prose-sm sm:prose flex items-center">
-			<div class="max-w-2xl">
-				<div>
-					<a href="#welcome" class="section-title">Welcome</a>
-					<h1 class="title">Nauman Umer.</h1>
-					<p class="font-sans text-sm subtitle opacity-75">@nmanumr</p>
+    <div class="mt-10 prose">
+      <p>Hi there, I'm a web developer. I love building and rebuilding programs using color, fonts, and illustrations.
+      </p>
+      <p>
+        I'm a great admirer of attention to detail and beautifully crafted designs that not only look exceptional but
+        also are easy to use. I specialize in creating user interfaces and user experiences utilizing the latest web
+        technologies.
+      </p>
+      <p>
+        I'm passionate about helping others, and I'm always looking for an opportunity to help someone out.
+      </p>
+    </div>
 
-					<p class="text-justify">
-						Hi there, I'm a web developer. I love building and rebuilding programs using
-						color, fonts, and illustrations.
-					</p>
-					<p class="text-justify">
-						I'm a great admirer of attention to detail and beautifully crafted designs that not only look exceptional
-						but also are easy to use. I specialize in creating user interfaces and user experiences utilizing
-						the latest web technologies.
-					</p>
-					<p class="text-justify">
-						I'm passionate about helping others, and I'm always looking for an opportunity to help someone out.
-					</p>
+    <div class="flex items-center mt-5 space-x-3">
+      <a href="https://x.com/nmanumr" class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2">
+        <SiX color="default" size="14" />
+        nmanumr
+      </a>
+      <a href="https://github.com/nmanumr"
+         class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2">
+        <SiGithub color="default" size="14" />
+        nmanumr
+      </a>
+      <a href="https://linkedin.com/in/nmanumr"
+         class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2">
+        <SiLinkedin color="default" size="14" />
+        nmanumr
+      </a>
+    </div>
+  </section>
 
-					<p>
-						<a href="#contact" class="underline arrow">
-							Contact Me
-						</a>
-					</p>
-				</div>
-			</div>
-			<div class="flex-grow flex-shrink-0 hidden lg:block">
-				<img class="rounded-full saturate-0 brightness-125 contrast-100 transition-all duration-300 h-72 w-72 object-cover mx-auto" src="/images/profile.png" />
-			</div>
-		</div>
-	</section>
+  <section class="mt-32">
+    <h2 class="text-emphasis font-recoleta text-2xl">Companies I have worked with.</h2>
 
-	<section class="py-16" id="expertise">
-		<div class="container prose prose-sm sm:prose">
-			<a href="#expertise" class="section-title">Expertise</a>
-			<h2 class="title">Things I'm good at.</h2>
-			<p class="text-sm subtitle"></p>
+    <div class="mt-8 space-y-12">
+      <div class="flex">
+        <div class="px-px shrink-0">
+          <Image
+              class="rounded-full w-12 h-12 mt-2.5"
+              width="100" height="100"
+              src="/images/companies/cb.png"
+              alt="profile"
+          />
+        </div>
+        <div class="ml-8">
+          <div class="font-medium text-muted text-sm">Jul 2022 - Now</div>
+          <div class="font-medium text-emphasis">
+            Associate Software Engineer at Carte Blanche Innovation Integrated
+          </div>
+          <div class="prose mt-2">
+            <p>
+              At CB I quickly became a leading voices for accessibility and developer experience. I proposed some major
+              architectural changes in hirecinch, a product at CB, including shifting from react-redux to SWR, making
+              use of uncontrolled input wherever possible, optimized re-redeners. I also worked as solo developer on
+              multiple projects. See my projects for more detail.
+            </p>
+          </div>
+        </div>
+      </div>
 
-			<p class="max-w-2xl text-justify">
-				I am a creative, enthusiastic, and ambitious developer with expertise in user interface design.
-				I am passionate about creating simple and elegant solutions that make complex tasks easy for users to execute.
-			</p>
+      <div class="flex">
+        <div class="px-px shrink-0">
+          <Image
+              class="rounded-full w-12 h-12 mt-2.5"
+              width="100" height="100"
+              src="/images/companies/strong.png"
+              alt="profile"
+          />
+        </div>
+        <div class="ml-8">
+          <div class="font-medium text-muted text-sm">Jul 2022 - Now</div>
+          <div class="font-medium text-emphasis">
+            Frontend Developer (Contract) at Strong Analytics
+          </div>
+          <div class="prose mt-2">
+            <p>
+              At Strong I developed an analytics dashboard of a food chain. The most challenging part of this project
+              was the development of custom charts and the handling of high-volume data. This project was a great
+              opportunity for me to apply my skills in a challenging and exciting environment.
+            </p>
+          </div>
+        </div>
+      </div>
 
-			<div class="grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-8">
-				<div>
-					<h4>Languages</h4>
-					<p class="text-justify">
-						I mostly work with javascript/typescript and feel myself quite good at web
-						technologies like HTML/CSS and javascript. But, I also have worked with
-						Python, Java, C/C++ and a bit of rust.
-					</p>
-				</div>
-				<div>
-					<h4>Frameworks</h4>
-					<p class="text-justify">
-						I look at frameworks as just a tool to get things done and thats why I am always
-						open to different frameworks. Some of the technologies I have worked with include,
-						Angular, Vue, React, Alpine, TailwindCss, Bootstrap, JQuery, Django, Scrappy.
-					</p>
-				</div>
-				<div>
-					<h4>Platforms &amp; Tools</h4>
-					<p class="text-justify">
-						Some of the platforms &amp; tools I use regularly include Figma, Git,
-						Postman, VsCode, WebStrom, Docker, PyCharm, WebStrom, Latex. I use MacOS as
-						primary OS but had been a great admirer of Linux for long time. 
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+      <div class="flex">
+        <div class="px-px shrink-0">
+          <Image
+              class="rounded-full w-12 h-12 mt-2.5"
+              width="100" height="100"
+              src="/images/companies/objex.png"
+              alt="profile"
+          />
+        </div>
+        <div class="ml-8">
+          <div class="font-medium text-muted text-sm">Sep 2020 - Apr 2022</div>
+          <div class="font-medium text-emphasis">
+            Software Developer at Objex Inc
+          </div>
+          <div class="prose mt-2">
+            <p>
+              I was initially hired as UI/UX Engineer, my responsibilities included the redesigning of their marketing
+              sites and designing their new product (Rabbito.io). From there I was promoted to frontend engineer and
+              eventually I was working on their product as a full stack developer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<section class="py-16" id="projects">
-		<div class="container prose prose-sm sm:prose">
-			<a href="#projects" class="section-title">Experience &amp; Projects</a>
-			<h2 class="title">Things I've been working on.</h2>
-			<p class="text-sm subtitle"></p>
+  <section class="mt-32">
+    <h2 class="text-emphasis font-recoleta text-2xl">Things I have been working on.</h2>
 
-			<p class="max-w-2xl text-justify">
-				I prefer to keep myself active and am always working on a new project.
-				Take a peek at some of the recent things I had been working on.
-			</p>
+    <div class="mt-8 space-y-12">
+      <div class="flex">
+        <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
+          Apr 2022
+        </div>
+        <div class="ml-0.5">
+          <h3 class="text-emphasis font-medium">Nowii Rewards at Carte Blanche</h3>
+          <div class="prose mt-2">
+            <p>
+              An analytics dashboard for a food chain. The most challenging part of this project was the development of
+              custom charts and the handling of high-volume data. This project was a great opportunity for me to apply
+              my
+              skills in a challenging and exciting environment.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
+          Apr 2022
+        </div>
+        <div class="ml-0.5">
+          <h3 class="text-emphasis font-medium">Nowii Rewards at Carte Blanche</h3>
+          <div class="prose mt-2">
+            <p>
+              An analytics dashboard for a food chain. The most challenging part of this project was the development of
+              custom charts and the handling of high-volume data. This project was a great opportunity for me to apply
+              my
+              skills in a challenging and exciting environment.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
+          Apr 2022
+        </div>
+        <div class="ml-0.5">
+          <h3 class="text-emphasis font-medium">Nowii Rewards at Carte Blanche</h3>
+          <div class="prose mt-2">
+            <p>
+              An analytics dashboard for a food chain. The most challenging part of this project was the development of
+              custom charts and the handling of high-volume data. This project was a great opportunity for me to apply
+              my
+              skills in a challenging and exciting environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mt-12 max-w-md md:max-w-full mx-auto">
-				{allProjects.map((project) => (
-				<div class="flex flex-col space-y-6">
-					<div class="w-full shrink-0">
-						<a href={project.url} class="block aspect-w-16 aspect-h-9">
-							<img class="object-cover rounded border border-gray-200 !m-0" src={project.frontmatter.altImage} />
-						</a>
-					</div>
-					<div class="grow flex flex-col">
-						<h4 class="!mt-0"><a class="!no-underline" href={project.url}>{project.frontmatter.title}</a></h4>
-						<p class="text-justify line-clamp-4 grow">
-							{project.frontmatter.description}
-						</p>
-						<div>
-							<a href={project.url} class="underline arrow">
-								Learn More
-							</a>
-						</div>
-					</div>
-				</div>
-				))}
-			</div>
+  <section class="mt-32">
+    <h2 class="text-emphasis font-recoleta text-2xl">Contact Me.</h2>
+    <div class="mt-2 prose">
+      <p>
+        Reach me at <a href="http://x.com/nmanumr">@nmanumr</a> or <a
+          href="mailto:nmanumr@gmail.com">nmanumr@gmail.com</a>.
+      </p>
+    </div>
+  </section>
 
-			<!-- <p class="text-right pr-10 md:!mt-12">
-				<a href="/projects" class="underline arrow">
-					View All Projects
-				</a>
-			</p> -->
-		</div>
-	</section>
-
-	<section class="py-16" id="contact">
-		<div class="container container-md prose prose-sm sm:prose">
-			<a href="#contact" class="section-title">Contact Me</a>
-			<h2 class="title">Let's build somthing<br>Incredible Together.</h2>
-			<p class="text-sm subtitle"></p>
-
-			<div class="grid md:grid-cols-2 gap-x-12 space-y-10 md:space-y-0">
-				<div>
-					<p class="max-w-md text-justify">
-						Feel free to reach out if you're looking for a developer,
-						have a question, or just want to connect.
-					</p>
-
-					<div class="mt-10 space-y-4 flex flex-col">
-						<div>
-							<a href="https://twitter.com/nmanumr" class="inline-flex items-center space-x-4 underline">
-								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 00.497-3.753C20.18 7.773 21.692 5.25 22 4.009v.001z"/>
-								</svg>
-								<span>@nmanumr</span>
-							</a>
-						</div>
-						<div>
-							<a href="https://github.com/nmanumr" class="inline-flex items-center space-x-4 underline">
-								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/>
-								</svg>
-								<span>@nmanumr</span>
-							</a>
-						</div>
-						<div>
-							<a href="mailto:nmnaumr@gmail.com" class="inline-flex items-center space-x-4 underline">
-								<svg class="w-6 h-6 opacity-80" fill="none" viewBox="0 0 24 24">
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 16a4 4 0 100-8 4 4 0 000 8z"/>
-									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12v1.5a2.5 2.5 0 105 0V12a9 9 0 10-5.5 8.28"/>
-								</svg>
-								<span>nmanumr@gmail.com</span>
-							</a>
-						</div>
-					</div>
-				</div>
-				<form class="space-y-10" action="https://formspree.io/f/mjvjjwne" method="POST">
-					<div class="flex flex-col">
-						<label class="w-full">Name</label>
-						<input placeholder="enter your name" type="text" name="name" required />
-					</div>
-					<div class="flex flex-col">
-						<label class="w-full">Subject</label>
-						<input placeholder="enter a subject" type="text" name="subject" required />
-					</div>
-					<div class="flex flex-col">
-						<label class="w-full">Email Address</label>
-						<input placeholder="enter your email address" type="email" name="_replyto" required />
-					</div>
-					<div class="flex flex-col">
-						<label class="w-full">Message</label>
-						<textarea style="min-height: 2.5rem;" placeholder="how can I help you today" rows={3} name="message" required></textarea>
-					</div>
-					<div>
-						<button class="bg-gray-900 font-medium text-gray-100 rounded py-3 px-6 hover:bg-gray-700 transition duration-250">
-							Send Message
-						</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</section>
-
+  <div class="pt-20 lg:pt-28"></div>
 </BaseLayout>

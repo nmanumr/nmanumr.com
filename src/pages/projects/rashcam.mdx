@@ -12,12 +12,18 @@ import ProjectInfo from '../../components/ProjectInfo.astro';
   <ProjectInfo collabrators="nmanumr,ameerhmzx,usamaibajwa" stack="Django,NextJS,PostgreSQL,RaspberyPi,GStreamer" />
 </div>
 
-RashCam was a final year project we did as a fulfilment of COMSATS University, Degree of BS in Computer Science.
 RashCam is mainly a smart dashcam equipped with state-of-the-art yet cheap and easily available sensors that
 can detect bad driving behaviors like speeding, aggressive driving & hard cornering.
 And notify the vehicle owner regarding these events along with video clip from the dashboard of the vehicle.
 
-## Software Architecture
+## A bit of history
+
+RashCam was our final year project that we did as a fulfilment of COMSATS University, Degree of BS
+in Computer Science.
+
+## Technical Details
+
+### Software Architecture
 
 <figure class="text-center">
   <svg class="w-full h-auto mx-auto text-gray-800 font-medium rounded-md border border-gray-200 !my-0" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="335" fill="none" viewBox="0 0 720 335">
@@ -93,7 +99,7 @@ and RestAPI for posting data like detected incidents/video chunks to server.
 For local development we uses [Docker Compose](https://docs.docker.com/compose/) to runn all these services (execpt NextJS app).
 
 
-## Rashcam Device
+### Rashcam Device
 
 <figure class="text-center">
   <svg class="max-w-full mx-auto text-gray-800 font-medium rounded-md border border-gray-200 !my-0" width="673" height="542" fill="none" viewBox="0 0 673 542">
@@ -176,6 +182,18 @@ uploaded to the server. We archeive this by following algo:
 3. Else repeat the step one until we have not event for next 30s.
 
 I seems very simple in words but belive me that was may be the most hardest thing we solved in this whole project.
+
+## Issues Faced
+
+The nature of this project was way different from the kind of projects we were conformtable developing but,
+again this was one of the reasons we choose this project. Anyways here are some of the issues we faced during the
+development of this project:
+
+1. **Module Availability:**
+  - The first issue we faced was importing GPS/GSM module. We were unaware of import rescritions on
+  GPS/GSM modules, so when tried to import these chips, first of all, they took way longer than we excepted,
+  secondly, when the modules arrived they were stopped by customs office and they required some permission documents from PTA.
+  After a lot of back and forth we estimated the cost of these modules 
 
 
 ## About Team
