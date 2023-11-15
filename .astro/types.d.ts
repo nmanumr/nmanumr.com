@@ -250,6 +250,13 @@ declare module 'astro:content' {
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
+"publiceditor.md": {
+	id: "publiceditor.md";
+  slug: "publiceditor";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "rabbito.md": {
 	id: "rabbito.md";
   slug: "rabbito";
