@@ -192,11 +192,74 @@ declare module 'astro:content' {
   collection: "companies";
   data: InferEntrySchema<"companies">
 } & { render(): Render[".md"] };
+"cc.md": {
+	id: "cc.md";
+  slug: "cc";
+  body: string;
+  collection: "companies";
+  data: InferEntrySchema<"companies">
+} & { render(): Render[".md"] };
+"objex.md": {
+	id: "objex.md";
+  slug: "objex";
+  body: string;
+  collection: "companies";
+  data: InferEntrySchema<"companies">
+} & { render(): Render[".md"] };
+"strong.md": {
+	id: "strong.md";
+  slug: "strong";
+  body: string;
+  collection: "companies";
+  data: InferEntrySchema<"companies">
+} & { render(): Render[".md"] };
 };
 "projects": {
+"arisbe.md": {
+	id: "arisbe.md";
+  slug: "arisbe";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"hirecinch.md": {
+	id: "hirecinch.md";
+  slug: "hirecinch";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "nowii.md": {
 	id: "nowii.md";
   slug: "nowii";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"objex-editor.md": {
+	id: "objex-editor.md";
+  slug: "objex-editor";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"oxlease-handbook.md": {
+	id: "oxlease-handbook.md";
+  slug: "oxlease-hanbook";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"rabbito.md": {
+	id: "rabbito.md";
+  slug: "rabbito";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"relishworks.md": {
+	id: "relishworks.md";
+  slug: "relishworks";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
