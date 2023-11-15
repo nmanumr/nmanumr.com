@@ -3,9 +3,10 @@ import {z, defineCollection, reference} from 'astro:content';
 const companiesCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    startDate: z.coerce.string().datetime(),
-    endDate: z.coerce.string().datetime().optional(),
-    sortOrder: z.number(),
+    startDate: z.date(),
+    endDate: z.date().optional(),
+    location: z.string(),
+    logo: z.string(),
     title: z.string(),
     name: z.string(),
     url: z.string().url(),
@@ -15,10 +16,9 @@ const companiesCollection = defineCollection({
 const projectsCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    startDate: z.coerce.string().datetime(),
-    endDate: z.coerce.string().datetime().optional(),
-    sortOrder: z.number(),
-    company: reference('companies'),
+    startDate: z.date(),
+    endDate: z.date().optional(),
+    company: reference('companies').optional(),
     title: z.string(),
     team: z.array(z.string()).optional(),
   }),
