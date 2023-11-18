@@ -8,6 +8,7 @@ url: https://objex.tech/
 logo: /images/companies/objex.png
 ---
 
-I was initially hired as UI/UX Engineer, my responsibilities included the redesigning of their marketing
-sites and designing their new product (Rabbito.io). From there I was promoted to frontend engineer and
-eventually I was working on their product as a full stack developer.
+At Objex Inc., I started as a UI/UX Engineer, redesigning their websites. I got promoted to full stack developer on
+Rabbito.io, a microblogging platform, handling everything from design to making it work. For rabbito, I built a
+blogging system, made a desktop editor for writing blogs in markdown, and created a user-friendly dashboard for
+managing blogs and posts.

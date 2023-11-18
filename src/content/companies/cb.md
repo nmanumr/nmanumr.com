@@ -7,7 +7,6 @@ url: https://carteblanche.tech/
 logo: /images/companies/cb.png
 ---
 
-At CB I quickly became a leading voices for accessibility and developer experience. I proposed some major
-architectural changes in hirecinch, a product at CB, including shifting from react-redux to SWR, making
-use of uncontrolled input wherever possible, optimized re-redeners. I also worked as solo developer on
-multiple projects. See my projects for more detail.
+At CB, I am a leading voices for accessibility and developer experience. I proposed some major architectural changes
+in hirecinch, a product at CB, which not only greatly improved the app performance but also increased our velocity
+by 25—30%. I also led multiple projects, detailed further in my portfolio.

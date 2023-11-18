@@ -16,10 +16,10 @@ const compareByDate = (a, b) =>
     +(b.data.endDate ?? b.data.startDate) -
     +(a.data.endDate ?? a.data.startDate);
 
-let companies = await getCollection("companies");
+let companies = await getCollection("companies", (p) => !p.data.draft);
 companies = companies.sort(compareByDate);
 
-let projects = await getCollection("projects");
+let projects = await getCollection("projects", (p) => p.data.featured);
 projects = projects.sort(compareByDate);
 ---
 
@@ -144,7 +144,7 @@ projects = projects.sort(compareByDate);
               <div class="ml-0.5">
                 <h3>
                   <span class="text-emphasis font-medium">{project.data.title}</span>
-                  {company ? <>at {company.data.name}</> : ''}
+                  {company ? <> at {company.data.name}</> : ''}
                 </h3>
                 <div class="prose mt-2">
                   <Content />
