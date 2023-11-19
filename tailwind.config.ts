@@ -1,5 +1,4 @@
 import typography from '@tailwindcss/typography';
-import colors from 'tailwindcss/colors';
 import {type Config} from 'tailwindcss';
 
 export default {
