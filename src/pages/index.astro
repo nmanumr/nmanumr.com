@@ -87,7 +87,7 @@ projects = projects.sort(compareByDate);
         companies.map(async (company) => {
           const {Content} = await company.render();
           return (
-              <div class="flex">
+              <div class="flex group relative">
                 <div class="px-px shrink-0">
                   <Image
                       class="rounded w-12 h-12 mt-2.5"
@@ -105,7 +105,10 @@ projects = projects.sort(compareByDate);
                       : 'Now'}
                   </div>
                   <div class="font-medium text-emphasis">
-                    {company.data.title} · <a href={company.data.url} target="_blank">{company.data.name}</a>
+                    <a class="accent" href={`/${company.slug}`}>
+                      <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                      <span>{company.data.title}</span>
+                    </a> · <a class="relative" href={company.data.url} target="_blank">{company.data.name}</a>
                   </div>
                   <div class="prose mt-2">
                     <Content />

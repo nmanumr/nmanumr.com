@@ -34,6 +34,8 @@
         --gray-950: 2 6 23;
         --black: 0 0 0;
 
+        --accent-color: #0D6161;
+
         --content-default: var(--gray-700);
         --content-emphasis: var(--gray-900);
         --content-subtle: var(--gray-500);
@@ -178,16 +180,29 @@ textarea {
     -webkit-appearance: none;
 }
 
+a[href]:not(:where([class~="no-accent"])) {
+    --hover-color: var(--accent-color);
+    --hover-underline-color: var(--accent-color);
+}
+
+a[href].no-accent {
+    --hover-color: rgb(var(--content-emphasis));
+    --hover-underline-color: rgb(var(--gray-500));
+}
 
 a[href]:not(:where([class~="no-underline"])) {
     color: rgb(var(--content-emphasis));
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
     text-decoration-color: rgb(var(--gray-400));
+    transition-property: text-decoration-color, color;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
 a[href]:not(:where([class~="no-underline"])):hover {
-    text-decoration-color: rgb(var(--gray-500));
+    color: var(--hover-color);
+    text-decoration-color: var(--hover-underline-color);
 }
 
 a:where([href^="https://"],[href^="http://"],[href^="mailto:"]):not(:where([class~="no-underline"]))::after {
