@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import {getCollection, getEntry} from 'astro:content';
+import {Image} from 'astro:assets';
+import ProjectItem from '../../components/ProjectItem.astro';
+import {compareByDate, df} from '../../utils';
+
+export async function getStaticPaths() {
+  let companies = await getCollection('companies', (p) => !p.data.draft);
+  return companies.map((entity) => ({
+    params: {companySlug: entity.slug},
+  }));
+}
+
+const {companySlug} = Astro.params;
+
+const company = await getEntry('companies', companySlug);
+const {Content} = await company.render();
+
+let companyProjects = await getCollection('projects', (p) => p.data.company?.slug === company.slug && !p.data.draft);
+companyProjects = companyProjects.sort(compareByDate);
+---
+
+<BaseLayout>
+  <section class="mt-20 lg:mt-28">
+    <div class="flex gap-x-4">
+      <Image
+          class="rounded w-12 h-12 mt-3"
+          width="100"
+          height="100"
+          src={company.data.logo}
+          alt={company.data.name}
+      />
+      <div>
+        <div class="font-medium text-muted text-sm">
+          {df.format(company.data.startDate)} -{' '}
+          {company.data.endDate
+            ? df.format(company.data.endDate)
+            : 'Now'}
+        </div>
+        <h1 class="font-recoleta text-3xl text-emphasis">
+          {company.data.name}
+        </h1>
+        <div class="text-emphasis font-medium mt-1">
+          {company.data.title}
+        </div>
+        <div class="text-sm">
+          {company.data.location}
+        </div>
+      </div>
+    </div>
+
+    <div class="prose mt-10">
+      <Content/>
+    </div>
+  </section>
+
+  <section class="mt-16">
+    <h2 class="text-emphasis font-recoleta text-2xl">
+      Things I’ve built.
+    </h2>
+
+    <div class="mt-8 space-y-12">
+      {companyProjects.map((project) =>
+          <ProjectItem slug={project.slug} hideCompany />)}
+    </div>
+  </section>
+
+  <div class="pt-20 lg:pt-28"></div>
+</BaseLayout>

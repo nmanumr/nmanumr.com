@@ -1,20 +1,15 @@
 ---
 import {SiLinkedin, SiX, SiGithub} from '@icons-pack/react-simple-icons';
 import {Image} from 'astro:assets';
-import {getCollection, getEntry} from 'astro:content';
-
-import BaseLayout from '../layouts/Base.astro';
+import {getCollection} from 'astro:content';
 
 import ProfileImage from '../images/profile.jpeg';
 
-const df = new Intl.DateTimeFormat(undefined, {
-  month: 'short',
-  year: 'numeric',
-});
+import ProjectItem from '../components/ProjectItem.astro';
 
-const compareByDate = (a, b) =>
-  +(b.data.endDate ?? b.data.startDate) -
-  +(a.data.endDate ?? a.data.startDate);
+import BaseLayout from '../layouts/Base.astro';
+import {compareByDate, df} from '../utils';
+
 
 let companies = await getCollection('companies', (p) => !p.data.draft);
 companies = companies.sort(compareByDate);
@@ -23,7 +18,7 @@ let projects = await getCollection('projects', (p) => p.data.featured);
 projects = projects.sort(compareByDate);
 ---
 
-<BaseLayout title="Nauman Umer" description="">
+<BaseLayout>
   <section class="mt-20 lg:mt-28">
     <div class="flex items-center gap-x-4">
       <Image
@@ -84,7 +79,7 @@ projects = projects.sort(compareByDate);
 
   <section class="mt-32">
     <h2 class="text-emphasis font-recoleta text-2xl">
-      Companies I have worked with.
+      Where I’ve worked.
     </h2>
 
     <div class="mt-8 space-y-12">
@@ -95,11 +90,11 @@ projects = projects.sort(compareByDate);
               <div class="flex">
                 <div class="px-px shrink-0">
                   <Image
-                      class="rounded-full w-12 h-12 mt-2.5"
+                      class="rounded w-12 h-12 mt-2.5"
                       width="100"
                       height="100"
                       src={company.data.logo}
-                      alt="profile"
+                      alt={company.data.name}
                   />
                 </div>
                 <div class="ml-8">
@@ -125,36 +120,12 @@ projects = projects.sort(compareByDate);
 
   <section class="mt-32">
     <h2 class="text-emphasis font-recoleta text-2xl">
-      Things I have been working on.
+      Things I've been working on.
     </h2>
 
     <div class="mt-8 space-y-12">
-      {
-        projects.map(async (project) => {
-          const {Content} = await project.render();
-          const company = project.data.company
-            ? await getEntry(project.data.company!)
-            : undefined;
-
-          return (
-              <div class="flex">
-                <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
-                  {project.data.endDate ? df.format(project.data.endDate) : 'Ongoing'}
-                </div>
-                <div class="ml-0.5">
-                  <h3 class="text-emphasis font-medium">
-                    <span >{project.data.title}</span>
-                    {company ?
-                        <> @ <a href={`${company.data.url}`}>{company.data.name}</a></> : ''}
-                  </h3>
-                  <div class="prose mt-2">
-                    <Content />
-                  </div>
-                </div>
-              </div>
-          );
-        })
-      }
+      {projects.map((project) =>
+          <ProjectItem slug={project.slug} />)}
     </div>
   </section>
 
