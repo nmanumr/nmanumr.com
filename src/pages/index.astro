@@ -1,25 +1,25 @@
 ---
-import { SiLinkedin, SiX, SiGithub } from "@icons-pack/react-simple-icons";
-import { Image } from "astro:assets";
-import { getCollection, getEntry } from "astro:content";
+import {SiLinkedin, SiX, SiGithub} from '@icons-pack/react-simple-icons';
+import {Image} from 'astro:assets';
+import {getCollection, getEntry} from 'astro:content';
 
-import BaseLayout from "../layouts/Base.astro";
+import BaseLayout from '../layouts/Base.astro';
 
-import ProfileImage from "../images/profile.jpeg";
+import ProfileImage from '../images/profile.jpeg';
 
 const df = new Intl.DateTimeFormat(undefined, {
-  month: "short",
-  year: "numeric",
+  month: 'short',
+  year: 'numeric',
 });
 
 const compareByDate = (a, b) =>
-    +(b.data.endDate ?? b.data.startDate) -
-    +(a.data.endDate ?? a.data.startDate);
+  +(b.data.endDate ?? b.data.startDate) -
+  +(a.data.endDate ?? a.data.startDate);
 
-let companies = await getCollection("companies", (p) => !p.data.draft);
+let companies = await getCollection('companies', (p) => !p.data.draft);
 companies = companies.sort(compareByDate);
 
-let projects = await getCollection("projects", (p) => p.data.featured);
+let projects = await getCollection('projects', (p) => p.data.featured);
 projects = projects.sort(compareByDate);
 ---
 
@@ -27,11 +27,11 @@ projects = projects.sort(compareByDate);
   <section class="mt-20 lg:mt-28">
     <div class="flex items-center gap-x-4">
       <Image
-        class="rounded-full w-24 h-24"
-        width="180"
-        height="180"
-        src={ProfileImage}
-        alt="profile"
+          class="rounded-full w-24 h-24"
+          width="180"
+          height="180"
+          src={ProfileImage}
+          alt="profile"
       />
       <div>
         <div class="text-xs text-muted">Hi there, I’m</div>
@@ -59,25 +59,25 @@ projects = projects.sort(compareByDate);
 
     <div class="flex items-center mt-5 space-x-3">
       <a
-        href="https://x.com/nmanumr"
-        class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2"
+          href="https://x.com/nmanumr"
+          class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2 no-underline"
       >
         <SiX color="default" size="14" />
-         nmanumr
+        nmanumr
       </a>
       <a
-        href="https://github.com/nmanumr"
-        class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2"
+          href="https://github.com/nmanumr"
+          class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2 no-underline"
       >
         <SiGithub color="default" size="14" />
-         nmanumr
+        nmanumr
       </a>
       <a
-        href="https://linkedin.com/in/nmanumr"
-        class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2"
+          href="https://linkedin.com/in/nmanumr"
+          class="flex items-center text-sm bg-subtle rounded-full px-2.5 py-0.5 gap-x-2 no-underline"
       >
         <SiLinkedin color="default" size="14" />
-         nmanumr
+        nmanumr
       </a>
     </div>
   </section>
@@ -90,33 +90,33 @@ projects = projects.sort(compareByDate);
     <div class="mt-8 space-y-12">
       {
         companies.map(async (company) => {
-          const { Content } = await company.render();
+          const {Content} = await company.render();
           return (
-            <div class="flex">
-              <div class="px-px shrink-0">
-                <Image
-                  class="rounded-full w-12 h-12 mt-2.5"
-                  width="100"
-                  height="100"
-                  src={company.data.logo}
-                  alt="profile"
-                />
+              <div class="flex">
+                <div class="px-px shrink-0">
+                  <Image
+                      class="rounded-full w-12 h-12 mt-2.5"
+                      width="100"
+                      height="100"
+                      src={company.data.logo}
+                      alt="profile"
+                  />
+                </div>
+                <div class="ml-8">
+                  <div class="font-medium text-muted text-sm">
+                    {df.format(company.data.startDate)} -{' '}
+                    {company.data.endDate
+                      ? df.format(company.data.endDate)
+                      : 'Now'}
+                  </div>
+                  <div class="font-medium text-emphasis">
+                    {company.data.title} · <a href={company.data.url} target="_blank">{company.data.name}</a>
+                  </div>
+                  <div class="prose mt-2">
+                    <Content />
+                  </div>
+                </div>
               </div>
-              <div class="ml-8">
-                <div class="font-medium text-muted text-sm">
-                  {df.format(company.data.startDate)} -{" "}
-                  {company.data.endDate
-                    ? df.format(company.data.endDate)
-                    : "Now"}
-                </div>
-                <div class="font-medium text-emphasis">
-                  {company.data.title} at {company.data.name}
-                </div>
-                <div class="prose mt-2">
-                  <Content />
-                </div>
-              </div>
-            </div>
           );
         })
       }
@@ -131,26 +131,27 @@ projects = projects.sort(compareByDate);
     <div class="mt-8 space-y-12">
       {
         projects.map(async (project) => {
-          const { Content } = await project.render();
+          const {Content} = await project.render();
           const company = project.data.company
             ? await getEntry(project.data.company!)
             : undefined;
 
           return (
-            <div class="flex">
-              <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
-                {project.data.endDate ? df.format(project.data.endDate) : 'Ongoing'}
-              </div>
-              <div class="ml-0.5">
-                <h3>
-                  <span class="text-emphasis font-medium">{project.data.title}</span>
-                  {company ? <> at {company.data.name}</> : ''}
-                </h3>
-                <div class="prose mt-2">
-                  <Content />
+              <div class="flex">
+                <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
+                  {project.data.endDate ? df.format(project.data.endDate) : 'Ongoing'}
+                </div>
+                <div class="ml-0.5">
+                  <h3 class="text-emphasis font-medium">
+                    <span >{project.data.title}</span>
+                    {company ?
+                        <> @ <a href={`${company.data.url}`}>{company.data.name}</a></> : ''}
+                  </h3>
+                  <div class="prose mt-2">
+                    <Content />
+                  </div>
                 </div>
               </div>
-            </div>
           );
         })
       }
@@ -163,7 +164,7 @@ projects = projects.sort(compareByDate);
       <p>
         Reach me at <a href="http://x.com/nmanumr">@nmanumr</a> or <a
           href="mailto:nmanumr@gmail.com">nmanumr@gmail.com</a
-        >.
+      >.
       </p>
     </div>
   </section>

@@ -4,11 +4,14 @@ import BaseHead from './BaseHead.astro';
 const {title, description} = Astro.props;
 ---
 
-<html class="h-full">
+<html>
 <head>
   <BaseHead title={title} description={description} />
 </head>
-<body class="h-full bg-default text-default max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+<body class="bg-default text-default max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+
+<div class="blur"></div>
+
 <!--<Header />-->
 <slot />
 
