@@ -1,23 +1,25 @@
 ---
-import BaseLayout from './Base.astro';
+import BaseLayout from "./Base.astro";
 
-const {content} = Astro.props;
+const { content } = Astro.props;
 ---
 
 <BaseLayout title={content.title} description={content.description}>
   <section class="py-16" id="expertise">
-    <div class="container container-sm prose prose-sm sm:prose">
+    <div class="container-sm container prose prose-sm sm:prose">
       <div class="mb-8">
-        {content.image && (
-          <div class="w-full shrink-0 mb-10">
-            <div class="aspect-w-16 aspect-h-9">
-              <img class="object-cover rounded !m-0" src={content.image} />
+        {
+          content.image && (
+            <div class="mb-10 w-full shrink-0">
+              <div class="aspect-w-16 aspect-h-9">
+                <img class="!m-0 rounded object-cover" src={content.image} />
+              </div>
             </div>
-          </div>
-        )}
+          )
+        }
 
         <h2 class="title">{content.title}</h2>
-        <p class="text-sm subtitle">{content.subtitle}</p>
+        <p class="subtitle text-sm">{content.subtitle}</p>
       </div>
 
       <slot />

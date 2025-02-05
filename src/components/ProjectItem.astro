@@ -1,29 +1,37 @@
 ---
-import {getEntry} from 'astro:content';
-const {slug, hideCompany = false} = Astro.props;
+import { getEntry } from "astro:content";
+const { slug, hideCompany = false } = Astro.props;
 
 const df = new Intl.DateTimeFormat(undefined, {
-  month: 'short',
-  year: 'numeric',
+  month: "short",
+  year: "numeric",
 });
 
-const project = (await getEntry('projects', slug))!;
+const project = (await getEntry("projects", slug))!;
 
-const {Content} = await project.render();
+const { Content } = await project.render();
 const company = project.data.company
   ? await getEntry(project.data.company!)
   : undefined;
 ---
 
 <div class="flex">
-  <div class="text-muted font-medium text-sm w-20 pt-0.5 shrink-0">
-    {project.data.endDate ? df.format(project.data.endDate) : 'Ongoing'}
+  <div class="w-20 shrink-0 pt-0.5 text-sm font-medium text-muted">
+    {project.data.endDate ? df.format(project.data.endDate) : "Ongoing"}
   </div>
   <div class="ml-0.5">
-    <h3 class="text-emphasis font-medium">
+    <h3 class="font-medium text-emphasis">
       <span>{project.data.title}</span>
-      {company && !hideCompany ?
-          <> @ <a href={`/${company.slug}`}>{company.data.name}</a></> : ''}
+      {
+        company && !hideCompany ? (
+          <>
+            {" "}
+            @ <a href={`/${company.slug}`}>{company.data.name}</a>
+          </>
+        ) : (
+          ""
+        )
+      }
     </h3>
     <div class="prose mt-2">
       <Content />

@@ -5,8 +5,9 @@ altImage: /images/logos.png
 description: I'm not that good at icons / logos designing but I always like to push my boundaries. Here are some of my designs.
 featured: true
 ---
-import ProjectInfo from '../../components/ProjectInfo.astro';
-import '../../styles/logos.css'
+
+import ProjectInfo from "../../components/ProjectInfo.astro";
+import "../../styles/logos.css";
 
 I'm not that good at icons/logos designing but I was always inspired by designs so I decided to
 push my boundaries. Following are some icons that unexpectedly turned out to be great:
@@ -14,15 +15,18 @@ push my boundaries. Following are some icons that unexpectedly turned out to be 
 <hr class="!mb-4" />
 <div></div>
 <img
-  class="rounded-md border border-gray-200 hidden sm:block sm:float-right sm:mt-10 sm:ml-4"
+  class="border-gray-200 hidden rounded-md border sm:float-right sm:ml-4 sm:mt-10 sm:block"
   src="/images/gwbasic.net.png"
   alt="GwBasic Logo"
 />
 
 <ProjectInfo title="GwBasic.net" subtitle="June 2016" />
 
-<img class="rounded-md border border-gray-200 sm:hidden block mx-auto" src="/images/gwbasic.net.png" alt="GwBasic Logo" />
-
+<img
+  class="border-gray-200 mx-auto block rounded-md border sm:hidden"
+  src="/images/gwbasic.net.png"
+  alt="GwBasic Logo"
+/>
 
 This was probably the first logo that at least looked good after the 'N' logo
 (the same logo used in the header of this site). I had Photoshop and Illustrator craze at that time
@@ -30,32 +34,65 @@ although, I couldn't understand most of the things going on especially Illustrat
 designed in photoshop. I also designed the [splash screen](https://raw.githubusercontent.com/nmanumr/gwbasic.net/master/GwBasic.Net/Resources/splash2.png) of this project, for which I was
 just sleeping the thread for some amount of time before loading the actual app. ;)
 
+<hr class="clear-both !mb-4" />
 
-<hr class="!mb-4 clear-both" />
-
-<img class="rounded-md border border-gray-200 hidden sm:block sm:float-right sm:mt-10 sm:ml-4" src="/images/x-logo.png" alt="X Logo" />
+<img
+  class="border-gray-200 hidden rounded-md border sm:float-right sm:ml-4 sm:mt-10 sm:block"
+  src="/images/x-logo.png"
+  alt="X Logo"
+/>
 
 <ProjectInfo title="BlackArcX Logos" subtitle="January 2020" />
 
-<img class="rounded-md border border-gray-200 sm:hidden block mx-auto" src="/images/x-logo.png" alt="X Logo" />
+<img
+  class="border-gray-200 mx-auto block rounded-md border sm:hidden"
+  src="/images/x-logo.png"
+  alt="X Logo"
+/>
 
 BlackArcX is a hypothetical company that I with my friend ([@ameerhmzx](https://github.com/ameerhmzx)) fantasized about. For this we came
 up with an idea to start with a 3x3 grid of dots and connections can be made with a fluid-like stripe.
 And in fact, we drew all the alphabets on this grid. Following are few of them:
 
-<div class="grid grid-cols-3 gap-x-4 gap-y-4 sm:grid-cols-3 md:grid-cols-5 mt-10">
-  <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/a-logo.png" alt="A Logo" />
-  <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/n-logo3.png" alt="N Logo" />
-  <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/v-logo.png" alt="V Logo" />
-  <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/s-logo.png" alt="S Logo" />
-  <img class="rounded-md border border-gray-200 mx-auto !my-0 w-24 h-auto" src="/images/w-logo.png" alt="W Logo" />
+<div class="mt-10 grid grid-cols-3 gap-x-4 gap-y-4 sm:grid-cols-3 md:grid-cols-5">
+  <img
+    class="border-gray-200 !my-0 mx-auto h-auto w-24 rounded-md border"
+    src="/images/a-logo.png"
+    alt="A Logo"
+  />
+  <img
+    class="border-gray-200 !my-0 mx-auto h-auto w-24 rounded-md border"
+    src="/images/n-logo3.png"
+    alt="N Logo"
+  />
+  <img
+    class="border-gray-200 !my-0 mx-auto h-auto w-24 rounded-md border"
+    src="/images/v-logo.png"
+    alt="V Logo"
+  />
+  <img
+    class="border-gray-200 !my-0 mx-auto h-auto w-24 rounded-md border"
+    src="/images/s-logo.png"
+    alt="S Logo"
+  />
+  <img
+    class="border-gray-200 !my-0 mx-auto h-auto w-24 rounded-md border"
+    src="/images/w-logo.png"
+    alt="W Logo"
+  />
 </div>
 
 <hr class="!mb-4" />
 <ProjectInfo title="Exosoft" subtitle="October 2020" />
 
-<figure class="h-64 w-64 sm:float-right flex flex-col items-center justify-center sm:justify-start mx-auto !my-0">
-  <svg class="h-40 w-40 icon" width="470" height="532" viewBox="0 0 470 532" fill="none">
+<figure class="!my-0 mx-auto flex h-64 w-64 flex-col items-center justify-center sm:float-right sm:justify-start">
+  <svg
+    class="icon h-40 w-40"
+    width="470"
+    height="532"
+    viewBox="0 0 470 532"
+    fill="none"
+  >
     <path d="M150 390.062L302.352 477.009L452.79 390.841"></path>
     <path d="M235.114 17L386.444 103.526V276.382"></path>
     <path d="M302.611 400.963L453.017 314.794V141.614"></path>
@@ -68,9 +105,13 @@ And in fact, we drew all the alphabets on this grid. Following are few of them:
     <path class="arrow" d="M320.412 142.457L320.001 238.422"></path>
     <path class="arrow" d="M168.606 131.297L251.508 179.635"></path>
     <path class="arrow" d="M150 390.062L150.411 294.097"></path>
-    <path class="circle" d="M320.206 217.998L235.206 169.426L150.205 217.998V315.141L235.206 363.713L320.206 315.141V217.998Z" stroke-opacity="0.6"></path>
+    <path
+      class="circle"
+      d="M320.206 217.998L235.206 169.426L150.205 217.998V315.141L235.206 363.713L320.206 315.141V217.998Z"
+      stroke-opacity="0.6"
+    ></path>
   </svg>
-  <figcaption class="italic text-sm">Hover/tap to see the effect.</figcaption>
+  <figcaption class="text-sm italic">Hover/tap to see the effect.</figcaption>
 </figure>
 
 Exosoft is a software house. For them, I drew my very first interactive SVG logo for them. I couldn't
@@ -81,33 +122,65 @@ liked it. I also helped build their [website](https://exosoft.io/)
 While drawing this logo I learned how difficult it is not to draw seemingly simple shapes.
 Also, I learned a trick to animate stroke length.
 
-<hr class="!mb-4 clear-both" />
+<hr class="clear-both !mb-4" />
 <ProjectInfo title="D-Square" subtitle="September 2021" />
 
-
-<img class="rounded border border-gray-200 mx-auto sm:float-right sm:ml-4 mt-10 !mt-0" src="/images/dsquare.png" alt="DSquare Logo" />
+<img
+  class="border-gray-200 mx-auto !mt-0 mt-10 rounded border sm:float-right sm:ml-4"
+  src="/images/dsquare.png"
+  alt="DSquare Logo"
+/>
 
 D-Square aka Data Drive is also a software house. I just redrew their logo picked a font pair and also
 designed their job advertisement and also an HTML page for the [jobs section](https://jobs.dsquare.io/).
 
-
-<hr class="!mb-4 clear-both" />
+<hr class="clear-both !mb-4" />
 <ProjectInfo title="MPVIR Group Logo" subtitle="August 2021" />
 
-<figure class="h-64 w-64 sm:float-right flex flex-col items-center justify-center mx-auto !mt-0">
-  <svg fill="none" class="h-48 w-48 mpvir" viewBox="0 0 56 56">
-    <ellipse cx="28" cy="28" fill="#2563EB" rx="8.274" ry="7.869"/>
-    <mask id="a" width="24" height="24" x="16" y="16" mask-type="alpha" maskUnits="userSpaceOnUse">
-      <path id="shutter" fill="#000" fill-rule="evenodd" d="M26.544 16v10.443l11.31-6.21.345.567-9.51 5.222L40 32.232l-.345.568-9.509-5.221V40h-.69V29.557l-11.31 6.21-.345-.567 9.51-5.222L16 23.768l.345-.568 9.509 5.221V16h.69Z" clip-rule="evenodd"/>
+<figure class="mx-auto !mt-0 flex h-64 w-64 flex-col items-center justify-center sm:float-right">
+  <svg fill="none" class="mpvir h-48 w-48" viewBox="0 0 56 56">
+    <ellipse cx="28" cy="28" fill="#2563EB" rx="8.274" ry="7.869" />
+    <mask
+      id="a"
+      width="24"
+      height="24"
+      x="16"
+      y="16"
+      mask-type="alpha"
+      maskUnits="userSpaceOnUse"
+    >
+      <path
+        id="shutter"
+        fill="#000"
+        fill-rule="evenodd"
+        d="M26.544 16v10.443l11.31-6.21.345.567-9.51 5.222L40 32.232l-.345.568-9.509-5.221V40h-.69V29.557l-11.31 6.21-.345-.567 9.51-5.222L16 23.768l.345-.568 9.509 5.221V16h.69Z"
+        clip-rule="evenodd"
+      />
     </mask>
     <g mask="url(#a)">
-        <ellipse cx="28" cy="28" fill="#fff" rx="12.596" ry="11.98"/>
+      <ellipse cx="28" cy="28" fill="#fff" rx="12.596" ry="11.98" />
     </g>
-    <path fill="#2563EB" fill-opacity=".25" fill-rule="evenodd" d="M28.5 16c-8.68 0-16.03 5.045-18.5 12 2.47 6.955 9.82 12 18.5 12 8.682 0 16.03-5.045 18.5-12-2.47-6.955-9.818-12-18.5-12ZM28 35.869c4.57 0 8.274-3.523 8.274-7.87 0-4.345-3.705-7.868-8.274-7.868-4.57 0-8.274 3.523-8.274 7.869S23.43 35.869 28 35.869Z" clip-rule="evenodd"/>
-    <path fill="#fff" id="shutter-2" d="M27.5 25.888a1 1 0 0 1 1 0l1.078.623a1 1 0 0 1 .5.866v1.245a1 1 0 0 1-.5.866l-1.078.623a1 1 0 0 1-1 0l-1.078-.623a1 1 0 0 1-.5-.866v-1.245a1 1 0 0 1 .5-.866l1.078-.623Z"/>
-    <path stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.333 9.333h-8v8M17.333 46.667h-8v-8M38.667 46.667h8v-8M38.667 9.333h8v8"/>
+    <path
+      fill="#2563EB"
+      fill-opacity=".25"
+      fill-rule="evenodd"
+      d="M28.5 16c-8.68 0-16.03 5.045-18.5 12 2.47 6.955 9.82 12 18.5 12 8.682 0 16.03-5.045 18.5-12-2.47-6.955-9.818-12-18.5-12ZM28 35.869c4.57 0 8.274-3.523 8.274-7.87 0-4.345-3.705-7.868-8.274-7.868-4.57 0-8.274 3.523-8.274 7.869S23.43 35.869 28 35.869Z"
+      clip-rule="evenodd"
+    />
+    <path
+      fill="#fff"
+      id="shutter-2"
+      d="M27.5 25.888a1 1 0 0 1 1 0l1.078.623a1 1 0 0 1 .5.866v1.245a1 1 0 0 1-.5.866l-1.078.623a1 1 0 0 1-1 0l-1.078-.623a1 1 0 0 1-.5-.866v-1.245a1 1 0 0 1 .5-.866l1.078-.623Z"
+    />
+    <path
+      stroke="#2563EB"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+      d="M17.333 9.333h-8v8M17.333 46.667h-8v-8M38.667 46.667h8v-8M38.667 9.333h8v8"
+    />
   </svg>
-  <figcaption class="italic text-sm">Hover/tap to see the effect.</figcaption>
+  <figcaption class="text-sm italic">Hover/tap to see the effect.</figcaption>
 </figure>
 
 MPVIRG stands for Machine Perception & Visual Intelligence Research Group. This research was led by
@@ -120,7 +193,7 @@ Along with the actual logo I also took inspiration from
 [Automatica](https://youtu.be/bAdqazixuRY?t=225). BTW he produces great music if you haven't heard
 him check out his [CYMATICS](https://www.youtube.com/watch?v=Q3oItpVa9fs).
 
-<hr class="!mb-4 clear-both" />
+<hr class="clear-both !mb-4" />
 <ProjectInfo title="Personal Logos" />
 
 When you can draw few logos etc you have to draw logos for your friends and family members too.
@@ -128,16 +201,28 @@ And yes, I did this too. I infact was thinking of designing logos for all my fri
 all of the avatars can look consistent, kind of a branded friends group. But, here are few good ones:
 
 <div class="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
-  <figure class="text-center !my-0">
-    <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/am.png" alt="AM Logo" />
+  <figure class="!my-0 text-center">
+    <img
+      class="border-gray-200 !my-0 mx-auto rounded-md border"
+      src="/images/am.png"
+      alt="AM Logo"
+    />
     <figcaption class="text-sm">Asma Marryum</figcaption>
   </figure>
-  <figure class="text-center !my-0">
-    <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/fa.png" alt="FA Logo" />
+  <figure class="!my-0 text-center">
+    <img
+      class="border-gray-200 !my-0 mx-auto rounded-md border"
+      src="/images/fa.png"
+      alt="FA Logo"
+    />
     <figcaption class="text-sm">Faseeh Ahmed</figcaption>
   </figure>
-  <figure class="text-center !my-0">
-    <img class="rounded-md border border-gray-200 mx-auto !my-0" src="/images/ia.png" alt="IA Logo" />
+  <figure class="!my-0 text-center">
+    <img
+      class="border-gray-200 !my-0 mx-auto rounded-md border"
+      src="/images/ia.png"
+      alt="IA Logo"
+    />
     <figcaption class="text-sm">Ibtasham Ali</figcaption>
   </figure>
 </div>

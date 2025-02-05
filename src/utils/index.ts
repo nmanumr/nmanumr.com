@@ -1,2 +1,2 @@
-export * from './dateFormat.ts';
-export * from './compareDates.ts';
+export * from "./dateFormat.ts";
+export * from "./compareDates.ts";

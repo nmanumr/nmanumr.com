@@ -1,6 +1,9 @@
-import type {CollectionEntry} from 'astro:content';
+import type { CollectionEntry } from "astro:content";
 
-export const compareByDate = (a: CollectionEntry<'companies' | 'projects'>, b: CollectionEntry<'companies' | 'projects'>) => {
+export const compareByDate = (
+  a: CollectionEntry<"companies" | "projects">,
+  b: CollectionEntry<"companies" | "projects">,
+) => {
   if (!b.data.endDate && !a.data.endDate) {
     return +b.data.startDate - +a.data.startDate;
   }
@@ -14,5 +17,4 @@ export const compareByDate = (a: CollectionEntry<'companies' | 'projects'>, b: C
   }
 
   return +b.data.endDate - +a.data.endDate;
-}
-
+};

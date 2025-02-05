@@ -1,7 +1,7 @@
-import {z, defineCollection, reference} from 'astro:content';
+import { z, defineCollection, reference } from "astro:content";
 
 const companiesCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     startDate: z.date(),
     endDate: z.date().optional(),
@@ -15,12 +15,12 @@ const companiesCollection = defineCollection({
 });
 
 const projectsCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     startDate: z.date(),
     endDate: z.date().optional(),
     draft: z.boolean().optional(),
-    company: reference('companies').optional(),
+    company: reference("companies").optional(),
     featured: z.boolean().optional(),
     title: z.string(),
     team: z.array(z.string()).optional(),
@@ -28,6 +28,6 @@ const projectsCollection = defineCollection({
 });
 
 export const collections = {
-  'projects': projectsCollection,
-  'companies': companiesCollection,
+  projects: projectsCollection,
+  companies: companiesCollection,
 };

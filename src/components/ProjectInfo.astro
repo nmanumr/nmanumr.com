@@ -1,22 +1,30 @@
 ---
-import DevTag from './DevTag';
-import ProjectUrls from './ProjectUrls.jsx';
+import DevTag from "./DevTag";
+import ProjectUrls from "./ProjectUrls.jsx";
 
-let {title, subtitle="", codeUrl, siteUrl, siteText = 'View Site', stack = [], collabrators} = Astro.props;
+let {
+  title,
+  subtitle = "",
+  codeUrl,
+  siteUrl,
+  siteText = "View Site",
+  stack = [],
+  collabrators,
+} = Astro.props;
 
-if (typeof collabrators === 'string') {
-  collabrators = collabrators.split(',');
+if (typeof collabrators === "string") {
+  collabrators = collabrators.split(",");
 }
 
-if (typeof stack === 'string') {
-  stack = stack.split(',');
+if (typeof stack === "string") {
+  stack = stack.split(",");
 }
 
 const userData = {};
-for (let user of (collabrators || [])) {
+for (let user of collabrators || []) {
   if (!globalThis.collabrators) {
     globalThis.collabrators = {};
-  } 
+  }
 
   if (globalThis.collabrators[user]) {
     userData[user] = globalThis.collabrators[user];
@@ -29,41 +37,50 @@ for (let user of (collabrators || [])) {
 
     globalThis.collabrators[user] = data;
     userData[user] = data;
-  } catch (e) {
-  }
+  } catch (e) {}
 }
 ---
 
-<h2 class="!font-recoleta !font-normal !mb-0">{title}</h2>
-<p class="text-sm subtitle">{subtitle}</p>
+<h2 class="!mb-0 !font-recoleta !font-normal">{title}</h2>
+<p class="subtitle text-sm">{subtitle}</p>
 
 <dl class="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2">
   <ProjectUrls codeUrl={codeUrl} siteUrl={siteUrl} siteText={siteText} />
 
-  {!!stack.length && (
-    <div class="sm:col-span-1">
-      <dt class="text-sm font-medium text-gray-500">
-        Stack
-      </dt>
-      <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
-        {stack.map((tech) => <DevTag name={tech} />)}
-      </dd>
-    </div>
-  )}
+  {
+    !!stack.length && (
+      <div class="sm:col-span-1">
+        <dt class="text-gray-500 text-sm font-medium">Stack</dt>
+        <dd class="text-gray-900 mt-1 flex flex-wrap items-center gap-2 text-sm">
+          {stack.map((tech) => (
+            <DevTag name={tech} />
+          ))}
+        </dd>
+      </div>
+    )
+  }
 
-  {!collabrators ? <div class="sm:col-span-1" /> : (
-    <div>
-      <dt class="text-sm font-medium text-gray-500">
-        Collabrators
-      </dt>
-      <dd class="mt-1 text-sm text-gray-900 flex flex-wrap items-center gap-2">
-        {collabrators.map((user) => (
-          <a href={userData[user]?.html_url} class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-gray-200 text-gray-800 relative !no-underline">
-            <img class="h-5 w-5 rounded-full !m-0 absolute left-0.5 top-0.5" src={userData[user]?.avatar_url} />
-            <span class="pl-5">{userData[user]?.name || user}</span>
-          </a>
-        ))}
-      </dd>
-    </div>
-  )}
+  {
+    !collabrators ? (
+      <div class="sm:col-span-1" />
+    ) : (
+      <div>
+        <dt class="text-gray-500 text-sm font-medium">Collabrators</dt>
+        <dd class="text-gray-900 mt-1 flex flex-wrap items-center gap-2 text-sm">
+          {collabrators.map((user) => (
+            <a
+              href={userData[user]?.html_url}
+              class="bg-gray-200 text-gray-800 relative inline-flex items-baseline rounded-full px-2.5 py-0.5 text-sm font-medium !no-underline"
+            >
+              <img
+                class="absolute left-0.5 top-0.5 !m-0 h-5 w-5 rounded-full"
+                src={userData[user]?.avatar_url}
+              />
+              <span class="pl-5">{userData[user]?.name || user}</span>
+            </a>
+          ))}
+        </dd>
+      </div>
+    )
+  }
 </dl>

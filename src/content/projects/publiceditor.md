@@ -8,4 +8,3 @@ featured: true
 
 A web-app uniting annotators to fact-check and correct misinformation in shared news articles,
 ensuring information integrity for the public.
-

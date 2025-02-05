@@ -6,7 +6,8 @@ layout: ../../layouts/Post.astro
 description: An app that provides a platform to share class learning resources especially for COMSATS Students.
 featured: true
 ---
-import ProjectInfo from '../../components/ProjectInfo.astro';
+
+import ProjectInfo from "../../components/ProjectInfo.astro";
 
 An app that provides a platform to share class learning resources especially for COMSATS Students.
 Features include sharing class resources, course timetable, events, and reminders like assignments deadlines, etc.
@@ -21,8 +22,14 @@ Features include sharing class resources, course timetable, events, and reminder
   stack="Angular,Ionic,Typescript,Firebase"
 />
 
-<video class="md:float-right md:ml-4 border border-gray-200 max-w-sm w-full mx-auto rounded-lg" autoplay muted loop playsinline>
-    <source src="/images/fa18-bcs-c.mp4" type="video/mp4" />
+<video
+  class="border-gray-200 mx-auto w-full max-w-sm rounded-lg border md:float-right md:ml-4"
+  autoplay
+  muted
+  loop
+  playsinline
+>
+  <source src="/images/fa18-bcs-c.mp4" type="video/mp4" />
 </video>
 
 ### Purpose and Goal
@@ -34,17 +41,16 @@ application using angular. And, I never thought this
 [one-weekend side project](https://github.com/nmanumr/fa18-bcs-c/tree/e875cb6c5e375d3994bfd548d02d3561aa1dc9a0)
 will actually be very helpful and boy did this help.
 
-
 ### Some goodies
 
-* With firebase local data persistence and a service worker, the app could work offline too.
-Although users can't download resources, they can see the list even without an internet connection.
-* The app layout adopts between mobile and desktop browsers. On mobile devices, it starts to behave
-like a regular mobile app and can be added to the home screen (thanks to a manifest file and a service worker).
-I also created an Andriod app using the Ionic framework, but for some reason, the overall experience was
-a little laggy.
-* The dark mode was supported, and I guess this was the very first time I implemented a dark mode in any
-of the applications.
+- With firebase local data persistence and a service worker, the app could work offline too.
+  Although users can't download resources, they can see the list even without an internet connection.
+- The app layout adopts between mobile and desktop browsers. On mobile devices, it starts to behave
+  like a regular mobile app and can be added to the home screen (thanks to a manifest file and a service worker).
+  I also created an Andriod app using the Ionic framework, but for some reason, the overall experience was
+  a little laggy.
+- The dark mode was supported, and I guess this was the very first time I implemented a dark mode in any
+  of the applications.
 
 ### Lessons Learnt
 
@@ -79,35 +85,40 @@ also scales exponentially with userbase and features. But, first, let's talk abo
 accomplish.
 
 ### New Features
-* Now, students can have a personalized experience by logging in to the app. They will only be
-presented with the only subjects they are enrolled in and also they can add or remove different courses if
-they want.
-* CRs could maintain the resource of their respective classes.
-* Along with class resources, students could also receive notifications from CR and he can also add
-tasks/events like assignments, quizzes, etc.
-* Students could see their timetable easily from the home screen (without opening the app) with a
-home screen widget.
+
+- Now, students can have a personalized experience by logging in to the app. They will only be
+  presented with the only subjects they are enrolled in and also they can add or remove different courses if
+  they want.
+- CRs could maintain the resource of their respective classes.
+- Along with class resources, students could also receive notifications from CR and he can also add
+  tasks/events like assignments, quizzes, etc.
+- Students could see their timetable easily from the home screen (without opening the app) with a
+  home screen widget.
 
 ### Issues Faced
-* The first and foremost issue was about maintaining the resources. Previously I myself volunteered
-to add resources like lectures slides, textbooks, etc. But, now I wanted the CRs to do so who were
-quite lazy enough the do so.
-* When @ameerhmzx and I added the home screen widget to the app, for some unexpected reasons app
-started to crash randomly and frequently, thankfully we haven't announced our app publically and the
-only users we had were our class fellows.
-* The scaling issues hitted us the most, our app could work quite well for let's say a single
-class but I wasn't scaling well which thankfully we realized quite early.
-* On top of everything, it was the first time I ever developed an android app and, not to mention,
-a framework named Flutter that is just released now.
+
+- The first and foremost issue was about maintaining the resources. Previously I myself volunteered
+  to add resources like lectures slides, textbooks, etc. But, now I wanted the CRs to do so who were
+  quite lazy enough the do so.
+- When @ameerhmzx and I added the home screen widget to the app, for some unexpected reasons app
+  started to crash randomly and frequently, thankfully we haven't announced our app publically and the
+  only users we had were our class fellows.
+- The scaling issues hitted us the most, our app could work quite well for let's say a single
+  class but I wasn't scaling well which thankfully we realized quite early.
+- On top of everything, it was the first time I ever developed an android app and, not to mention,
+  a framework named Flutter that is just released now.
 
 Although the app had really cool features everyone
 liked them but we had a lot of these internal issues that we just couldn't maintain this app.
 
 ### Lessons Learnt
+
 With this project, I could easily add a new course to my degree "How Not to Start a New Project".
 
-<div class="text-sm">* <b>Why it's not PlayStore's link?</b> This was one of many issues that happened with
-this project, we lost our play store account.</div>
+<div class="text-sm">
+  * <b>Why it's not PlayStore's link?</b> This was one of many issues that
+  happened with this project, we lost our play store account.
+</div>
 
 <hr class="!mb-4" />
 
@@ -135,7 +146,13 @@ develop a better mobile app next time or maybe just fix the existing app.
   Collaborators="ibtashamalee,lablnet"
 />
 
-<video class="max-w-md w-full mx-auto rounded-lg border border-gray-200" autoplay muted loop playsinline>
+<video
+  class="border-gray-200 mx-auto w-full max-w-md rounded-lg border"
+  autoplay
+  muted
+  loop
+  playsinline
+>
   <source src="/images/classx.mp4" type="video/mp4" />
 </video>
 
@@ -150,11 +167,12 @@ tired of angular and material design so basically, it was just a redesign.
 
 ### Some Goodies
 
-* Although I haven't done a lot in this project this was my first proper design project
-and I liked how the design part of this project turned out.
-* I also managed to add some admin features like adding resources etc.
+- Although I haven't done a lot in this project this was my first proper design project
+  and I liked how the design part of this project turned out.
+- I also managed to add some admin features like adding resources etc.
 
 ### Lessons Learnt
+
 Although there isn't much to say about this project I learned few new technologies quite level
 during this project like Vuejs &amp; TailwindCSS (which I still love working with).
 

@@ -1,22 +1,25 @@
 ---
-import BaseHead from './BaseHead.astro';
+import BaseHead from "./BaseHead.astro";
 
-const {title = 'Nauman Umer', description = ''} = Astro.props;
+const { title = "Nauman Umer", description = "" } = Astro.props;
 ---
 
 <html>
-<head>
-  <BaseHead title={title} description={description} />
-</head>
-<body class="bg-default text-default max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body class="mx-auto max-w-2xl bg-default px-4 text-default sm:px-6 lg:px-8">
+    <div class="blur"></div>
 
-<div class="blur"></div>
+    <!--<Header />-->
+    <slot />
 
-<!--<Header />-->
-<slot />
+    <!--<Footer />-->
 
-<!--<Footer />-->
-
-{!import.meta.env.DEV && <script src="https://www.googletagmanager.com/gtm.js?id=GTM-WZP86QG&"></script>}
-</body>
+    {
+      !import.meta.env.DEV && (
+        <script src="https://www.googletagmanager.com/gtm.js?id=GTM-WZP86QG&" />
+      )
+    }
+  </body>
 </html>
