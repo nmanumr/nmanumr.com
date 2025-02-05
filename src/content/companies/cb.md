@@ -7,6 +7,9 @@ url: https://carteblanche.tech/
 logo: /images/companies/cb.png
 ---
 
-At CB, I am a leading voices for accessibility and developer experience. I proposed some major architectural changes
-in hirecinch, a product at CB, which not only greatly improved the app performance but also increased our velocity
-by 25—30%. I also led multiple projects, detailed further in my portfolio.
+
+Although my specialization is in frontend development, I have worn multiple hats across frontend, backend, product
+design, and DevOps. When I joined CB, it was a product company. I led the refactoring of Hirecinch, a CB product, which resulted
+in a 40% reduction in engineering costs. Later, as CB pivoted to a services model, I had the opportunity to work on
+projects ranging from Silicon Valley startups to established companies with $10M+ in revenue.
+

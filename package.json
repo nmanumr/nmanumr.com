@@ -25,6 +25,8 @@
     "@astrojs/react": "^3.0.4",
     "@icons-pack/react-simple-icons": "^9.1.0",
     "astro": "^3.5.3",
+    "date-fns": "^4.1.0",
+    "humanize-duration": "^3.32.1",
     "preact": "^10.19.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

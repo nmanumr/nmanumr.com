@@ -1,0 +1,14 @@
+---
+import { shortEnglishHumanizer } from "../utils";
+
+const { startDate, endDate } = Astro.props;
+---
+
+<span>
+  {
+    shortEnglishHumanizer((endDate ?? new Date()) - startDate, {
+      round: true,
+      units: ["y", "mo"],
+    })
+  }
+</span>

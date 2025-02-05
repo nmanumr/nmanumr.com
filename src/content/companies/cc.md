@@ -1,6 +1,6 @@
 ---
 startDate: 2023-10-09
-endDate: 2023-12-01
+endDate: 2023-12-22
 location: Remote
 title: Software Engineer
 name: Click Chain Inc

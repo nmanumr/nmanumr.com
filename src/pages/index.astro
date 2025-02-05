@@ -1,6 +1,7 @@
 ---
 import { SiLinkedin, SiX, SiGithub } from "@icons-pack/react-simple-icons";
-import { intervalToDuration } from "date-fns";
+import { formatDuration, intervalToDuration } from "date-fns";
+import LiveDuration from "../components/LiveDuration.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 
@@ -9,7 +10,7 @@ import ProfileImage from "../images/profile.jpeg";
 import ProjectItem from "../components/ProjectItem.astro";
 
 import BaseLayout from "../layouts/Base.astro";
-import { compareByDate, df } from "../utils";
+import { compareByDate, df, formatDurationShort } from "../utils";
 
 let companies = await getCollection("companies", (p) => !p.data.draft);
 companies = companies.sort(compareByDate);
@@ -97,10 +98,16 @@ projects = projects.sort(compareByDate);
               </div>
               <div class="ml-8">
                 <div class="text-sm font-medium text-muted">
-                  {df.format(company.data.startDate)} -{" "}
+                  {df.format(company.data.startDate)}
+                  {" — "}
                   {company.data.endDate
                     ? df.format(company.data.endDate)
                     : "Now"}
+                  {" · "}
+                  <LiveDuration
+                    startDate={company.data.startDate}
+                    endDate={company.data.endDate}
+                  />
                 </div>
                 <div class="font-medium text-emphasis">
                   <a class="accent" href={`/${company.slug}`}>
