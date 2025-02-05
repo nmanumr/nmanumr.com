@@ -215,9 +215,37 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 };
 "projects": {
+"Cardiobase.md": {
+	id: "Cardiobase.md";
+  slug: "aurox";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "arisbe.md": {
 	id: "arisbe.md";
   slug: "arisbe";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"aurox.md": {
+	id: "aurox.md";
+  slug: "aurox";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"cardiobase.md": {
+	id: "cardiobase.md";
+  slug: "cardiobase";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"checkard.md": {
+	id: "checkard.md";
+  slug: "checkard";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">

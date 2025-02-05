@@ -1,7 +1,7 @@
 ---
 startDate: 2022-07-04
 location: Lahore, Pakistan
-title: Associate Software Engineer
+title: Software Engineer
 name: Carte Blanche Innovation Integrated
 url: https://carteblanche.tech/
 logo: /images/companies/cb.png
