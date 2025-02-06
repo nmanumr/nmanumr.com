@@ -52,7 +52,7 @@ for (let user of collabrators || []) {
       <div class="sm:col-span-1">
         <dt class="text-gray-500 text-sm font-medium">Stack</dt>
         <dd class="text-gray-900 mt-1 flex flex-wrap items-center gap-2 text-sm">
-          {stack.map((tech) => (
+          {stack.map((tech: string) => (
             <DevTag name={tech} />
           ))}
         </dd>
@@ -67,7 +67,7 @@ for (let user of collabrators || []) {
       <div>
         <dt class="text-gray-500 text-sm font-medium">Collabrators</dt>
         <dd class="text-gray-900 mt-1 flex flex-wrap items-center gap-2 text-sm">
-          {collabrators.map((user) => (
+          {collabrators.map((user: string) => (
             <a
               href={userData[user]?.html_url}
               class="bg-gray-200 text-gray-800 relative inline-flex items-baseline rounded-full px-2.5 py-0.5 text-sm font-medium !no-underline"

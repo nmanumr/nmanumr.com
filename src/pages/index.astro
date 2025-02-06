@@ -1,6 +1,5 @@
 ---
 import { SiLinkedin, SiX, SiGithub } from "@icons-pack/react-simple-icons";
-import { formatDuration, intervalToDuration } from "date-fns";
 import LiveDuration from "../components/LiveDuration.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
@@ -10,7 +9,7 @@ import ProfileImage from "../images/profile.jpeg";
 import ProjectItem from "../components/ProjectItem.astro";
 
 import BaseLayout from "../layouts/Base.astro";
-import { compareByDate, df, formatDurationShort } from "../utils";
+import { compareByDate, df } from "../utils";
 
 let companies = await getCollection("companies", (p) => !p.data.draft);
 companies = companies.sort(compareByDate);
