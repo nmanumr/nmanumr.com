@@ -2,7 +2,7 @@
 import { SiLinkedin, SiX, SiGithub } from "@icons-pack/react-simple-icons";
 import LiveDuration from "../components/LiveDuration.astro";
 import { Image } from "astro:assets";
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 import ProfileImage from "../images/profile.jpeg";
 
@@ -83,7 +83,7 @@ projects = projects.sort(compareByDate);
     <div class="mt-8 space-y-12">
       {
         companies.map(async (company) => {
-          const { Content } = await company.render();
+          const { Content } = await render(company);
           return (
             <div class="group relative flex">
               <div class="shrink-0 px-px">
@@ -109,7 +109,7 @@ projects = projects.sort(compareByDate);
                   />
                 </div>
                 <div class="font-medium text-emphasis">
-                  <a class="accent" href={`/${company.slug}`}>
+                  <a class="accent" href={`/${company.id}`}>
                     <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
                     <span>{company.data.title}</span>
                   </a>{" "}

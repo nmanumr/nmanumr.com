@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/Base.astro";
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import { Image } from "astro:assets";
 import ProjectItem from "../../components/ProjectItem.astro";
 import { compareByDate, df } from "../../utils";
@@ -8,18 +8,22 @@ import { compareByDate, df } from "../../utils";
 export async function getStaticPaths() {
   let companies = await getCollection("companies", (p) => !p.data.draft);
   return companies.map((entity) => ({
-    params: { companySlug: entity.slug },
+    params: { companyId: entity.id },
   }));
 }
 
-const { companySlug } = Astro.params;
+const { companyId } = Astro.params;
 
-const company = await getEntry("companies", companySlug);
-const { Content } = await company.render();
+const company = await getEntry("companies", companyId);
+if (!company) {
+  return Astro.rewrite("/404");
+}
+
+const { Content } = await render(company);
 
 let companyProjects = await getCollection(
   "projects",
-  (p) => p.data.company?.slug === company.slug && !p.data.draft,
+  (p) => p.data.company?.id === company?.id && !p.data.draft,
 );
 companyProjects = companyProjects.sort(compareByDate);
 ---
